@@ -1,0 +1,143 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - generic [ref=f7e6]:
+        - button "LUXE" [ref=f7e8]
+        - textbox "ابحث عن المنتجات..." [ref=f7e12]
+        - generic [ref=f7e13]:
+          - button "اللغة" [ref=f7e15]:
+            - generic [ref=f7e19]: ع
+          - button "العملة" [ref=f7e21]:
+            - generic [ref=f7e25]: $
+          - button "Wishlist" [ref=f7e26]
+          - button "Cart" [ref=f7e29]:
+            - generic [ref=f7e34]: "1"
+          - button "System Admin" [ref=f7e36]
+      - navigation [ref=f7e42]:
+        - button "الرئيسية" [ref=f7e43]
+        - button "All" [ref=f7e44]
+        - button "Electronics" [ref=f7e45]
+        - button "Accessories" [ref=f7e46]
+        - button "Fashion" [ref=f7e47]
+        - button "Beauty" [ref=f7e48]
+  - main [ref=f7e49]:
+    - generic [ref=f7e813]:
+      - generic [ref=f7e815]:
+        - button "العودة للمتجر" [ref=f7e816]
+        - heading "لوحة التحكم" [level=1] [ref=f7e819]
+      - generic [ref=f7e820]:
+        - button "نظرة عامة" [ref=f7e821]
+        - button "المنتجات" [ref=f7e824]
+        - button "الفئات" [ref=f7e829]
+        - button "الطلبات" [ref=f7e833]
+      - generic [ref=f7e928]:
+        - generic [ref=f7e929]:
+          - heading "الفئات (4)" [level=3] [ref=f7e930]
+          - generic [ref=f7e931]:
+            - textbox "اسم الفئة الجديدة..." [ref=f7e932]
+            - button "إضافة فئة" [ref=f7e933]
+        - table [ref=f7e937]:
+          - rowgroup [ref=f7e938]:
+            - row [ref=f7e939]:
+              - columnheader "الفئة" [ref=f7e940]
+              - columnheader "المنتجات" [ref=f7e941]
+              - columnheader "الإجراءات" [ref=f7e942]
+          - rowgroup [ref=f7e943]:
+            - row [ref=f7e944]:
+              - cell "Electronics" [ref=f7e945]
+              - cell "3" [ref=f7e946]
+              - cell [ref=f7e947]:
+                - button "حذف" [ref=f7e948]
+            - row [ref=f7e952]:
+              - cell "Accessories" [ref=f7e953]
+              - cell "3" [ref=f7e954]
+              - cell [ref=f7e955]:
+                - button "حذف" [ref=f7e956]
+            - row [ref=f7e960]:
+              - cell "Fashion" [ref=f7e961]
+              - cell "3" [ref=f7e962]
+              - cell [ref=f7e963]:
+                - button "حذف" [ref=f7e964]
+            - row [ref=f7e981]:
+              - cell "Beauty" [ref=f7e969]
+              - cell "1" [ref=f7e970]
+              - cell [ref=f7e982]:
+                - button "حذف" [ref=f7e983]
+  - contentinfo [ref=f7e681]:
+    - generic [ref=f7e682]:
+      - generic [ref=f7e683]:
+        - generic [ref=f7e684]:
+          - heading "LUXE" [level=3] [ref=f7e685]
+          - paragraph [ref=f7e686]: تجربة تسوق فاخرة مع تشكيلات مختارة بعناية لأسلوب الحياة العصري.
+          - generic [ref=f7e687]:
+            - paragraph [ref=f7e688]: ابق على اطلاع
+            - generic [ref=f7e689]:
+              - textbox "بريدك الإلكتروني" [ref=f7e690]
+              - button "اشترك" [ref=f7e691]
+        - generic [ref=f7e692]:
+          - heading "المتجر" [level=4] [ref=f7e693]
+          - list [ref=f7e694]:
+            - listitem [ref=f7e695]:
+              - button "وصل حديثاً" [ref=f7e696] [cursor=pointer]
+            - listitem [ref=f7e697]:
+              - button "الأكثر مبيعاً" [ref=f7e698] [cursor=pointer]
+            - listitem [ref=f7e699]:
+              - button "التخفيضات" [ref=f7e700] [cursor=pointer]
+        - generic [ref=f7e701]:
+          - heading "الدعم" [level=4] [ref=f7e702]
+          - list [ref=f7e703]:
+            - listitem [ref=f7e704]:
+              - button "اتصل بنا" [ref=f7e705] [cursor=pointer]
+            - listitem [ref=f7e706]:
+              - button "الأسئلة الشائعة" [ref=f7e707] [cursor=pointer]
+            - listitem [ref=f7e708]:
+              - button "من نحن" [ref=f7e709] [cursor=pointer]
+            - listitem [ref=f7e710]: معلومات الشحن
+        - generic [ref=f7e711]:
+          - heading "حسابات تجريبية" [level=4] [ref=f7e712]
+          - list [ref=f7e713]:
+            - listitem [ref=f7e714]: "المدير: admin@store.com / admin123"
+            - listitem [ref=f7e715]: "العميل: user@store.com / user123"
+      - generic [ref=f7e716]:
+        - paragraph [ref=f7e717]: © 2026 LUXE. جميع الحقوق محفوظة.
+        - button "العودة للأعلى ↑" [ref=f7e718]
+  - generic [ref=f7e719]:
+    - generic [ref=f7e720]:
+      - generic [ref=f7e721]:
+        - heading "سلة التسوق" [level=2] [ref=f7e725]
+        - generic [ref=f7e726]: (1)
+      - button "إغلاق" [ref=f7e727]
+    - generic [ref=f7e732]:
+      - img "سماعات لاسلكية مضادة للضوضاء" [ref=f7e733]
+      - generic [ref=f7e734]:
+        - heading "سماعات لاسلكية مضادة للضوضاء" [level=4] [ref=f7e735]
+        - generic [ref=f7e736]: Black
+        - paragraph [ref=f7e739]: $299.99
+        - generic [ref=f7e740]:
+          - generic [ref=f7e741]:
+            - button "Decrease" [ref=f7e742]
+            - generic [ref=f7e744]: "1"
+            - button "Increase" [ref=f7e745]
+          - button "Remove" [ref=f7e747]
+    - generic [ref=f7e751]:
+      - generic [ref=f7e752]: مجاني الشحن
+      - generic [ref=f7e756]:
+        - textbox "كود الخصم" [ref=f7e757]
+        - button [disabled] [ref=f7e758]
+      - generic [ref=f7e762]:
+        - generic [ref=f7e763]:
+          - generic [ref=f7e764]: المجموع الفرعي
+          - generic [ref=f7e765]: $299.99
+        - generic [ref=f7e766]:
+          - generic [ref=f7e767]: الشحن
+          - generic [ref=f7e768]: مجاني
+        - generic [ref=f7e769]:
+          - generic [ref=f7e770]: الضريبة (15%)
+          - generic [ref=f7e771]: $45.00
+        - generic [ref=f7e772]:
+          - generic [ref=f7e773]: الإجمالي
+          - generic [ref=f7e774]: $344.99
+      - button "إتمام الشراء" [ref=f7e775]
+  - status [ref=f7e988]:
+    - paragraph [ref=f7e991]: لا يمكن حذف فئة لا تزال تحتوي على منتجات
+    - button "Dismiss" [ref=f7e992]

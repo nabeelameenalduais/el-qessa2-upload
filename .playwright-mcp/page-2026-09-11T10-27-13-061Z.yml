@@ -1,0 +1,272 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "LUXE" [ref=e8]
+        - textbox "Search products..." [ref=e12]
+        - generic [ref=e13]:
+          - button "Language" [ref=e15]:
+            - generic [ref=e19]: EN
+          - button "Currency" [ref=e21]:
+            - generic [ref=e25]: $
+          - button "Wishlist" [ref=e26]
+          - button "Cart" [ref=e29]:
+            - generic [ref=e34]: "1"
+          - button "System Admin" [ref=e36]
+      - navigation [ref=e42]:
+        - button "Home" [ref=e43]
+        - button "ملابس" [ref=e45]
+        - button "الإكسسوارات" [ref=e49]
+        - button "الأحذية" [ref=e53]
+        - button "الجمال والعناية" [ref=e57]
+        - button "الإلكترونيات" [ref=e61]
+        - button "المنزل والمعيشة" [ref=e65]
+  - main [ref=e68]:
+    - generic [ref=e835]:
+      - complementary [ref=e836]:
+        - generic [ref=e838]:
+          - generic [ref=e839]:
+            - heading "Filters" [level=3] [ref=e840]
+            - button "Reset All" [ref=e841]
+          - generic [ref=e842]:
+            - heading "Category" [level=4] [ref=e843]
+            - generic [ref=e844]:
+              - generic [ref=e845] [cursor=pointer]:
+                - radio "All" [ref=e846]
+                - generic [ref=e847]: All
+              - generic [ref=e848] [cursor=pointer]:
+                - radio "ملابس" [checked] [ref=e849]
+                - generic [ref=e850]: ملابس
+              - generic [ref=e851] [cursor=pointer]:
+                - radio "الإكسسوارات" [ref=e852]
+                - generic [ref=e853]: الإكسسوارات
+              - generic [ref=e854] [cursor=pointer]:
+                - radio "الأحذية" [ref=e855]
+                - generic [ref=e856]: الأحذية
+              - generic [ref=e857] [cursor=pointer]:
+                - radio "الجمال والعناية" [ref=e858]
+                - generic [ref=e859]: الجمال والعناية
+              - generic [ref=e860] [cursor=pointer]:
+                - radio "الإلكترونيات" [ref=e861]
+                - generic [ref=e862]: الإلكترونيات
+              - generic [ref=e863] [cursor=pointer]:
+                - radio "المنزل والمعيشة" [ref=e864]
+                - generic [ref=e865]: المنزل والمعيشة
+            - generic [ref=e866]:
+              - generic [ref=e867] [cursor=pointer]:
+                - radio "All" [checked] [active] [ref=e868]
+                - generic [ref=e869]: All
+              - generic [ref=e870] [cursor=pointer]:
+                - radio "الجواكت والمعاطف" [ref=e871]
+                - generic [ref=e872]: الجواكت والمعاطف
+              - generic [ref=e873] [cursor=pointer]:
+                - radio "الطاقيات والقبعات" [ref=e874]
+                - generic [ref=e875]: الطاقيات والقبعات
+              - generic [ref=e876] [cursor=pointer]:
+                - radio "التيشرتات" [ref=e877]
+                - generic [ref=e878]: التيشرتات
+              - generic [ref=e879] [cursor=pointer]:
+                - radio "القمصان" [ref=e880]
+                - generic [ref=e881]: القمصان
+              - generic [ref=e882] [cursor=pointer]:
+                - radio "الهوديز والبلوزات" [ref=e883]
+                - generic [ref=e884]: الهوديز والبلوزات
+              - generic [ref=e885] [cursor=pointer]:
+                - radio "السراويل والجينز" [ref=e886]
+                - generic [ref=e887]: السراويل والجينز
+              - generic [ref=e888] [cursor=pointer]:
+                - radio "الفساتين والتنانير" [ref=e889]
+                - generic [ref=e890]: الفساتين والتنانير
+              - generic [ref=e891] [cursor=pointer]:
+                - radio "الملابس الرياضية" [ref=e892]
+                - generic [ref=e893]: الملابس الرياضية
+          - generic [ref=e894]:
+            - heading "Price Range" [level=4] [ref=e895]
+            - generic [ref=e896]:
+              - generic [ref=e897]:
+                - generic [ref=e898]: $0
+                - generic [ref=e899]: $500
+              - generic [ref=e900]:
+                - slider [ref=e901]: "500"
+                - slider [ref=e902]: "0"
+          - generic [ref=e903]:
+            - heading "Rating" [level=4] [ref=e904]
+            - generic [ref=e905]:
+              - generic [ref=e906] [cursor=pointer]:
+                - radio "4 & up" [ref=e907]
+                - generic [ref=e908]: 4 & up
+              - generic [ref=e920] [cursor=pointer]:
+                - radio "3 & up" [ref=e921]
+                - generic [ref=e922]: 3 & up
+              - generic [ref=e934] [cursor=pointer]:
+                - radio "2 & up" [ref=e935]
+                - generic [ref=e936]: 2 & up
+              - generic [ref=e948] [cursor=pointer]:
+                - radio "1 & up" [ref=e949]
+                - generic [ref=e950]: 1 & up
+          - generic [ref=e962]:
+            - heading "Availability" [level=4] [ref=e963]
+            - generic [ref=e964] [cursor=pointer]:
+              - checkbox "In Stock Only" [ref=e965]
+              - generic [ref=e966]: In Stock Only
+      - generic [ref=e968]:
+        - generic [ref=e969]:
+          - generic [ref=e970]:
+            - heading "Products" [level=2] [ref=e971]
+            - paragraph [ref=e972]: 3 items
+          - generic [ref=e973]:
+            - generic [ref=e974]: Sort By
+            - combobox "Sort By" [ref=e975]:
+              - option "Featured" [selected]
+              - 'option "Price: Low to High"'
+              - 'option "Price: High to Low"'
+              - option "Highest Rated"
+              - option "Newest"
+            - generic [ref=e976]:
+              - button "Grid view" [ref=e977]
+              - button "List view" [ref=e983]
+        - generic [ref=e985]:
+          - button "ملابس" [ref=e1023]
+          - button "Clear all" [ref=e990]
+        - generic [ref=e991]:
+          - button "Cashmere Blend Overcoat -23% Toggle wishlist Quick View Add to Cart ملابس Cashmere Blend Overcoat (4.7) · 298 $459.99 $599.99 Camel Charcoal Navy Only 5 left!" [ref=e992] [cursor=pointer]:
+            - generic [ref=e993]:
+              - img "Cashmere Blend Overcoat" [ref=e994]
+              - generic [ref=e995]: "-23%"
+              - button "Toggle wishlist" [ref=e996]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e999]:
+              - paragraph [ref=e1000]: ملابس
+              - heading "Cashmere Blend Overcoat" [level=3] [ref=e1001]
+              - generic [ref=e1002]:
+                - generic [ref=e1013]: (4.7)
+                - generic [ref=e1014]: · 298
+              - generic [ref=e1015]:
+                - generic [ref=e1016]: $459.99
+                - generic [ref=e1017]: $599.99
+              - generic [ref=e1018]:
+                - generic "Camel" [ref=e1019]
+                - generic "Charcoal" [ref=e1020]
+                - generic "Navy" [ref=e1021]
+              - generic [ref=e1022]: Only 5 left!
+          - button "Premium Cotton Hoodie -25% Toggle wishlist Quick View Add to Cart ملابس Premium Cotton Hoodie (4.6) · 1567 $89.99 $119.99 Heather Grey Forest Sand Midnight" [ref=e1027] [cursor=pointer]:
+            - generic [ref=e1028]:
+              - img "Premium Cotton Hoodie" [ref=e1029]
+              - generic [ref=e1030]: "-25%"
+              - button "Toggle wishlist" [ref=e1031]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e1034]:
+              - paragraph [ref=e1035]: ملابس
+              - heading "Premium Cotton Hoodie" [level=3] [ref=e1036]
+              - generic [ref=e1037]:
+                - generic [ref=e1048]: (4.6)
+                - generic [ref=e1049]: · 1567
+              - generic [ref=e1050]:
+                - generic [ref=e1051]: $89.99
+                - generic [ref=e1052]: $119.99
+              - generic [ref=e1053]:
+                - generic "Heather Grey" [ref=e1054]
+                - generic "Forest" [ref=e1055]
+                - generic "Sand" [ref=e1056]
+                - generic "Midnight" [ref=e1057]
+          - button "Tailored Slim Fit Chinos -25% Toggle wishlist Quick View Add to Cart ملابس Tailored Slim Fit Chinos (4.4) · 1089 $74.99 $99.99 Khaki Olive Navy Black" [ref=e1058] [cursor=pointer]:
+            - generic [ref=e1059]:
+              - img "Tailored Slim Fit Chinos" [ref=e1060]
+              - generic [ref=e1061]: "-25%"
+              - button "Toggle wishlist" [ref=e1062]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e1065]:
+              - paragraph [ref=e1066]: ملابس
+              - heading "Tailored Slim Fit Chinos" [level=3] [ref=e1067]
+              - generic [ref=e1068]:
+                - generic [ref=e1079]: (4.4)
+                - generic [ref=e1080]: · 1089
+              - generic [ref=e1081]:
+                - generic [ref=e1082]: $74.99
+                - generic [ref=e1083]: $99.99
+              - generic [ref=e1084]:
+                - generic "Khaki" [ref=e1085]
+                - generic "Olive" [ref=e1086]
+                - generic "Navy" [ref=e1087]
+                - generic "Black" [ref=e1088]
+  - contentinfo [ref=e716]:
+    - generic [ref=e717]:
+      - generic [ref=e718]:
+        - generic [ref=e719]:
+          - heading "LUXE" [level=3] [ref=e720]
+          - paragraph [ref=e721]: Premium shopping experience with curated collections for the modern lifestyle.
+          - generic [ref=e722]:
+            - paragraph [ref=e723]: Stay in the loop
+            - generic [ref=e724]:
+              - textbox "Your email address" [ref=e725]
+              - button "Subscribe" [ref=e726]
+        - generic [ref=e727]:
+          - heading "Shop" [level=4] [ref=e728]
+          - list [ref=e729]:
+            - listitem [ref=e730]:
+              - button "New Arrivals" [ref=e731] [cursor=pointer]
+            - listitem [ref=e732]:
+              - button "Best Sellers" [ref=e733] [cursor=pointer]
+            - listitem [ref=e734]:
+              - button "Sale" [ref=e735] [cursor=pointer]
+        - generic [ref=e736]:
+          - heading "Support" [level=4] [ref=e737]
+          - list [ref=e738]:
+            - listitem [ref=e739]:
+              - button "Contact Us" [ref=e740] [cursor=pointer]
+            - listitem [ref=e741]:
+              - button "FAQs" [ref=e742] [cursor=pointer]
+            - listitem [ref=e743]:
+              - button "About Us" [ref=e744] [cursor=pointer]
+            - listitem [ref=e745]: Shipping Info
+        - generic [ref=e746]:
+          - heading "Demo Accounts" [level=4] [ref=e747]
+          - list [ref=e748]:
+            - listitem [ref=e749]: "Admin: admin@store.com / admin123"
+            - listitem [ref=e750]: "Customer: user@store.com / user123"
+      - generic [ref=e751]:
+        - paragraph [ref=e752]: © 2026 LUXE. All rights reserved.
+        - button "Back to top ↑" [ref=e753]
+  - generic [ref=e754]:
+    - generic [ref=e755]:
+      - generic [ref=e756]:
+        - heading "Shopping Cart" [level=2] [ref=e760]
+        - generic [ref=e761]: (1)
+      - button "Close" [ref=e762]
+    - generic [ref=e767]:
+      - img "Wireless Noise-Cancelling Headphones" [ref=e768]
+      - generic [ref=e769]:
+        - heading "Wireless Noise-Cancelling Headphones" [level=4] [ref=e770]
+        - generic [ref=e771]: Black
+        - paragraph [ref=e774]: $299.99
+        - generic [ref=e775]:
+          - generic [ref=e776]:
+            - button "Decrease" [ref=e777]
+            - generic [ref=e779]: "1"
+            - button "Increase" [ref=e780]
+          - button "Remove" [ref=e782]
+    - generic [ref=e786]:
+      - generic [ref=e787]: Free Shipping
+      - generic [ref=e791]:
+        - textbox "Coupon code" [ref=e792]
+        - button [disabled] [ref=e793]
+      - generic [ref=e797]:
+        - generic [ref=e798]:
+          - generic [ref=e799]: Subtotal
+          - generic [ref=e800]: $299.99
+        - generic [ref=e801]:
+          - generic [ref=e802]: Shipping
+          - generic [ref=e803]: Free
+        - generic [ref=e804]:
+          - generic [ref=e805]: Tax (15%)
+          - generic [ref=e806]: $45.00
+        - generic [ref=e807]:
+          - generic [ref=e808]: Total
+          - generic [ref=e809]: $344.99
+      - button "Proceed to Checkout" [ref=e810]

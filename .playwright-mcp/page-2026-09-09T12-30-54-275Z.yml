@@ -1,0 +1,207 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - button "LUXE" [ref=f1e8]
+        - textbox "ابحث عن المنتجات..." [ref=f1e1011]
+        - generic [ref=f1e13]:
+          - button "اللغة" [ref=f1e1012]:
+            - generic [ref=f1e19]: ع
+          - button "العملة" [ref=f1e1013]:
+            - generic [ref=f1e25]: ر.س
+          - button "Wishlist" [ref=f1e26]
+          - button "Cart" [ref=f1e29]:
+            - generic [ref=f1e937]: "1"
+          - button "تسجيل الدخول" [ref=f1e1014]
+      - navigation [ref=f1e39]:
+        - button "All" [ref=f1e40]
+        - button "Electronics" [ref=f1e41]
+        - button "Accessories" [ref=f1e42]
+        - button "Fashion" [ref=f1e43]
+        - button "Home" [ref=f1e44]
+  - main [ref=f1e45]:
+    - generic [ref=f1e738]:
+      - navigation "Breadcrumb" [ref=f1e739]:
+        - button "LUXE" [ref=f1e740]
+        - button "Electronics" [ref=f1e744]
+        - generic [ref=f1e747]: سماعات لاسلكية مضادة للضوضاء
+      - generic [ref=f1e748]:
+        - generic [ref=f1e749]:
+          - generic [ref=f1e750]:
+            - img "سماعات لاسلكية مضادة للضوضاء" [ref=f1e1015]
+            - generic [ref=f1e752]: "-25%"
+          - generic [ref=f1e753]:
+            - button [ref=f1e754]
+            - button [ref=f1e755]
+        - generic [ref=f1e756]:
+          - generic [ref=f1e757]:
+            - paragraph [ref=f1e758]: Electronics
+            - heading "سماعات لاسلكية مضادة للضوضاء" [level=1] [ref=f1e1016]
+            - generic [ref=f1e760]:
+              - generic [ref=f1e772]: (4.8 تقييم)
+              - generic [ref=f1e773]: · 1243
+          - generic [ref=f1e774]:
+            - generic [ref=f1e775]: 1124.96 ر.س
+            - generic [ref=f1e776]: 1499.96 ر.س
+          - generic [ref=f1e777]: متوفر
+          - paragraph [ref=f1e781]: سماعات لاسلكية متميزة مع إلغاء ضوضاء رائد في الصناعة، وعمر بطارية 30 ساعة، وجودة صوت واضحة.
+          - generic [ref=f1e782]:
+            - paragraph [ref=f1e783]: "اللون: Black"
+            - generic [ref=f1e784]:
+              - button "Black" [ref=f1e785]
+              - button "Silver" [ref=f1e786]
+              - button "Midnight Blue" [ref=f1e787]
+          - generic [ref=f1e788]:
+            - paragraph [ref=f1e789]: الكمية
+            - generic [ref=f1e791]:
+              - button "Decrease quantity" [ref=f1e792]
+              - generic [ref=f1e794]: "1"
+              - button "Increase quantity" [ref=f1e795]
+          - generic [ref=f1e797]:
+            - button "أضف للسلة" [ref=f1e1017]
+            - button "اشتر الآن" [ref=f1e1018]
+            - button "Toggle wishlist" [ref=f1e806]
+          - generic [ref=f1e809]:
+            - paragraph [ref=f1e816]: شحن مجاني للطلبات فوق $50
+            - paragraph [ref=f1e821]: إرجاع مجاني خلال 30 يوماً
+            - paragraph [ref=f1e826]: محمي بنسبة 100%
+      - generic [ref=f1e827]:
+        - generic [ref=f1e828]:
+          - button "الوصف" [ref=f1e1019]
+          - button "المواصفات" [ref=f1e1020]
+          - button "التقييمات (0)" [ref=f1e1021]
+        - generic [ref=f1e832]:
+          - paragraph [ref=f1e834]: سماعات لاسلكية متميزة مع إلغاء ضوضاء رائد في الصناعة، وعمر بطارية 30 ساعة، وجودة صوت واضحة.
+          - generic [ref=f1e835]:
+            - heading "الوصف" [level=3] [ref=f1e1022]
+            - list [ref=f1e837]:
+              - listitem [ref=f1e1023]: إلغاء الضوضاء النشط
+              - listitem [ref=f1e1026]: عمر بطارية 30 ساعة
+              - listitem [ref=f1e1029]: بلوتوث 5.2
+              - listitem [ref=f1e1032]: اتصال متعدد النقاط
+              - listitem [ref=f1e1035]: تحدث للدردشة
+      - generic [ref=f1e853]:
+        - generic [ref=f1e854]:
+          - heading "قد يعجبك أيضاً" [level=2] [ref=f1e1038]
+          - generic [ref=f1e856]:
+            - button "عرض الكل" [ref=f1e1039]
+            - generic [ref=f1e858]:
+              - button "Previous" [ref=f1e859]
+              - button "Next" [ref=f1e862]
+        - generic [ref=f1e865]:
+          - button "ساعة لياقة ذكية برو -17% Toggle wishlist عرض سريع أضف للسلة Electronics ساعة لياقة ذكية برو (4.6) · 876 937.46 ر.س 1124.96 ر.س Black Rose Gold Forest Green" [ref=f1e1040] [cursor=pointer]:
+            - generic [ref=f1e868]:
+              - img "ساعة لياقة ذكية برو" [ref=f1e1041]
+              - generic [ref=f1e870]: "-17%"
+              - button "Toggle wishlist" [ref=f1e871]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f1e884]:
+              - paragraph [ref=f1e885]: Electronics
+              - heading "ساعة لياقة ذكية برو" [level=3] [ref=f1e1042]
+              - generic [ref=f1e887]:
+                - generic [ref=f1e898]: (4.6)
+                - generic [ref=f1e899]: · 876
+              - generic [ref=f1e900]:
+                - generic [ref=f1e901]: 937.46 ر.س
+                - generic [ref=f1e902]: 1124.96 ر.س
+              - generic [ref=f1e903]:
+                - generic "Black" [ref=f1e904]
+                - generic "Rose Gold" [ref=f1e905]
+                - generic "Forest Green" [ref=f1e906]
+          - button "مكبر صوت ذكي للمنزل -28% Toggle wishlist عرض سريع أضف للسلة Electronics مكبر صوت ذكي للمنزل (4.3) · 2104 487.46 ر.س 674.96 ر.س Charcoal Sandstone" [ref=f1e1043] [cursor=pointer]:
+            - generic [ref=f1e909]:
+              - img "مكبر صوت ذكي للمنزل" [ref=f1e1044]
+              - generic [ref=f1e911]: "-28%"
+              - button "Toggle wishlist" [ref=f1e912]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f1e915]:
+              - paragraph [ref=f1e916]: Electronics
+              - heading "مكبر صوت ذكي للمنزل" [level=3] [ref=f1e1045]
+              - generic [ref=f1e918]:
+                - generic [ref=f1e929]: (4.3)
+                - generic [ref=f1e930]: · 2104
+              - generic [ref=f1e931]:
+                - generic [ref=f1e932]: 487.46 ر.س
+                - generic [ref=f1e933]: 674.96 ر.س
+              - generic [ref=f1e934]:
+                - generic "Charcoal" [ref=f1e935]
+                - generic "Sandstone" [ref=f1e936]
+  - contentinfo [ref=f1e677]:
+    - generic [ref=f1e678]:
+      - generic [ref=f1e679]:
+        - generic [ref=f1e680]:
+          - heading "LUXE" [level=3] [ref=f1e681]
+          - paragraph [ref=f1e682]: تجربة تسوق فاخرة مع تشكيلات مختارة بعناية لأسلوب الحياة العصري.
+          - generic [ref=f1e683]:
+            - paragraph [ref=f1e684]: ابق على اطلاع
+            - generic [ref=f1e685]:
+              - textbox "بريدك الإلكتروني" [ref=f1e1046]
+              - button "اشترك" [ref=f1e1047]
+        - generic [ref=f1e688]:
+          - heading "المتجر" [level=4] [ref=f1e1048]
+          - list [ref=f1e690]:
+            - listitem [ref=f1e691]:
+              - button "وصل حديثاً" [ref=f1e1049] [cursor=pointer]
+            - listitem [ref=f1e693]:
+              - button "الأكثر مبيعاً" [ref=f1e1050] [cursor=pointer]
+            - listitem [ref=f1e695]:
+              - button "التخفيضات" [ref=f1e1051] [cursor=pointer]
+        - generic [ref=f1e697]:
+          - heading "الدعم" [level=4] [ref=f1e1052]
+          - list [ref=f1e699]:
+            - listitem [ref=f1e700]:
+              - button "اتصل بنا" [ref=f1e1053] [cursor=pointer]
+            - listitem [ref=f1e702]:
+              - button "الأسئلة الشائعة" [ref=f1e1054] [cursor=pointer]
+            - listitem [ref=f1e704]:
+              - button "من نحن" [ref=f1e1055] [cursor=pointer]
+            - listitem [ref=f1e706]: معلومات الشحن
+        - generic [ref=f1e707]:
+          - heading "حسابات تجريبية" [level=4] [ref=f1e1056]
+          - list [ref=f1e709]:
+            - listitem [ref=f1e710]: "المدير: admin@store.com / admin123"
+            - listitem [ref=f1e711]: "العميل: user@store.com / user123"
+      - generic [ref=f1e712]:
+        - paragraph [ref=f1e713]: © 2026 LUXE. جميع الحقوق محفوظة.
+        - button "العودة للأعلى ↑" [ref=f1e1057]
+  - generic [ref=f1e715]:
+    - generic [ref=f1e716]:
+      - generic [ref=f1e717]:
+        - heading "سلة التسوق" [level=2] [ref=f1e1058]
+        - generic [ref=f1e722]: (1)
+      - button "إغلاق" [ref=f1e1059]
+    - generic [ref=f1e939]:
+      - img "Wireless Noise-Cancelling Headphones" [ref=f1e940]
+      - generic [ref=f1e941]:
+        - heading "Wireless Noise-Cancelling Headphones" [level=4] [ref=f1e942]
+        - generic [ref=f1e943]: Black
+        - paragraph [ref=f1e946]: 1124.96 ر.س
+        - generic [ref=f1e947]:
+          - generic [ref=f1e948]:
+            - button "Decrease" [ref=f1e949]
+            - generic [ref=f1e951]: "1"
+            - button "Increase" [ref=f1e952]
+          - button "Remove" [ref=f1e954]
+    - generic [ref=f1e958]:
+      - generic [ref=f1e959]: مجاني الشحن
+      - generic [ref=f1e963]:
+        - textbox "كود الخصم" [ref=f1e1060]
+        - button [disabled] [ref=f1e965]
+      - generic [ref=f1e969]:
+        - generic [ref=f1e970]:
+          - generic [ref=f1e971]: المجموع الفرعي
+          - generic [ref=f1e972]: 1124.96 ر.س
+        - generic [ref=f1e973]:
+          - generic [ref=f1e974]: الشحن
+          - generic [ref=f1e975]: مجاني
+        - generic [ref=f1e976]:
+          - generic [ref=f1e977]: الضريبة (15%)
+          - generic [ref=f1e978]: 168.74 ر.س
+        - generic [ref=f1e979]:
+          - generic [ref=f1e980]: الإجمالي
+          - generic [ref=f1e981]: 1293.71 ر.س
+      - button "إتمام الشراء" [ref=f1e1061]

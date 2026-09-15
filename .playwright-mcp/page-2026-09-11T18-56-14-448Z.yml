@@ -1,0 +1,161 @@
+- generic [ref=f18e3]:
+  - banner [ref=f18e4]:
+    - generic [ref=f18e6]:
+      - link "ق نادي القصة «إلمقه» مؤسسة ثقافية أدبية يمنية" [ref=f18e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f18e8]: ق
+        - generic [ref=f18e9]:
+          - generic [ref=f18e10]: نادي القصة «إلمقه»
+          - generic [ref=f18e11]: مؤسسة ثقافية أدبية يمنية
+      - navigation [ref=f18e12]:
+        - link "الرئيسية" [ref=f18e13] [cursor=pointer]:
+          - /url: /
+        - link "عن النادي" [ref=f18e14] [cursor=pointer]:
+          - /url: /about
+        - link "الفعاليات" [ref=f18e15] [cursor=pointer]:
+          - /url: /events
+        - link "الكتّاب" [ref=f18e16] [cursor=pointer]:
+          - /url: /writers
+        - link "الإصدارات" [ref=f18e17] [cursor=pointer]:
+          - /url: /publications
+        - link "الورش" [ref=f18e18] [cursor=pointer]:
+          - /url: /workshops
+        - link "الأخبار" [ref=f18e19] [cursor=pointer]:
+          - /url: /news
+        - link "الأرشيف" [ref=f18e20] [cursor=pointer]:
+          - /url: /archive
+        - link "معرض الصور" [ref=f18e21] [cursor=pointer]:
+          - /url: /gallery
+        - link "تواصل معنا" [ref=f18e22] [cursor=pointer]:
+          - /url: /contact
+      - link "لوحة التحكم" [ref=f18e24] [cursor=pointer]:
+        - /url: /admin-login
+  - main [ref=f18e27]:
+    - generic [ref=f18e28]:
+      - link "العودة إلى الفعاليات" [ref=f18e29] [cursor=pointer]:
+        - /url: /events
+      - generic [ref=f18e32]:
+        - 'img "أمسية قصصية: قصص من المدينة" [ref=f18e33]'
+        - generic [ref=f18e35]:
+          - generic [ref=f18e36]: أمسيات قصصية
+          - 'heading "أمسية قصصية: قصص من المدينة" [level=1] [ref=f18e37]'
+      - generic [ref=f18e38]:
+        - generic [ref=f18e39]:
+          - generic [ref=f18e40]:
+            - heading "عن الفعالية" [level=2] [ref=f18e41]
+            - generic [ref=f18e42]:
+              - paragraph [ref=f18e43]: "يدعو نادي القصة جمهوره إلى أمسية قصصية جديدة ضمن فعاليات موسم الخريف، يقرأ فيها خمسة من كتّاب النادي نصوصاً قصصية قصيرة تنبض بالحياة اليومية للمدينة، وتلتقط تفاصيلها الصغيرة: أزقتها، أصواتها، وشخوصها العابرين."
+              - paragraph [ref=f18e44]: تلي القراءات جلسة حوارية مفتوحة يديرها أحد أعضاء النادي، يُعطى فيها الجمهور فرصة الحديث عن النصوص وطرح الأسئلة وتبادل الانطباعات.
+              - paragraph [ref=f18e45]: الدعوة عامة ومجانية، والحضور متاح للجميع.
+          - generic [ref=f18e46]:
+            - heading "جدول الفعالية" [level=2] [ref=f18e47]
+            - generic [ref=f18e48]:
+              - generic [ref=f18e53]:
+                - generic [ref=f18e54]: 7:00 مساءً
+                - paragraph [ref=f18e55]: استقبال الحضور وتسجيل الموجودين
+              - generic [ref=f18e60]:
+                - generic [ref=f18e61]: 7:30 مساءً
+                - paragraph [ref=f18e62]: القراءات القصصية الأولى
+              - generic [ref=f18e67]:
+                - generic [ref=f18e68]: 8:15 مساءً
+                - paragraph [ref=f18e69]: استراحة قصيرة مع الضيافة
+              - generic [ref=f18e74]:
+                - generic [ref=f18e75]: 8:30 مساءً
+                - paragraph [ref=f18e76]: جلسة الحوار المفتوح مع الجمهور
+              - generic [ref=f18e80]:
+                - generic [ref=f18e81]: 9:30 مساءً
+                - paragraph [ref=f18e82]: الخاتمة وتوقيع حضور الأعضاء
+          - generic [ref=f18e83]:
+            - heading "المشاركون" [level=2] [ref=f18e84]
+            - generic [ref=f18e85]:
+              - generic [ref=f18e91]:
+                - paragraph [ref=f18e92]: أسماء الحميري
+                - paragraph [ref=f18e93]: قاصة — قراءة من «مفاتيح صغيرة»
+              - generic [ref=f18e99]:
+                - paragraph [ref=f18e100]: ريم الوصابي
+                - paragraph [ref=f18e101]: قاصة — قراءة من «أجنحة الطرقات»
+              - generic [ref=f18e107]:
+                - paragraph [ref=f18e108]: هشام الشامي
+                - paragraph [ref=f18e109]: يدير الحوار — عضو النادي
+        - generic [ref=f18e111]:
+          - heading "سجّل حضورك" [level=3] [ref=f18e112]
+          - button "تسجيل الحضور" [ref=f18e113]
+          - paragraph [ref=f18e114]: الدعوة عامة ومجانية
+          - generic [ref=f18e117]:
+            - paragraph [ref=f18e118]: الخميس، 18 سبتمبر 2026
+            - paragraph [ref=f18e121]: 7:00 مساءً
+            - paragraph [ref=f18e125]: صنعاء — مقر النادي الثقافي
+      - generic [ref=f18e129]:
+        - heading "فعاليات مشابهة" [level=2] [ref=f18e130]
+        - generic [ref=f18e131]:
+          - link [ref=f18e132] [cursor=pointer]:
+            - /url: /events/evt_007
+            - generic [ref=f18e133]:
+              - 'img "أمسية قصصية: أصوات جديدة" [ref=f18e135]'
+              - generic [ref=f18e136]:
+                - 'heading "أمسية قصصية: أصوات جديدة" [level=3] [ref=f18e137]'
+                - paragraph [ref=f18e138]: الجمعة، 28 أغسطس 2026
+          - link [ref=f18e139] [cursor=pointer]:
+            - /url: /events/events_011
+            - generic [ref=f18e140]:
+              - 'img "أمسية خاصة: حكاية السرد اليمني" [ref=f18e142]'
+              - generic [ref=f18e143]:
+                - 'heading "أمسية خاصة: حكاية السرد اليمني" [level=3] [ref=f18e144]'
+                - paragraph [ref=f18e145]: الجمعة، 16 أكتوبر 2026
+  - contentinfo [ref=f18e146]:
+    - generic [ref=f18e147]:
+      - generic [ref=f18e148]:
+        - generic [ref=f18e149]:
+          - generic [ref=f18e150]: ق
+          - generic [ref=f18e151]: نادي القصة «إلمقه»
+        - paragraph [ref=f18e152]: مؤسسة ثقافية أدبية تحتفي بالقصة القصيرة والرواية اليمنية، ترعى الكتّاب وتنشر الإبداع من قلب صنعاء إلى كل قراءة عربية.
+        - generic [ref=f18e153]:
+          - link "فيسبوك" [ref=f18e154] [cursor=pointer]:
+            - /url: /gallery
+          - link "انستغرام" [ref=f18e158] [cursor=pointer]:
+            - /url: /gallery
+          - link "معرض الصور" [ref=f18e162] [cursor=pointer]:
+            - /url: /gallery
+      - generic [ref=f18e166]:
+        - heading "أقسام الموقع" [level=3] [ref=f18e167]
+        - list [ref=f18e168]:
+          - listitem [ref=f18e169]:
+            - link "عن النادي" [ref=f18e170] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f18e171]:
+            - link "الفعاليات" [ref=f18e172] [cursor=pointer]:
+              - /url: /events
+          - listitem [ref=f18e173]:
+            - link "الكتّاب" [ref=f18e174] [cursor=pointer]:
+              - /url: /writers
+          - listitem [ref=f18e175]:
+            - link "الإصدارات" [ref=f18e176] [cursor=pointer]:
+              - /url: /publications
+          - listitem [ref=f18e177]:
+            - link "الورش" [ref=f18e178] [cursor=pointer]:
+              - /url: /workshops
+          - listitem [ref=f18e179]:
+            - link "الأخبار" [ref=f18e180] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f18e181]:
+            - link "الأرشيف" [ref=f18e182] [cursor=pointer]:
+              - /url: /archive
+          - listitem [ref=f18e183]:
+            - link "معرض الصور" [ref=f18e184] [cursor=pointer]:
+              - /url: /gallery
+          - listitem [ref=f18e185]:
+            - link "تواصل معنا" [ref=f18e186] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f18e187]:
+        - heading "تواصل معنا" [level=3] [ref=f18e188]
+        - list [ref=f18e189]:
+          - listitem [ref=f18e190]: صنعاء، اليمن — مبنى النادي الثقافي
+          - listitem [ref=f18e191]: info@almqah.club
+          - listitem [ref=f18e192]: 777 111 000
+        - generic [ref=f18e193]: «القصة نورٌ يجمعنا»
+    - generic [ref=f18e194]:
+      - generic [ref=f18e195]: © 2026 نادي القصة «إلمقه» — جميع الحقوق محفوظة
+      - generic [ref=f18e196]: ·
+      - link "داخل النادي — لوحة المشرف" [ref=f18e197] [cursor=pointer]:
+        - /url: /admin-login
+  - region "Notifications alt+T"

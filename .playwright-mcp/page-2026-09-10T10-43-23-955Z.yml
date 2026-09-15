@@ -1,0 +1,545 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - generic [ref=f2e6]:
+        - button "LUXE" [ref=f2e8]
+        - textbox "Search products..." [ref=f2e12]
+        - generic [ref=f2e13]:
+          - button "Language" [ref=f2e15]:
+            - generic [ref=f2e19]: EN
+          - button "Currency" [ref=f2e21]:
+            - generic [ref=f2e25]: $
+          - button "Wishlist" [ref=f2e26]
+          - button "Cart" [ref=f2e29]:
+            - generic [ref=f2e737]: "1"
+          - button "John Doe" [ref=f2e35]
+      - navigation [ref=f2e42]:
+        - button "All" [ref=f2e43]
+        - button "Electronics" [ref=f2e44]
+        - button "Accessories" [ref=f2e45]
+        - button "Fashion" [ref=f2e46]
+        - button "Home" [ref=f2e47]
+  - main [ref=f2e48]:
+    - generic [ref=f2e49]:
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]:
+          - generic [ref=f2e811]:
+            - heading "Timeless Elegance" [level=1] [ref=f2e812]
+            - paragraph [ref=f2e813]: Where quality meets sophistication
+            - button "Shop Now" [ref=f2e814]
+          - button "Previous" [ref=f2e60]
+          - button "Next" [ref=f2e63]
+          - generic [ref=f2e66]:
+            - button [ref=f2e67]
+            - button [ref=f2e68]
+            - button [ref=f2e69]
+        - generic [ref=f2e72]:
+          - generic [ref=f2e79]:
+            - paragraph [ref=f2e80]: Free Shipping
+            - paragraph [ref=f2e81]: On orders over $50
+          - generic [ref=f2e85]:
+            - paragraph [ref=f2e86]: 24/7 Support
+            - paragraph [ref=f2e87]: Always here to help
+          - generic [ref=f2e91]:
+            - paragraph [ref=f2e92]: Secure Payment
+            - paragraph [ref=f2e93]: 100% protected
+          - generic [ref=f2e100]:
+            - paragraph [ref=f2e101]: Money-Back
+            - paragraph [ref=f2e102]: 30-day guarantee
+      - generic [ref=f2e103]:
+        - heading "Shop by Category" [level=2] [ref=f2e105]
+        - generic [ref=f2e106]:
+          - button [ref=f2e107] [cursor=pointer]:
+            - img "Electronics" [ref=f2e108]
+            - generic [ref=f2e110]:
+              - paragraph [ref=f2e111]: Electronics
+              - paragraph [ref=f2e112]: Start Shopping
+          - button [ref=f2e115] [cursor=pointer]:
+            - img "Accessories" [ref=f2e116]
+            - generic [ref=f2e118]:
+              - paragraph [ref=f2e119]: Accessories
+              - paragraph [ref=f2e120]: Start Shopping
+          - button [ref=f2e123] [cursor=pointer]:
+            - img "Fashion" [ref=f2e124]
+            - generic [ref=f2e126]:
+              - paragraph [ref=f2e127]: Fashion
+              - paragraph [ref=f2e128]: Start Shopping
+          - button [ref=f2e131] [cursor=pointer]:
+            - img "Home" [ref=f2e132]
+            - generic [ref=f2e134]:
+              - paragraph [ref=f2e135]: Home
+              - paragraph [ref=f2e136]: Start Shopping
+      - generic [ref=f2e139]:
+        - generic [ref=f2e140]:
+          - heading "New Arrivals" [level=2] [ref=f2e141]
+          - generic [ref=f2e142]:
+            - button "View All" [ref=f2e143]
+            - generic [ref=f2e144]:
+              - button "Previous" [ref=f2e145]
+              - button "Next" [ref=f2e148]
+        - generic [ref=f2e151]:
+          - button "Wireless Noise-Cancelling Headphones -25% Toggle wishlist Quick View Add to Cart Electronics Wireless Noise-Cancelling Headphones (4.8) · 1243 $299.99 $399.99 Black Silver Midnight Blue" [ref=f2e153] [cursor=pointer]:
+            - generic [ref=f2e154]:
+              - img "Wireless Noise-Cancelling Headphones" [ref=f2e155]
+              - generic [ref=f2e156]: "-25%"
+              - button "Toggle wishlist" [ref=f2e157]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e160]:
+              - paragraph [ref=f2e161]: Electronics
+              - heading "Wireless Noise-Cancelling Headphones" [level=3] [ref=f2e162]
+              - generic [ref=f2e163]:
+                - generic [ref=f2e174]: (4.8)
+                - generic [ref=f2e175]: · 1243
+              - generic [ref=f2e176]:
+                - generic [ref=f2e177]: $299.99
+                - generic [ref=f2e178]: $399.99
+              - generic [ref=f2e179]:
+                - generic "Black" [ref=f2e180]
+                - generic "Silver" [ref=f2e181]
+                - generic "Midnight Blue" [ref=f2e182]
+          - button "Smart Fitness Watch Pro -17% Toggle wishlist Quick View Add to Cart Electronics Smart Fitness Watch Pro (4.6) · 876 $249.99 $299.99 Black Rose Gold Forest Green" [ref=f2e184] [cursor=pointer]:
+            - generic [ref=f2e185]:
+              - img "Smart Fitness Watch Pro" [ref=f2e186]
+              - generic [ref=f2e187]: "-17%"
+              - button "Toggle wishlist" [ref=f2e188]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e191]:
+              - paragraph [ref=f2e192]: Electronics
+              - heading "Smart Fitness Watch Pro" [level=3] [ref=f2e193]
+              - generic [ref=f2e194]:
+                - generic [ref=f2e205]: (4.6)
+                - generic [ref=f2e206]: · 876
+              - generic [ref=f2e207]:
+                - generic [ref=f2e208]: $249.99
+                - generic [ref=f2e209]: $299.99
+              - generic [ref=f2e210]:
+                - generic "Black" [ref=f2e211]
+                - generic "Rose Gold" [ref=f2e212]
+                - generic "Forest Green" [ref=f2e213]
+          - button "Italian Leather Crossbody Bag -24% Toggle wishlist Quick View Add to Cart Accessories Italian Leather Crossbody Bag (4.9) · 534 $189.99 $249.99 Cognac Black Burgundy" [ref=f2e215] [cursor=pointer]:
+            - generic [ref=f2e216]:
+              - img "Italian Leather Crossbody Bag" [ref=f2e217]
+              - generic [ref=f2e218]: "-24%"
+              - button "Toggle wishlist" [ref=f2e219]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e222]:
+              - paragraph [ref=f2e223]: Accessories
+              - heading "Italian Leather Crossbody Bag" [level=3] [ref=f2e224]
+              - generic [ref=f2e225]:
+                - generic [ref=f2e236]: (4.9)
+                - generic [ref=f2e237]: · 534
+              - generic [ref=f2e238]:
+                - generic [ref=f2e239]: $189.99
+                - generic [ref=f2e240]: $249.99
+              - generic [ref=f2e241]:
+                - generic "Cognac" [ref=f2e242]
+                - generic "Black" [ref=f2e243]
+                - generic "Burgundy" [ref=f2e244]
+          - button "Cashmere Blend Overcoat -23% Toggle wishlist Quick View Add to Cart Fashion Cashmere Blend Overcoat (4.7) · 298 $459.99 $599.99 Camel Charcoal Navy Only 5 left!" [ref=f2e246] [cursor=pointer]:
+            - generic [ref=f2e247]:
+              - img "Cashmere Blend Overcoat" [ref=f2e248]
+              - generic [ref=f2e249]: "-23%"
+              - button "Toggle wishlist" [ref=f2e250]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e253]:
+              - paragraph [ref=f2e254]: Fashion
+              - heading "Cashmere Blend Overcoat" [level=3] [ref=f2e255]
+              - generic [ref=f2e256]:
+                - generic [ref=f2e267]: (4.7)
+                - generic [ref=f2e268]: · 298
+              - generic [ref=f2e269]:
+                - generic [ref=f2e270]: $459.99
+                - generic [ref=f2e271]: $599.99
+              - generic [ref=f2e272]:
+                - generic "Camel" [ref=f2e273]
+                - generic "Charcoal" [ref=f2e274]
+                - generic "Navy" [ref=f2e275]
+              - generic [ref=f2e276]: Only 5 left!
+          - button "Minimalist Ceramic Desk Lamp -20% Toggle wishlist Quick View Add to Cart Home Minimalist Ceramic Desk Lamp (4.5) · 412 $79.99 $99.99 White Terracotta Sage" [ref=f2e278] [cursor=pointer]:
+            - generic [ref=f2e279]:
+              - img "Minimalist Ceramic Desk Lamp" [ref=f2e280]
+              - generic [ref=f2e281]: "-20%"
+              - button "Toggle wishlist" [ref=f2e282]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e285]:
+              - paragraph [ref=f2e286]: Home
+              - heading "Minimalist Ceramic Desk Lamp" [level=3] [ref=f2e287]
+              - generic [ref=f2e288]:
+                - generic [ref=f2e299]: (4.5)
+                - generic [ref=f2e300]: · 412
+              - generic [ref=f2e301]:
+                - generic [ref=f2e302]: $79.99
+                - generic [ref=f2e303]: $99.99
+              - generic [ref=f2e304]:
+                - generic "White" [ref=f2e305]
+                - generic "Terracotta" [ref=f2e306]
+                - generic "Sage" [ref=f2e307]
+          - button "Polarized Aviator Sunglasses -20% Toggle wishlist Quick View Add to Cart Accessories Polarized Aviator Sunglasses (4.4) · 763 $159.99 $199.99 Gold/Green Silver/Blue Matte Black" [ref=f2e309] [cursor=pointer]:
+            - generic [ref=f2e310]:
+              - img "Polarized Aviator Sunglasses" [ref=f2e311]
+              - generic [ref=f2e312]: "-20%"
+              - button "Toggle wishlist" [ref=f2e313]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e316]:
+              - paragraph [ref=f2e317]: Accessories
+              - heading "Polarized Aviator Sunglasses" [level=3] [ref=f2e318]
+              - generic [ref=f2e319]:
+                - generic [ref=f2e330]: (4.4)
+                - generic [ref=f2e331]: · 763
+              - generic [ref=f2e332]:
+                - generic [ref=f2e333]: $159.99
+                - generic [ref=f2e334]: $199.99
+              - generic [ref=f2e335]:
+                - generic "Gold/Green" [ref=f2e336]
+                - generic "Silver/Blue" [ref=f2e337]
+                - generic "Matte Black" [ref=f2e338]
+          - button "Premium Cotton Hoodie -25% Toggle wishlist Quick View Add to Cart Fashion Premium Cotton Hoodie (4.6) · 1567 $89.99 $119.99 Heather Grey Forest Sand Midnight" [ref=f2e340] [cursor=pointer]:
+            - generic [ref=f2e341]:
+              - img "Premium Cotton Hoodie" [ref=f2e342]
+              - generic [ref=f2e343]: "-25%"
+              - button "Toggle wishlist" [ref=f2e344]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e347]:
+              - paragraph [ref=f2e348]: Fashion
+              - heading "Premium Cotton Hoodie" [level=3] [ref=f2e349]
+              - generic [ref=f2e350]:
+                - generic [ref=f2e361]: (4.6)
+                - generic [ref=f2e362]: · 1567
+              - generic [ref=f2e363]:
+                - generic [ref=f2e364]: $89.99
+                - generic [ref=f2e365]: $119.99
+              - generic [ref=f2e366]:
+                - generic "Heather Grey" [ref=f2e367]
+                - generic "Forest" [ref=f2e368]
+                - generic "Sand" [ref=f2e369]
+                - generic "Midnight" [ref=f2e370]
+          - button "Smart Home Speaker -28% Toggle wishlist Quick View Add to Cart Electronics Smart Home Speaker (4.3) · 2104 $129.99 $179.99 Charcoal Sandstone" [ref=f2e372] [cursor=pointer]:
+            - generic [ref=f2e373]:
+              - img "Smart Home Speaker" [ref=f2e374]
+              - generic [ref=f2e375]: "-28%"
+              - button "Toggle wishlist" [ref=f2e376]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e379]:
+              - paragraph [ref=f2e380]: Electronics
+              - heading "Smart Home Speaker" [level=3] [ref=f2e381]
+              - generic [ref=f2e382]:
+                - generic [ref=f2e393]: (4.3)
+                - generic [ref=f2e394]: · 2104
+              - generic [ref=f2e395]:
+                - generic [ref=f2e396]: $129.99
+                - generic [ref=f2e397]: $179.99
+              - generic [ref=f2e398]:
+                - generic "Charcoal" [ref=f2e399]
+                - generic "Sandstone" [ref=f2e400]
+      - generic [ref=f2e401]:
+        - generic [ref=f2e402]:
+          - heading "Best Sellers" [level=2] [ref=f2e403]
+          - generic [ref=f2e404]:
+            - button "View All" [ref=f2e405]
+            - generic [ref=f2e406]:
+              - button "Previous" [ref=f2e407]
+              - button "Next" [ref=f2e410]
+        - generic [ref=f2e413]:
+          - button "Italian Leather Crossbody Bag -24% Toggle wishlist Quick View Add to Cart Accessories Italian Leather Crossbody Bag (4.9) · 534 $189.99 $249.99 Cognac Black Burgundy" [ref=f2e415] [cursor=pointer]:
+            - generic [ref=f2e416]:
+              - img "Italian Leather Crossbody Bag" [ref=f2e417]
+              - generic [ref=f2e418]: "-24%"
+              - button "Toggle wishlist" [ref=f2e419]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e422]:
+              - paragraph [ref=f2e423]: Accessories
+              - heading "Italian Leather Crossbody Bag" [level=3] [ref=f2e424]
+              - generic [ref=f2e425]:
+                - generic [ref=f2e436]: (4.9)
+                - generic [ref=f2e437]: · 534
+              - generic [ref=f2e438]:
+                - generic [ref=f2e439]: $189.99
+                - generic [ref=f2e440]: $249.99
+              - generic [ref=f2e441]:
+                - generic "Cognac" [ref=f2e442]
+                - generic "Black" [ref=f2e443]
+                - generic "Burgundy" [ref=f2e444]
+          - button "Wireless Noise-Cancelling Headphones -25% Toggle wishlist Quick View Add to Cart Electronics Wireless Noise-Cancelling Headphones (4.8) · 1243 $299.99 $399.99 Black Silver Midnight Blue" [ref=f2e446] [cursor=pointer]:
+            - generic [ref=f2e447]:
+              - img "Wireless Noise-Cancelling Headphones" [ref=f2e448]
+              - generic [ref=f2e449]: "-25%"
+              - button "Toggle wishlist" [ref=f2e450]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e453]:
+              - paragraph [ref=f2e454]: Electronics
+              - heading "Wireless Noise-Cancelling Headphones" [level=3] [ref=f2e455]
+              - generic [ref=f2e456]:
+                - generic [ref=f2e467]: (4.8)
+                - generic [ref=f2e468]: · 1243
+              - generic [ref=f2e469]:
+                - generic [ref=f2e470]: $299.99
+                - generic [ref=f2e471]: $399.99
+              - generic [ref=f2e472]:
+                - generic "Black" [ref=f2e473]
+                - generic "Silver" [ref=f2e474]
+                - generic "Midnight Blue" [ref=f2e475]
+          - button "Artisan Pour-Over Coffee Set -24% Toggle wishlist Quick View Add to Cart Home Artisan Pour-Over Coffee Set (4.8) · 687 $64.99 $84.99 Clear Amber" [ref=f2e477] [cursor=pointer]:
+            - generic [ref=f2e478]:
+              - img "Artisan Pour-Over Coffee Set" [ref=f2e479]
+              - generic [ref=f2e480]: "-24%"
+              - button "Toggle wishlist" [ref=f2e481]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e484]:
+              - paragraph [ref=f2e485]: Home
+              - heading "Artisan Pour-Over Coffee Set" [level=3] [ref=f2e486]
+              - generic [ref=f2e487]:
+                - generic [ref=f2e498]: (4.8)
+                - generic [ref=f2e499]: · 687
+              - generic [ref=f2e500]:
+                - generic [ref=f2e501]: $64.99
+                - generic [ref=f2e502]: $84.99
+              - generic [ref=f2e503]:
+                - generic "Clear" [ref=f2e504]
+                - generic "Amber" [ref=f2e505]
+          - button "Cashmere Blend Overcoat -23% Toggle wishlist Quick View Add to Cart Fashion Cashmere Blend Overcoat (4.7) · 298 $459.99 $599.99 Camel Charcoal Navy Only 5 left!" [ref=f2e507] [cursor=pointer]:
+            - generic [ref=f2e508]:
+              - img "Cashmere Blend Overcoat" [ref=f2e509]
+              - generic [ref=f2e510]: "-23%"
+              - button "Toggle wishlist" [ref=f2e511]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e514]:
+              - paragraph [ref=f2e515]: Fashion
+              - heading "Cashmere Blend Overcoat" [level=3] [ref=f2e516]
+              - generic [ref=f2e517]:
+                - generic [ref=f2e528]: (4.7)
+                - generic [ref=f2e529]: · 298
+              - generic [ref=f2e530]:
+                - generic [ref=f2e531]: $459.99
+                - generic [ref=f2e532]: $599.99
+              - generic [ref=f2e533]:
+                - generic "Camel" [ref=f2e534]
+                - generic "Charcoal" [ref=f2e535]
+                - generic "Navy" [ref=f2e536]
+              - generic [ref=f2e537]: Only 5 left!
+          - button "Leather Bifold Wallet -22% Toggle wishlist Quick View Add to Cart Accessories Leather Bifold Wallet (4.7) · 945 $69.99 $89.99 Dark Brown Black Tan" [ref=f2e539] [cursor=pointer]:
+            - generic [ref=f2e540]:
+              - img "Leather Bifold Wallet" [ref=f2e541]
+              - generic [ref=f2e542]: "-22%"
+              - button "Toggle wishlist" [ref=f2e543]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e546]:
+              - paragraph [ref=f2e547]: Accessories
+              - heading "Leather Bifold Wallet" [level=3] [ref=f2e548]
+              - generic [ref=f2e549]:
+                - generic [ref=f2e560]: (4.7)
+                - generic [ref=f2e561]: · 945
+              - generic [ref=f2e562]:
+                - generic [ref=f2e563]: $69.99
+                - generic [ref=f2e564]: $89.99
+              - generic [ref=f2e565]:
+                - generic "Dark Brown" [ref=f2e566]
+                - generic "Black" [ref=f2e567]
+                - generic "Tan" [ref=f2e568]
+          - button "Smart Fitness Watch Pro -17% Toggle wishlist Quick View Add to Cart Electronics Smart Fitness Watch Pro (4.6) · 876 $249.99 $299.99 Black Rose Gold Forest Green" [ref=f2e570] [cursor=pointer]:
+            - generic [ref=f2e571]:
+              - img "Smart Fitness Watch Pro" [ref=f2e572]
+              - generic [ref=f2e573]: "-17%"
+              - button "Toggle wishlist" [ref=f2e574]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e577]:
+              - paragraph [ref=f2e578]: Electronics
+              - heading "Smart Fitness Watch Pro" [level=3] [ref=f2e579]
+              - generic [ref=f2e580]:
+                - generic [ref=f2e591]: (4.6)
+                - generic [ref=f2e592]: · 876
+              - generic [ref=f2e593]:
+                - generic [ref=f2e594]: $249.99
+                - generic [ref=f2e595]: $299.99
+              - generic [ref=f2e596]:
+                - generic "Black" [ref=f2e597]
+                - generic "Rose Gold" [ref=f2e598]
+                - generic "Forest Green" [ref=f2e599]
+          - button "Premium Cotton Hoodie -25% Toggle wishlist Quick View Add to Cart Fashion Premium Cotton Hoodie (4.6) · 1567 $89.99 $119.99 Heather Grey Forest Sand Midnight" [ref=f2e601] [cursor=pointer]:
+            - generic [ref=f2e602]:
+              - img "Premium Cotton Hoodie" [ref=f2e603]
+              - generic [ref=f2e604]: "-25%"
+              - button "Toggle wishlist" [ref=f2e605]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e608]:
+              - paragraph [ref=f2e609]: Fashion
+              - heading "Premium Cotton Hoodie" [level=3] [ref=f2e610]
+              - generic [ref=f2e611]:
+                - generic [ref=f2e622]: (4.6)
+                - generic [ref=f2e623]: · 1567
+              - generic [ref=f2e624]:
+                - generic [ref=f2e625]: $89.99
+                - generic [ref=f2e626]: $119.99
+              - generic [ref=f2e627]:
+                - generic "Heather Grey" [ref=f2e628]
+                - generic "Forest" [ref=f2e629]
+                - generic "Sand" [ref=f2e630]
+                - generic "Midnight" [ref=f2e631]
+          - button "Minimalist Ceramic Desk Lamp -20% Toggle wishlist Quick View Add to Cart Home Minimalist Ceramic Desk Lamp (4.5) · 412 $79.99 $99.99 White Terracotta Sage" [ref=f2e633] [cursor=pointer]:
+            - generic [ref=f2e634]:
+              - img "Minimalist Ceramic Desk Lamp" [ref=f2e635]
+              - generic [ref=f2e636]: "-20%"
+              - button "Toggle wishlist" [ref=f2e637]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f2e640]:
+              - paragraph [ref=f2e641]: Home
+              - heading "Minimalist Ceramic Desk Lamp" [level=3] [ref=f2e642]
+              - generic [ref=f2e643]:
+                - generic [ref=f2e654]: (4.5)
+                - generic [ref=f2e655]: · 412
+              - generic [ref=f2e656]:
+                - generic [ref=f2e657]: $79.99
+                - generic [ref=f2e658]: $99.99
+              - generic [ref=f2e659]:
+                - generic "White" [ref=f2e660]
+                - generic "Terracotta" [ref=f2e661]
+                - generic "Sage" [ref=f2e662]
+      - generic [ref=f2e664]:
+        - generic [ref=f2e665]:
+          - paragraph [ref=f2e666]: Mid-Season Sale
+          - heading "Take an extra 10% off best sellers" [level=2] [ref=f2e667]
+          - button "Shop the Sale" [ref=f2e668]
+        - generic [ref=f2e671]:
+          - button [ref=f2e672]:
+            - img "Italian Leather Crossbody Bag" [ref=f2e673]
+          - button [ref=f2e674]:
+            - img "Wireless Noise-Cancelling Headphones" [ref=f2e675]
+          - button [ref=f2e676]:
+            - img "Artisan Pour-Over Coffee Set" [ref=f2e677]
+          - button [ref=f2e678]:
+            - img "Cashmere Blend Overcoat" [ref=f2e679]
+  - contentinfo [ref=f2e680]:
+    - generic [ref=f2e681]:
+      - generic [ref=f2e682]:
+        - generic [ref=f2e683]:
+          - heading "LUXE" [level=3] [ref=f2e684]
+          - paragraph [ref=f2e685]: Premium shopping experience with curated collections for the modern lifestyle.
+          - generic [ref=f2e686]:
+            - paragraph [ref=f2e687]: Stay in the loop
+            - generic [ref=f2e688]:
+              - textbox "Your email address" [ref=f2e689]
+              - button "Subscribe" [ref=f2e690]
+        - generic [ref=f2e691]:
+          - heading "Shop" [level=4] [ref=f2e692]
+          - list [ref=f2e693]:
+            - listitem [ref=f2e694]:
+              - button "New Arrivals" [ref=f2e695] [cursor=pointer]
+            - listitem [ref=f2e696]:
+              - button "Best Sellers" [ref=f2e697] [cursor=pointer]
+            - listitem [ref=f2e698]:
+              - button "Sale" [ref=f2e699] [cursor=pointer]
+        - generic [ref=f2e700]:
+          - heading "Support" [level=4] [ref=f2e701]
+          - list [ref=f2e702]:
+            - listitem [ref=f2e703]:
+              - button "Contact Us" [ref=f2e704] [cursor=pointer]
+            - listitem [ref=f2e705]:
+              - button "FAQs" [ref=f2e706] [cursor=pointer]
+            - listitem [ref=f2e707]:
+              - button "About Us" [ref=f2e708] [cursor=pointer]
+            - listitem [ref=f2e709]: Shipping Info
+        - generic [ref=f2e710]:
+          - heading "Demo Accounts" [level=4] [ref=f2e711]
+          - list [ref=f2e712]:
+            - listitem [ref=f2e713]: "Admin: admin@store.com / admin123"
+            - listitem [ref=f2e714]: "Customer: user@store.com / user123"
+      - generic [ref=f2e715]:
+        - paragraph [ref=f2e716]: © 2026 LUXE. All rights reserved.
+        - button "Back to top ↑" [ref=f2e717]
+  - generic [ref=f2e718]:
+    - generic [ref=f2e719]:
+      - generic [ref=f2e720]:
+        - heading "Shopping Cart" [level=2] [ref=f2e724]
+        - generic [ref=f2e725]: (1)
+      - button "Close" [ref=f2e726]
+    - generic [ref=f2e743]:
+      - img "Wireless Noise-Cancelling Headphones" [ref=f2e744]
+      - generic [ref=f2e745]:
+        - heading "Wireless Noise-Cancelling Headphones" [level=4] [ref=f2e746]
+        - generic [ref=f2e747]: Black
+        - paragraph [ref=f2e750]: $299.99
+        - generic [ref=f2e751]:
+          - generic [ref=f2e752]:
+            - button "Decrease" [ref=f2e753]
+            - generic [ref=f2e755]: "1"
+            - button "Increase" [ref=f2e756]
+          - button "Remove" [ref=f2e758]
+    - generic [ref=f2e762]:
+      - generic [ref=f2e763]: Free Shipping
+      - generic [ref=f2e767]:
+        - textbox "Coupon code" [disabled] [ref=f2e768]: DISCOUNT10
+        - button [disabled] [ref=f2e769]
+      - paragraph [ref=f2e795]: 10% discount applied!
+      - generic [ref=f2e773]:
+        - generic [ref=f2e774]:
+          - generic [ref=f2e775]: Subtotal
+          - generic [ref=f2e776]: $299.99
+        - generic [ref=f2e796]:
+          - generic [ref=f2e797]: Discount
+          - generic [ref=f2e798]: "-$30.00"
+        - generic [ref=f2e777]:
+          - generic [ref=f2e778]: Shipping
+          - generic [ref=f2e779]: Free
+        - generic [ref=f2e780]:
+          - generic [ref=f2e781]: Tax (15%)
+          - generic [ref=f2e782]: $40.50
+        - generic [ref=f2e783]:
+          - generic [ref=f2e784]: Total
+          - generic [ref=f2e785]: $310.49
+      - button "Proceed to Checkout" [active] [ref=f2e786]
+  - generic [ref=f2e817]:
+    - generic [ref=f2e818]:
+      - heading "Checkout" [level=2] [ref=f2e819]
+      - button "Close" [ref=f2e820]
+    - generic [ref=f2e824]:
+      - generic [ref=f2e825]:
+        - generic [ref=f2e826]: "1"
+        - generic [ref=f2e829]: "2"
+        - generic [ref=f2e832]: "3"
+      - generic [ref=f2e834]:
+        - heading "Shipping Address" [level=3] [ref=f2e835]
+        - generic [ref=f2e836]:
+          - generic [ref=f2e837]: Street Address *
+          - textbox [ref=f2e838]
+        - generic [ref=f2e839]:
+          - generic [ref=f2e840]:
+            - generic [ref=f2e841]: City *
+            - textbox [ref=f2e842]
+          - generic [ref=f2e843]:
+            - generic [ref=f2e844]: ZIP Code *
+            - textbox [ref=f2e845]
+        - generic [ref=f2e846]:
+          - generic [ref=f2e847]: Country *
+          - textbox [ref=f2e848]
+      - button "Next" [ref=f2e850]

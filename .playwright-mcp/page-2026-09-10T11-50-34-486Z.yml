@@ -1,0 +1,140 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - generic [ref=f7e6]:
+        - button "LUXE" [ref=f7e8]
+        - textbox "Search products..." [ref=f7e1033]
+        - generic [ref=f7e13]:
+          - button "Language" [ref=f7e1034]:
+            - generic [ref=f7e19]: EN
+          - button "Currency" [ref=f7e1035]:
+            - generic [ref=f7e25]: $
+          - button "Wishlist" [ref=f7e26]
+          - button "Cart" [ref=f7e29]:
+            - generic [ref=f7e34]: "1"
+          - button "System Admin" [ref=f7e36]
+      - navigation [ref=f7e42]:
+        - button "Home" [ref=f7e1036]
+        - button "All" [ref=f7e44]
+        - button "Electronics" [ref=f7e45]
+        - button "Accessories" [ref=f7e46]
+        - button "Fashion" [ref=f7e47]
+        - button "Beauty" [ref=f7e48]
+  - main [ref=f7e49]:
+    - generic [ref=f7e813]:
+      - generic [ref=f7e815]:
+        - button "Back to Store" [ref=f7e1037]
+        - heading "Admin Dashboard" [level=1] [ref=f7e1038]
+      - generic [ref=f7e820]:
+        - button "Overview" [ref=f7e1039]
+        - button "Products" [ref=f7e1040]
+        - button "Categories" [ref=f7e1041]
+        - button "Orders" [ref=f7e1042]
+      - generic [ref=f7e928]:
+        - generic [ref=f7e929]:
+          - heading "Categories (4)" [level=3] [ref=f7e1043]
+          - generic [ref=f7e931]:
+            - textbox "New category name..." [ref=f7e1044]
+            - button "Add Category" [ref=f7e1045]
+        - table [ref=f7e937]:
+          - rowgroup [ref=f7e938]:
+            - row [ref=f7e1046]:
+              - columnheader "Category" [ref=f7e1047]
+              - columnheader "Products" [ref=f7e1048]
+              - columnheader "Actions" [ref=f7e1049]
+          - rowgroup [ref=f7e943]:
+            - row [ref=f7e1050]:
+              - cell "Electronics" [ref=f7e945]
+              - cell "3" [ref=f7e946]
+              - cell [ref=f7e1051]:
+                - button "Delete" [ref=f7e1052]
+            - row [ref=f7e1053]:
+              - cell "Accessories" [ref=f7e953]
+              - cell "3" [ref=f7e954]
+              - cell [ref=f7e1054]:
+                - button "Delete" [ref=f7e1055]
+            - row [ref=f7e1056]:
+              - cell "Fashion" [ref=f7e961]
+              - cell "3" [ref=f7e962]
+              - cell [ref=f7e1057]:
+                - button "Delete" [ref=f7e1058]
+            - row [ref=f7e1059]:
+              - cell "Beauty" [ref=f7e969]
+              - cell "1" [ref=f7e970]
+              - cell [ref=f7e1060]:
+                - button "Delete" [ref=f7e1061]
+  - contentinfo [ref=f7e681]:
+    - generic [ref=f7e682]:
+      - generic [ref=f7e683]:
+        - generic [ref=f7e684]:
+          - heading "LUXE" [level=3] [ref=f7e685]
+          - paragraph [ref=f7e686]: Premium shopping experience with curated collections for the modern lifestyle.
+          - generic [ref=f7e687]:
+            - paragraph [ref=f7e688]: Stay in the loop
+            - generic [ref=f7e689]:
+              - textbox "Your email address" [ref=f7e1062]
+              - button "Subscribe" [ref=f7e1063]
+        - generic [ref=f7e692]:
+          - heading "Shop" [level=4] [ref=f7e1064]
+          - list [ref=f7e694]:
+            - listitem [ref=f7e695]:
+              - button "New Arrivals" [ref=f7e1065] [cursor=pointer]
+            - listitem [ref=f7e697]:
+              - button "Best Sellers" [ref=f7e1066] [cursor=pointer]
+            - listitem [ref=f7e699]:
+              - button "Sale" [ref=f7e1067] [cursor=pointer]
+        - generic [ref=f7e701]:
+          - heading "Support" [level=4] [ref=f7e1068]
+          - list [ref=f7e703]:
+            - listitem [ref=f7e704]:
+              - button "Contact Us" [ref=f7e1069] [cursor=pointer]
+            - listitem [ref=f7e706]:
+              - button "FAQs" [ref=f7e1070] [cursor=pointer]
+            - listitem [ref=f7e708]:
+              - button "About Us" [ref=f7e1071] [cursor=pointer]
+            - listitem [ref=f7e710]: Shipping Info
+        - generic [ref=f7e711]:
+          - heading "Demo Accounts" [level=4] [ref=f7e1072]
+          - list [ref=f7e713]:
+            - listitem [ref=f7e714]: "Admin: admin@store.com / admin123"
+            - listitem [ref=f7e715]: "Customer: user@store.com / user123"
+      - generic [ref=f7e716]:
+        - paragraph [ref=f7e717]: © 2026 LUXE. All rights reserved.
+        - button "Back to top ↑" [ref=f7e1073]
+  - generic [ref=f7e719]:
+    - generic [ref=f7e720]:
+      - generic [ref=f7e721]:
+        - heading "Shopping Cart" [level=2] [ref=f7e1074]
+        - generic [ref=f7e726]: (1)
+      - button "Close" [ref=f7e1075]
+    - generic [ref=f7e732]:
+      - img "Wireless Noise-Cancelling Headphones" [ref=f7e1076]
+      - generic [ref=f7e734]:
+        - heading "Wireless Noise-Cancelling Headphones" [level=4] [ref=f7e1077]
+        - generic [ref=f7e736]: Black
+        - paragraph [ref=f7e739]: $299.99
+        - generic [ref=f7e740]:
+          - generic [ref=f7e741]:
+            - button "Decrease" [ref=f7e742]
+            - generic [ref=f7e744]: "1"
+            - button "Increase" [ref=f7e745]
+          - button "Remove" [ref=f7e747]
+    - generic [ref=f7e751]:
+      - generic [ref=f7e752]: Free Shipping
+      - generic [ref=f7e756]:
+        - textbox "Coupon code" [ref=f7e1078]
+        - button [disabled] [ref=f7e758]
+      - generic [ref=f7e762]:
+        - generic [ref=f7e763]:
+          - generic [ref=f7e764]: Subtotal
+          - generic [ref=f7e765]: $299.99
+        - generic [ref=f7e766]:
+          - generic [ref=f7e767]: Shipping
+          - generic [ref=f7e768]: Free
+        - generic [ref=f7e769]:
+          - generic [ref=f7e770]: Tax (15%)
+          - generic [ref=f7e771]: $45.00
+        - generic [ref=f7e772]:
+          - generic [ref=f7e773]: Total
+          - generic [ref=f7e774]: $344.99
+      - button "Proceed to Checkout" [ref=f7e1079]

@@ -1,0 +1,176 @@
+- generic [ref=e268]:
+  - complementary [ref=e269]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=e271] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=e272]: ق
+      - generic [ref=e273]:
+        - generic [ref=e274]: نادي القصة «إلمقه»
+        - generic [ref=e275]: لوحة إدارة النادي
+    - navigation [ref=e276]:
+      - generic [ref=e277]:
+        - paragraph [ref=e278]: الرئيسية
+        - generic [ref=e279]:
+          - link "لوحة التحكم" [ref=e280] [cursor=pointer]:
+            - /url: /dashboard
+          - link "نظرة عامة على الموقع" [ref=e288] [cursor=pointer]:
+            - /url: /dashboard/overview
+      - generic [ref=e293]:
+        - paragraph [ref=e294]: محتوى الموقع
+        - generic [ref=e295]:
+          - link "فعاليات الموقع" [ref=e296] [cursor=pointer]:
+            - /url: /dashboard/events-site
+          - link "الورش" [ref=e300] [cursor=pointer]:
+            - /url: /dashboard/workshops
+          - link "الإصدارات" [ref=e307] [cursor=pointer]:
+            - /url: /dashboard/publications
+          - link "الأخبار" [ref=e311] [cursor=pointer]:
+            - /url: /dashboard/news
+          - link "الكتّاب والأعضاء" [ref=e316] [cursor=pointer]:
+            - /url: /dashboard/writers
+          - link "رسائل التواصل 4" [ref=e323] [cursor=pointer]:
+            - /url: /dashboard/messages
+            - generic [ref=e327]: رسائل التواصل
+            - generic [ref=e328]: "4"
+          - link "معرض الصور" [ref=e329] [cursor=pointer]:
+            - /url: /dashboard/gallery
+          - link "إعدادات الموقع" [ref=e336] [cursor=pointer]:
+            - /url: /dashboard/settings
+      - generic [ref=e341]:
+        - paragraph [ref=e342]: إدارة الفعاليات
+        - generic [ref=e343]:
+          - link "كل الفعاليات" [ref=e344] [cursor=pointer]:
+            - /url: /dashboard/events
+          - link "ملاحظات الحضور" [ref=e349] [cursor=pointer]:
+            - /url: /dashboard/feedback
+          - link "الإشعارات" [ref=e353] [cursor=pointer]:
+            - /url: /dashboard/notifications
+          - link "الملف الشخصي" [ref=e358] [cursor=pointer]:
+            - /url: /dashboard/profile
+      - generic [ref=e363]:
+        - paragraph [ref=e364]: إدارة النظام
+        - generic [ref=e365]:
+          - link "المستخدمون" [ref=e366] [cursor=pointer]:
+            - /url: /dashboard/admin/users
+          - link "التصنيفات" [ref=e380] [cursor=pointer]:
+            - /url: /dashboard/admin/categories
+          - link "الأماكن" [ref=e386] [cursor=pointer]:
+            - /url: /dashboard/admin/venues
+          - link "الملفات" [ref=e392] [cursor=pointer]:
+            - /url: /dashboard/admin/files
+          - link "التقارير" [ref=e398] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+          - link "إعدادات النظام" [ref=e402] [cursor=pointer]:
+            - /url: /dashboard/admin/settings
+          - link "الأمان" [ref=e407] [cursor=pointer]:
+            - /url: /dashboard/admin/security
+    - generic [ref=e411]:
+      - link "العودة إلى الموقع" [ref=e412] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=e417] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=e421]:
+    - banner [ref=e422]:
+      - generic [ref=e423]:
+        - button "4 رسائل جديدة" [ref=e424]:
+          - generic [ref=e425]: "4"
+          - generic [ref=e426]: رسائل جديدة
+        - generic [ref=e427]: وضع العرض التجريبي
+        - generic [ref=e429]: إد
+        - generic [ref=e431]:
+          - paragraph [ref=e432]: إدارة النادي
+          - paragraph [ref=e433]: مشرف عام
+    - main [ref=e434]:
+      - generic [ref=e436]:
+        - heading "لوحة معلومات المدير" [level=1] [ref=e437]
+        - generic [ref=e438]:
+          - link [ref=e439] [cursor=pointer]:
+            - /url: /dashboard/admin/users
+            - generic [ref=e449]:
+              - paragraph [ref=e450]: إجمالي المستخدمين
+              - paragraph [ref=e451]: "6"
+          - link [ref=e452] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+            - generic [ref=e459]:
+              - paragraph [ref=e460]: الفعاليات المنشورة
+              - paragraph [ref=e461]: "3"
+          - link [ref=e462] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+            - generic [ref=e469]:
+              - paragraph [ref=e470]: التسجيلات
+              - paragraph [ref=e471]: "6"
+          - link [ref=e472] [cursor=pointer]:
+            - /url: /dashboard/admin/venues
+            - generic [ref=e481]:
+              - paragraph [ref=e482]: القاعات
+              - paragraph [ref=e483]: "3"
+        - generic [ref=e484]:
+          - generic [ref=e485]: وصول سريع
+          - generic [ref=e488]:
+            - link [ref=e489] [cursor=pointer]:
+              - /url: /dashboard/admin/users
+              - generic [ref=e496]:
+                - paragraph [ref=e497]: المستخدمون
+                - paragraph [ref=e498]: إدارة الحسابات والأدوار والصلاحيات
+            - link [ref=e499] [cursor=pointer]:
+              - /url: /dashboard/admin/venues
+              - generic [ref=e505]:
+                - paragraph [ref=e506]: القاعات
+                - paragraph [ref=e507]: إدارة القاعات والمرافق
+            - link [ref=e508] [cursor=pointer]:
+              - /url: /dashboard/admin/categories
+              - generic [ref=e514]:
+                - paragraph [ref=e515]: الفئات
+                - paragraph [ref=e516]: إدارة فئات الفعاليات
+            - link [ref=e517] [cursor=pointer]:
+              - /url: /dashboard/admin/files
+              - generic [ref=e523]:
+                - paragraph [ref=e524]: الملفات
+                - paragraph [ref=e525]: الملفات العامة والأرشيف
+            - link [ref=e526] [cursor=pointer]:
+              - /url: /dashboard/admin/reports
+              - generic [ref=e530]:
+                - paragraph [ref=e531]: التقارير
+                - paragraph [ref=e532]: تقارير إحصائية وإدارية
+            - link [ref=e533] [cursor=pointer]:
+              - /url: /dashboard/admin/settings
+              - generic [ref=e538]:
+                - paragraph [ref=e539]: الإعدادات
+                - paragraph [ref=e540]: إعدادات النظام العامة
+            - link [ref=e541] [cursor=pointer]:
+              - /url: /dashboard/admin/security
+              - generic [ref=e545]:
+                - paragraph [ref=e546]: مركز الأمان
+                - paragraph [ref=e547]: جلسات الأجهزة وسجل التدقيق
+        - generic [ref=e548]:
+          - generic [ref=e549]: النشاط الأخير
+          - generic [ref=e552]:
+            - generic [ref=e557]:
+              - paragraph [ref=e558]: تسجيل دخول
+              - paragraph [ref=e559]: تم تسجيل الدخول
+              - paragraph [ref=e560]: الآن
+            - generic [ref=e565]:
+              - paragraph [ref=e566]: تسجيل دخول
+              - paragraph [ref=e567]: تسجيل دخول الحاضر
+              - paragraph [ref=e568]: قبل 16 يومًا
+            - generic [ref=e573]:
+              - paragraph [ref=e574]: تسجيل دخول
+              - paragraph [ref=e575]: تسجيل دخول المنظم
+              - paragraph [ref=e576]: قبل 16 يومًا
+            - generic [ref=e581]:
+              - paragraph [ref=e582]: تسجيل دخول
+              - paragraph [ref=e583]: تسجيل دخول المدير
+              - paragraph [ref=e584]: قبل 16 يومًا
+            - generic [ref=e589]:
+              - paragraph [ref=e590]: نشر
+              - paragraph [ref=e591]: نشر معرض التوظيف 2026
+              - paragraph [ref=e592]: قبل 22 يومًا
+        - generic [ref=e593]:
+          - generic [ref=e594]: اتجاه التسجيلات (آخر 7 أيام)
+          - generic [ref=e597]:
+            - generic [ref=e598]: أبريل
+            - generic [ref=e600]: مايو
+            - generic [ref=e602]: يونيو
+            - generic [ref=e604]: يوليو
+            - generic [ref=e606]: أغسطس
+            - generic [ref=e608]: سبتمبر
+  - region "Notifications alt+T"

@@ -1,0 +1,183 @@
+- generic [ref=f6e3]:
+  - banner [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - generic [ref=f6e6]:
+        - button "LUXE" [ref=f6e8]
+        - textbox "ابحث عن المنتجات..." [ref=f6e12]
+        - generic [ref=f6e13]:
+          - button "اللغة" [ref=f6e15]:
+            - generic [ref=f6e19]: ع
+          - button "العملة" [ref=f6e21]:
+            - generic [ref=f6e25]: $
+          - button "Wishlist" [ref=f6e26]
+          - button "Cart" [ref=f6e29]:
+            - generic [ref=f6e34]: "1"
+          - button "System Admin" [ref=f6e854]
+      - navigation [ref=f6e43]:
+        - button "الرئيسية" [ref=f6e44]
+        - button "All" [ref=f6e45]
+        - button "Electronics" [ref=f6e46]
+        - button "Accessories" [ref=f6e47]
+        - button "Fashion" [ref=f6e48]
+        - button "Beauty" [active] [ref=f6e1275]
+  - main [ref=f6e49]:
+    - generic [ref=f6e1315]:
+      - complementary [ref=f6e1316]:
+        - generic [ref=f6e1318]:
+          - generic [ref=f6e1319]:
+            - heading "الفلاتر" [level=3] [ref=f6e1320]
+            - button "إعادة تعيين" [ref=f6e1321]
+          - generic [ref=f6e1322]:
+            - heading "الفئة" [level=4] [ref=f6e1323]
+            - generic [ref=f6e1324]:
+              - generic [ref=f6e1325] [cursor=pointer]:
+                - radio "All" [ref=f6e1326]
+                - generic [ref=f6e1327]: All
+              - generic [ref=f6e1328] [cursor=pointer]:
+                - radio "Electronics" [ref=f6e1329]
+                - generic [ref=f6e1330]: Electronics
+              - generic [ref=f6e1331] [cursor=pointer]:
+                - radio "Accessories" [ref=f6e1332]
+                - generic [ref=f6e1333]: Accessories
+              - generic [ref=f6e1334] [cursor=pointer]:
+                - radio "Fashion" [ref=f6e1335]
+                - generic [ref=f6e1336]: Fashion
+              - generic [ref=f6e1337] [cursor=pointer]:
+                - radio "Beauty" [checked] [ref=f6e1338]
+                - generic [ref=f6e1339]: Beauty
+          - generic [ref=f6e1340]:
+            - heading "نطاق السعر" [level=4] [ref=f6e1341]
+            - generic [ref=f6e1342]:
+              - generic [ref=f6e1343]:
+                - generic [ref=f6e1344]: $0
+                - generic [ref=f6e1345]: $500
+              - generic [ref=f6e1346]:
+                - slider [ref=f6e1347]: "500"
+                - slider [ref=f6e1348]: "0"
+          - generic [ref=f6e1349]:
+            - heading "التقييم" [level=4] [ref=f6e1350]
+            - generic [ref=f6e1351]:
+              - generic [ref=f6e1352] [cursor=pointer]:
+                - radio "4 فأكثر" [ref=f6e1353]
+                - generic [ref=f6e1354]: 4 فأكثر
+              - generic [ref=f6e1366] [cursor=pointer]:
+                - radio "3 فأكثر" [ref=f6e1367]
+                - generic [ref=f6e1368]: 3 فأكثر
+              - generic [ref=f6e1380] [cursor=pointer]:
+                - radio "2 فأكثر" [ref=f6e1381]
+                - generic [ref=f6e1382]: 2 فأكثر
+              - generic [ref=f6e1394] [cursor=pointer]:
+                - radio "1 فأكثر" [ref=f6e1395]
+                - generic [ref=f6e1396]: 1 فأكثر
+          - generic [ref=f6e1408]:
+            - heading "التوفر" [level=4] [ref=f6e1409]
+            - generic [ref=f6e1410] [cursor=pointer]:
+              - checkbox "المتوفر فقط" [ref=f6e1411]
+              - generic [ref=f6e1412]: المتوفر فقط
+      - generic [ref=f6e1414]:
+        - generic [ref=f6e1415]:
+          - generic [ref=f6e1416]:
+            - heading "المنتجات" [level=2] [ref=f6e1417]
+            - paragraph [ref=f6e1418]: 1 منتجات
+          - generic [ref=f6e1419]:
+            - generic [ref=f6e1420]: ترتيب حسب
+            - combobox "ترتيب حسب" [ref=f6e1421]:
+              - option "المميز" [selected]
+              - 'option "السعر: من الأقل إلى الأعلى"'
+              - 'option "السعر: من الأعلى إلى الأقل"'
+              - option "الأعلى تقييماً"
+              - option "الأحدث"
+            - generic [ref=f6e1422]:
+              - button "عرض شبكي" [ref=f6e1423]
+              - button "عرض قائمة" [ref=f6e1429]
+        - generic [ref=f6e1431]:
+          - button "Beauty" [ref=f6e1432]
+          - button "مسح الكل" [ref=f6e1436]
+        - button "Silk Face Serum غير متوفر Toggle wishlist عرض سريع غير متوفر Beauty Silk Face Serum (4.5) $49.99" [ref=f6e1438] [cursor=pointer]:
+          - generic [ref=f6e1439]:
+            - img "Silk Face Serum" [ref=f6e1440]
+            - generic [ref=f6e1441]: غير متوفر
+            - button "Toggle wishlist" [ref=f6e1443]
+            - generic:
+              - button "عرض سريع"
+              - button "غير متوفر"
+          - generic [ref=f6e1446]:
+            - paragraph [ref=f6e1447]: Beauty
+            - heading "Silk Face Serum" [level=3] [ref=f6e1448]
+            - generic [ref=f6e1449]: (4.5)
+            - generic [ref=f6e1461]: $49.99
+  - contentinfo [ref=f6e673]:
+    - generic [ref=f6e674]:
+      - generic [ref=f6e675]:
+        - generic [ref=f6e676]:
+          - heading "LUXE" [level=3] [ref=f6e677]
+          - paragraph [ref=f6e678]: تجربة تسوق فاخرة مع تشكيلات مختارة بعناية لأسلوب الحياة العصري.
+          - generic [ref=f6e679]:
+            - paragraph [ref=f6e680]: ابق على اطلاع
+            - generic [ref=f6e681]:
+              - textbox "بريدك الإلكتروني" [ref=f6e682]
+              - button "اشترك" [ref=f6e683]
+        - generic [ref=f6e684]:
+          - heading "المتجر" [level=4] [ref=f6e685]
+          - list [ref=f6e686]:
+            - listitem [ref=f6e687]:
+              - button "وصل حديثاً" [ref=f6e688] [cursor=pointer]
+            - listitem [ref=f6e689]:
+              - button "الأكثر مبيعاً" [ref=f6e690] [cursor=pointer]
+            - listitem [ref=f6e691]:
+              - button "التخفيضات" [ref=f6e692] [cursor=pointer]
+        - generic [ref=f6e693]:
+          - heading "الدعم" [level=4] [ref=f6e694]
+          - list [ref=f6e695]:
+            - listitem [ref=f6e696]:
+              - button "اتصل بنا" [ref=f6e697] [cursor=pointer]
+            - listitem [ref=f6e698]:
+              - button "الأسئلة الشائعة" [ref=f6e699] [cursor=pointer]
+            - listitem [ref=f6e700]:
+              - button "من نحن" [ref=f6e701] [cursor=pointer]
+            - listitem [ref=f6e702]: معلومات الشحن
+        - generic [ref=f6e703]:
+          - heading "حسابات تجريبية" [level=4] [ref=f6e704]
+          - list [ref=f6e705]:
+            - listitem [ref=f6e706]: "المدير: admin@store.com / admin123"
+            - listitem [ref=f6e707]: "العميل: user@store.com / user123"
+      - generic [ref=f6e708]:
+        - paragraph [ref=f6e709]: © 2026 LUXE. جميع الحقوق محفوظة.
+        - button "العودة للأعلى ↑" [ref=f6e710]
+  - generic [ref=f6e711]:
+    - generic [ref=f6e712]:
+      - generic [ref=f6e713]:
+        - heading "سلة التسوق" [level=2] [ref=f6e717]
+        - generic [ref=f6e718]: (1)
+      - button "إغلاق" [ref=f6e719]
+    - generic [ref=f6e724]:
+      - img "سماعات لاسلكية مضادة للضوضاء" [ref=f6e725]
+      - generic [ref=f6e726]:
+        - heading "سماعات لاسلكية مضادة للضوضاء" [level=4] [ref=f6e727]
+        - generic [ref=f6e728]: Black
+        - paragraph [ref=f6e731]: $299.99
+        - generic [ref=f6e732]:
+          - generic [ref=f6e733]:
+            - button "Decrease" [ref=f6e734]
+            - generic [ref=f6e736]: "1"
+            - button "Increase" [ref=f6e737]
+          - button "Remove" [ref=f6e739]
+    - generic [ref=f6e743]:
+      - generic [ref=f6e744]: مجاني الشحن
+      - generic [ref=f6e748]:
+        - textbox "كود الخصم" [ref=f6e749]
+        - button [disabled] [ref=f6e750]
+      - generic [ref=f6e754]:
+        - generic [ref=f6e755]:
+          - generic [ref=f6e756]: المجموع الفرعي
+          - generic [ref=f6e757]: $299.99
+        - generic [ref=f6e758]:
+          - generic [ref=f6e759]: الشحن
+          - generic [ref=f6e760]: مجاني
+        - generic [ref=f6e761]:
+          - generic [ref=f6e762]: الضريبة (15%)
+          - generic [ref=f6e763]: $45.00
+        - generic [ref=f6e764]:
+          - generic [ref=f6e765]: الإجمالي
+          - generic [ref=f6e766]: $344.99
+      - button "إتمام الشراء" [ref=f6e767]

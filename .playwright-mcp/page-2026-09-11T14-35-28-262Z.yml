@@ -1,0 +1,114 @@
+- generic [ref=f21e3]:
+  - complementary [ref=f21e4]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=f21e6] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f21e7]: ق
+      - generic [ref=f21e8]:
+        - generic [ref=f21e9]: نادي القصة «إلمقه»
+        - generic [ref=f21e10]: لوحة إدارة النادي
+    - navigation [ref=f21e11]:
+      - link "نظرة عامة" [ref=f21e12] [cursor=pointer]:
+        - /url: /dashboard
+      - link "الفعاليات" [ref=f21e20] [cursor=pointer]:
+        - /url: /dashboard/events
+      - link "الورش" [ref=f21e24] [cursor=pointer]:
+        - /url: /dashboard/workshops
+      - link "الإصدارات" [ref=f21e31] [cursor=pointer]:
+        - /url: /dashboard/publications
+      - link "الأخبار" [ref=f21e35] [cursor=pointer]:
+        - /url: /dashboard/news
+      - link "الكتّاب والأعضاء" [ref=f21e40] [cursor=pointer]:
+        - /url: /dashboard/writers
+      - link "رسائل التواصل 2" [ref=f21e195] [cursor=pointer]:
+        - /url: /dashboard/messages
+        - generic [ref=f21e52]: رسائل التواصل
+        - generic [ref=f21e53]: "2"
+      - link "معرض الصور" [ref=f21e54] [cursor=pointer]:
+        - /url: /dashboard/gallery
+      - link "الإعدادات" [ref=f21e61] [cursor=pointer]:
+        - /url: /dashboard/settings
+    - generic [ref=f21e66]:
+      - link "العودة إلى الموقع" [ref=f21e67] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=f21e72] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=f21e76]:
+    - banner [ref=f21e77]:
+      - textbox "بحث" [ref=f21e82]:
+        - /placeholder: بحث سريع...
+      - generic [ref=f21e83]:
+        - button "2 رسائل جديدة" [ref=f21e196]:
+          - generic [ref=f21e85]: "2"
+          - generic [ref=f21e86]: رسائل جديدة
+        - generic [ref=f21e87]: وضع العرض التجريبي
+        - generic [ref=f21e89]: إد
+        - generic [ref=f21e91]:
+          - paragraph [ref=f21e92]: إدارة النادي
+          - paragraph [ref=f21e93]: مشرف عام
+    - main [ref=f21e94]:
+      - generic [ref=f21e96]:
+        - generic [ref=f21e97]:
+          - generic [ref=f21e98]:
+            - heading "رسائل التواصل" [level=1] [ref=f21e99]
+            - paragraph [ref=f21e100]: 5 رسالة — 2 غير مقروءة
+          - generic [ref=f21e101]: 2 رسالة جديدة
+        - generic [ref=f21e102]:
+          - generic [ref=f21e104]:
+            - generic [ref=f21e106]:
+              - generic [ref=f21e107]:
+                - paragraph [ref=f21e109]: نبيل الحضرمي
+                - generic [ref=f21e110]: nabil@example.com
+                - generic [ref=f21e111]: 10 سبتمبر 2026
+              - paragraph [ref=f21e112]: اقتراح لقراءة قصصية
+              - paragraph [ref=f21e113]: أود عرض مشاركة في إحدى الأمسيات القراءة القصصية خلال الموسم القادم، ولدي مجموعة نصوص جاهزة.
+            - generic [ref=f21e114]:
+              - generic [ref=f21e197]: تمت قراءتها
+              - button "حذف" [ref=f21e119]
+          - generic [ref=f21e124]:
+            - generic [ref=f21e126]:
+              - generic [ref=f21e127]:
+                - paragraph [ref=f21e129]: سارة المقطري
+                - generic [ref=f21e130]: sara.m@example.com
+                - generic [ref=f21e131]: 9 سبتمبر 2026
+              - paragraph [ref=f21e132]: الانضمام للورشة القصصية
+              - paragraph [ref=f21e133]: السلام عليكم، رغبت في التسجيل في ورشة كتابة القصة القصيرة. هل لا يزال التسجيل مفتوحاً؟
+            - generic [ref=f21e134]:
+              - button "تحديد كمقروءة" [ref=f21e135]
+              - button "حذف" [ref=f21e139]
+          - generic [ref=f21e144]:
+            - generic [ref=f21e146]:
+              - generic [ref=f21e147]:
+                - paragraph [ref=f21e149]: فؤاد السنيدار
+                - generic [ref=f21e150]: fouad@example.com
+                - generic [ref=f21e151]: 8 سبتمبر 2026
+              - paragraph [ref=f21e152]: إهداء إصدار للمكتبة
+              - paragraph [ref=f21e153]: أرغب في إهداء نسخة من كتابي الجديد إلى مكتبة النادي، وسأتواصل لتنسيق التسليم.
+            - generic [ref=f21e154]:
+              - button "تحديد كمقروءة" [ref=f21e155]
+              - button "حذف" [ref=f21e159]
+          - generic [ref=f21e164]:
+            - generic [ref=f21e166]:
+              - generic [ref=f21e167]:
+                - paragraph [ref=f21e168]: منى البطاح
+                - generic [ref=f21e169]: mona.b@example.com
+                - generic [ref=f21e170]: 5 سبتمبر 2026
+              - paragraph [ref=f21e171]: نشر نص قصصي
+              - paragraph [ref=f21e172]: هل يقبل النادي نصوصاً خارجية للنشر في الملف السنوي؟ أرسلت نصاً لكم عبر البريد وسعيدة بمراجعتكم.
+            - generic [ref=f21e173]:
+              - generic [ref=f21e174]: تمت قراءتها
+              - button "حذف" [ref=f21e175]
+          - generic [ref=f21e180]:
+            - generic [ref=f21e182]:
+              - generic [ref=f21e183]:
+                - paragraph [ref=f21e184]: عبدالرحمن الكبسي
+                - generic [ref=f21e185]: a.kibsi@example.com
+                - generic [ref=f21e186]: 2 سبتمبر 2026
+              - paragraph [ref=f21e187]: اقتراح شراكة ثقافية
+              - paragraph [ref=f21e188]: يمثل اقتراحنا إقامة نشاط مشترك بين النادي ومؤسستنا في مدينة إب خلال خريف هذا العام.
+            - generic [ref=f21e189]:
+              - generic [ref=f21e190]: تمت قراءتها
+              - button "حذف" [ref=f21e191]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f21e198]:
+        - generic [ref=f21e202]: تمت قراءة الرسالة

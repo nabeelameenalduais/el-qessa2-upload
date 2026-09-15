@@ -1,0 +1,539 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "LUXE" [ref=e8]
+        - textbox "Search products..." [ref=e12]
+        - generic [ref=e13]:
+          - button "Language" [ref=e15]:
+            - generic [ref=e19]: EN
+          - button "Currency" [ref=e21]:
+            - generic [ref=e25]: $
+          - button "Wishlist" [ref=e26]
+          - button "Cart" [ref=e29]:
+            - generic [ref=e34]: "1"
+          - button "System Admin" [ref=e36]
+      - navigation [ref=e42]:
+        - button "Home" [ref=e43]
+        - generic [ref=e44]:
+          - button "ملابس" [ref=e45]
+          - generic [ref=e814]:
+            - button "All" [ref=e815]
+            - button "الجواكت والمعاطف" [ref=e816]
+            - button "الطاقيات والقبعات" [ref=e817]
+            - button "التيشرتات" [ref=e818]
+            - button "القمصان" [ref=e819]
+            - button "الهوديز والبلوزات" [ref=e820]
+            - button "السراويل والجينز" [ref=e821]
+            - button "الفساتين والتنانير" [ref=e822]
+            - button "الملابس الرياضية" [ref=e823]
+        - button "الإكسسوارات" [ref=e49]
+        - button "الأحذية" [ref=e53]
+        - button "الجمال والعناية" [ref=e57]
+        - button "الإلكترونيات" [ref=e61]
+        - button "المنزل والمعيشة" [ref=e65]
+  - main [ref=e68]:
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e826]:
+            - heading "Timeless Elegance" [level=1] [ref=e827]
+            - paragraph [ref=e828]: Where quality meets sophistication
+            - button "Shop Now" [ref=e829]
+          - button "Previous" [ref=e80]
+          - button "Next" [ref=e83]
+          - generic [ref=e86]:
+            - button [ref=e87]
+            - button [ref=e88]
+            - button [ref=e89]
+        - generic [ref=e92]:
+          - generic [ref=e99]:
+            - paragraph [ref=e100]: Free Shipping
+            - paragraph [ref=e101]: On orders over $50
+          - generic [ref=e105]:
+            - paragraph [ref=e106]: 24/7 Support
+            - paragraph [ref=e107]: Always here to help
+          - generic [ref=e111]:
+            - paragraph [ref=e112]: Secure Payment
+            - paragraph [ref=e113]: 100% protected
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: Money-Back
+            - paragraph [ref=e122]: 30-day guarantee
+      - generic [ref=e123]:
+        - heading "Shop by Category" [level=2] [ref=e125]
+        - generic [ref=e126]:
+          - button [ref=e127] [cursor=pointer]:
+            - img "ملابس" [ref=e128]
+            - generic [ref=e130]:
+              - paragraph [ref=e131]: ملابس
+              - paragraph [ref=e132]: Start Shopping
+          - button [ref=e135] [cursor=pointer]:
+            - img "الإكسسوارات" [ref=e136]
+            - generic [ref=e138]:
+              - paragraph [ref=e139]: الإكسسوارات
+              - paragraph [ref=e140]: Start Shopping
+          - button [ref=e143] [cursor=pointer]:
+            - img "الأحذية" [ref=e144]
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: الأحذية
+              - paragraph [ref=e148]: Start Shopping
+          - button [ref=e151] [cursor=pointer]:
+            - img "الجمال والعناية" [ref=e152]
+            - generic [ref=e154]:
+              - paragraph [ref=e155]: الجمال والعناية
+              - paragraph [ref=e156]: Start Shopping
+          - button [ref=e159] [cursor=pointer]:
+            - img "الإلكترونيات" [ref=e160]
+            - generic [ref=e162]:
+              - paragraph [ref=e163]: الإلكترونيات
+              - paragraph [ref=e164]: Start Shopping
+          - button [ref=e167] [cursor=pointer]:
+            - img "المنزل والمعيشة" [ref=e168]
+            - generic [ref=e170]:
+              - paragraph [ref=e171]: المنزل والمعيشة
+              - paragraph [ref=e172]: Start Shopping
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - heading "New Arrivals" [level=2] [ref=e177]
+          - generic [ref=e178]:
+            - button "View All" [ref=e179]
+            - generic [ref=e180]:
+              - button "Previous" [ref=e181]
+              - button "Next" [ref=e184]
+        - generic [ref=e187]:
+          - button "Wireless Noise-Cancelling Headphones -25% Toggle wishlist Quick View Add to Cart الإلكترونيات Wireless Noise-Cancelling Headphones (4.8) · 1243 $299.99 $399.99 Black Silver Midnight Blue" [ref=e189] [cursor=pointer]:
+            - generic [ref=e190]:
+              - img "Wireless Noise-Cancelling Headphones" [ref=e191]
+              - generic [ref=e192]: "-25%"
+              - button "Toggle wishlist" [ref=e193]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e196]:
+              - paragraph [ref=e197]: الإلكترونيات
+              - heading "Wireless Noise-Cancelling Headphones" [level=3] [ref=e198]
+              - generic [ref=e199]:
+                - generic [ref=e210]: (4.8)
+                - generic [ref=e211]: · 1243
+              - generic [ref=e212]:
+                - generic [ref=e213]: $299.99
+                - generic [ref=e214]: $399.99
+              - generic [ref=e215]:
+                - generic "Black" [ref=e216]
+                - generic "Silver" [ref=e217]
+                - generic "Midnight Blue" [ref=e218]
+          - button "Smart Fitness Watch Pro -17% Toggle wishlist Quick View Add to Cart الإلكترونيات Smart Fitness Watch Pro (4.6) · 876 $249.99 $299.99 Black Rose Gold Forest Green" [ref=e220] [cursor=pointer]:
+            - generic [ref=e221]:
+              - img "Smart Fitness Watch Pro" [ref=e222]
+              - generic [ref=e223]: "-17%"
+              - button "Toggle wishlist" [ref=e224]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e227]:
+              - paragraph [ref=e228]: الإلكترونيات
+              - heading "Smart Fitness Watch Pro" [level=3] [ref=e229]
+              - generic [ref=e230]:
+                - generic [ref=e241]: (4.6)
+                - generic [ref=e242]: · 876
+              - generic [ref=e243]:
+                - generic [ref=e244]: $249.99
+                - generic [ref=e245]: $299.99
+              - generic [ref=e246]:
+                - generic "Black" [ref=e247]
+                - generic "Rose Gold" [ref=e248]
+                - generic "Forest Green" [ref=e249]
+          - button "Italian Leather Crossbody Bag -24% Toggle wishlist Quick View Add to Cart الإكسسوارات Italian Leather Crossbody Bag (4.9) · 534 $189.99 $249.99 Cognac Black Burgundy" [ref=e251] [cursor=pointer]:
+            - generic [ref=e252]:
+              - img "Italian Leather Crossbody Bag" [ref=e253]
+              - generic [ref=e254]: "-24%"
+              - button "Toggle wishlist" [ref=e255]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e258]:
+              - paragraph [ref=e259]: الإكسسوارات
+              - heading "Italian Leather Crossbody Bag" [level=3] [ref=e260]
+              - generic [ref=e261]:
+                - generic [ref=e272]: (4.9)
+                - generic [ref=e273]: · 534
+              - generic [ref=e274]:
+                - generic [ref=e275]: $189.99
+                - generic [ref=e276]: $249.99
+              - generic [ref=e277]:
+                - generic "Cognac" [ref=e278]
+                - generic "Black" [ref=e279]
+                - generic "Burgundy" [ref=e280]
+          - button "Cashmere Blend Overcoat -23% Toggle wishlist Quick View Add to Cart ملابس Cashmere Blend Overcoat (4.7) · 298 $459.99 $599.99 Camel Charcoal Navy Only 5 left!" [ref=e282] [cursor=pointer]:
+            - generic [ref=e283]:
+              - img "Cashmere Blend Overcoat" [ref=e284]
+              - generic [ref=e285]: "-23%"
+              - button "Toggle wishlist" [ref=e286]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e289]:
+              - paragraph [ref=e290]: ملابس
+              - heading "Cashmere Blend Overcoat" [level=3] [ref=e291]
+              - generic [ref=e292]:
+                - generic [ref=e303]: (4.7)
+                - generic [ref=e304]: · 298
+              - generic [ref=e305]:
+                - generic [ref=e306]: $459.99
+                - generic [ref=e307]: $599.99
+              - generic [ref=e308]:
+                - generic "Camel" [ref=e309]
+                - generic "Charcoal" [ref=e310]
+                - generic "Navy" [ref=e311]
+              - generic [ref=e312]: Only 5 left!
+          - button "Minimalist Ceramic Desk Lamp -20% Toggle wishlist Quick View Add to Cart المنزل والمعيشة Minimalist Ceramic Desk Lamp (4.5) · 412 $79.99 $99.99 White Terracotta Sage" [ref=e314] [cursor=pointer]:
+            - generic [ref=e315]:
+              - img "Minimalist Ceramic Desk Lamp" [ref=e316]
+              - generic [ref=e317]: "-20%"
+              - button "Toggle wishlist" [ref=e318]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e321]:
+              - paragraph [ref=e322]: المنزل والمعيشة
+              - heading "Minimalist Ceramic Desk Lamp" [level=3] [ref=e323]
+              - generic [ref=e324]:
+                - generic [ref=e335]: (4.5)
+                - generic [ref=e336]: · 412
+              - generic [ref=e337]:
+                - generic [ref=e338]: $79.99
+                - generic [ref=e339]: $99.99
+              - generic [ref=e340]:
+                - generic "White" [ref=e341]
+                - generic "Terracotta" [ref=e342]
+                - generic "Sage" [ref=e343]
+          - button "Polarized Aviator Sunglasses -20% Toggle wishlist Quick View Add to Cart الإكسسوارات Polarized Aviator Sunglasses (4.4) · 763 $159.99 $199.99 Gold/Green Silver/Blue Matte Black" [ref=e345] [cursor=pointer]:
+            - generic [ref=e346]:
+              - img "Polarized Aviator Sunglasses" [ref=e347]
+              - generic [ref=e348]: "-20%"
+              - button "Toggle wishlist" [ref=e349]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e352]:
+              - paragraph [ref=e353]: الإكسسوارات
+              - heading "Polarized Aviator Sunglasses" [level=3] [ref=e354]
+              - generic [ref=e355]:
+                - generic [ref=e366]: (4.4)
+                - generic [ref=e367]: · 763
+              - generic [ref=e368]:
+                - generic [ref=e369]: $159.99
+                - generic [ref=e370]: $199.99
+              - generic [ref=e371]:
+                - generic "Gold/Green" [ref=e372]
+                - generic "Silver/Blue" [ref=e373]
+                - generic "Matte Black" [ref=e374]
+          - button "Premium Cotton Hoodie -25% Toggle wishlist Quick View Add to Cart ملابس Premium Cotton Hoodie (4.6) · 1567 $89.99 $119.99 Heather Grey Forest Sand Midnight" [ref=e376] [cursor=pointer]:
+            - generic [ref=e377]:
+              - img "Premium Cotton Hoodie" [ref=e378]
+              - generic [ref=e379]: "-25%"
+              - button "Toggle wishlist" [ref=e380]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e383]:
+              - paragraph [ref=e384]: ملابس
+              - heading "Premium Cotton Hoodie" [level=3] [ref=e385]
+              - generic [ref=e386]:
+                - generic [ref=e397]: (4.6)
+                - generic [ref=e398]: · 1567
+              - generic [ref=e399]:
+                - generic [ref=e400]: $89.99
+                - generic [ref=e401]: $119.99
+              - generic [ref=e402]:
+                - generic "Heather Grey" [ref=e403]
+                - generic "Forest" [ref=e404]
+                - generic "Sand" [ref=e405]
+                - generic "Midnight" [ref=e406]
+          - button "Smart Home Speaker -28% Toggle wishlist Quick View Add to Cart الإلكترونيات Smart Home Speaker (4.3) · 2104 $129.99 $179.99 Charcoal Sandstone" [ref=e408] [cursor=pointer]:
+            - generic [ref=e409]:
+              - img "Smart Home Speaker" [ref=e410]
+              - generic [ref=e411]: "-28%"
+              - button "Toggle wishlist" [ref=e412]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e415]:
+              - paragraph [ref=e416]: الإلكترونيات
+              - heading "Smart Home Speaker" [level=3] [ref=e417]
+              - generic [ref=e418]:
+                - generic [ref=e429]: (4.3)
+                - generic [ref=e430]: · 2104
+              - generic [ref=e431]:
+                - generic [ref=e432]: $129.99
+                - generic [ref=e433]: $179.99
+              - generic [ref=e434]:
+                - generic "Charcoal" [ref=e435]
+                - generic "Sandstone" [ref=e436]
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - heading "Best Sellers" [level=2] [ref=e439]
+          - generic [ref=e440]:
+            - button "View All" [ref=e441]
+            - generic [ref=e442]:
+              - button "Previous" [ref=e443]
+              - button "Next" [ref=e446]
+        - generic [ref=e449]:
+          - button "Italian Leather Crossbody Bag -24% Toggle wishlist Quick View Add to Cart الإكسسوارات Italian Leather Crossbody Bag (4.9) · 534 $189.99 $249.99 Cognac Black Burgundy" [ref=e451] [cursor=pointer]:
+            - generic [ref=e452]:
+              - img "Italian Leather Crossbody Bag" [ref=e453]
+              - generic [ref=e454]: "-24%"
+              - button "Toggle wishlist" [ref=e455]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e458]:
+              - paragraph [ref=e459]: الإكسسوارات
+              - heading "Italian Leather Crossbody Bag" [level=3] [ref=e460]
+              - generic [ref=e461]:
+                - generic [ref=e472]: (4.9)
+                - generic [ref=e473]: · 534
+              - generic [ref=e474]:
+                - generic [ref=e475]: $189.99
+                - generic [ref=e476]: $249.99
+              - generic [ref=e477]:
+                - generic "Cognac" [ref=e478]
+                - generic "Black" [ref=e479]
+                - generic "Burgundy" [ref=e480]
+          - button "Wireless Noise-Cancelling Headphones -25% Toggle wishlist Quick View Add to Cart الإلكترونيات Wireless Noise-Cancelling Headphones (4.8) · 1243 $299.99 $399.99 Black Silver Midnight Blue" [ref=e482] [cursor=pointer]:
+            - generic [ref=e483]:
+              - img "Wireless Noise-Cancelling Headphones" [ref=e484]
+              - generic [ref=e485]: "-25%"
+              - button "Toggle wishlist" [ref=e486]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e489]:
+              - paragraph [ref=e490]: الإلكترونيات
+              - heading "Wireless Noise-Cancelling Headphones" [level=3] [ref=e491]
+              - generic [ref=e492]:
+                - generic [ref=e503]: (4.8)
+                - generic [ref=e504]: · 1243
+              - generic [ref=e505]:
+                - generic [ref=e506]: $299.99
+                - generic [ref=e507]: $399.99
+              - generic [ref=e508]:
+                - generic "Black" [ref=e509]
+                - generic "Silver" [ref=e510]
+                - generic "Midnight Blue" [ref=e511]
+          - button "Artisan Pour-Over Coffee Set -24% Toggle wishlist Quick View Add to Cart المنزل والمعيشة Artisan Pour-Over Coffee Set (4.8) · 687 $64.99 $84.99 Clear Amber" [ref=e513] [cursor=pointer]:
+            - generic [ref=e514]:
+              - img "Artisan Pour-Over Coffee Set" [ref=e515]
+              - generic [ref=e516]: "-24%"
+              - button "Toggle wishlist" [ref=e517]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e520]:
+              - paragraph [ref=e521]: المنزل والمعيشة
+              - heading "Artisan Pour-Over Coffee Set" [level=3] [ref=e522]
+              - generic [ref=e523]:
+                - generic [ref=e534]: (4.8)
+                - generic [ref=e535]: · 687
+              - generic [ref=e536]:
+                - generic [ref=e537]: $64.99
+                - generic [ref=e538]: $84.99
+              - generic [ref=e539]:
+                - generic "Clear" [ref=e540]
+                - generic "Amber" [ref=e541]
+          - button "Cashmere Blend Overcoat -23% Toggle wishlist Quick View Add to Cart ملابس Cashmere Blend Overcoat (4.7) · 298 $459.99 $599.99 Camel Charcoal Navy Only 5 left!" [ref=e543] [cursor=pointer]:
+            - generic [ref=e544]:
+              - img "Cashmere Blend Overcoat" [ref=e545]
+              - generic [ref=e546]: "-23%"
+              - button "Toggle wishlist" [ref=e547]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e550]:
+              - paragraph [ref=e551]: ملابس
+              - heading "Cashmere Blend Overcoat" [level=3] [ref=e552]
+              - generic [ref=e553]:
+                - generic [ref=e564]: (4.7)
+                - generic [ref=e565]: · 298
+              - generic [ref=e566]:
+                - generic [ref=e567]: $459.99
+                - generic [ref=e568]: $599.99
+              - generic [ref=e569]:
+                - generic "Camel" [ref=e570]
+                - generic "Charcoal" [ref=e571]
+                - generic "Navy" [ref=e572]
+              - generic [ref=e573]: Only 5 left!
+          - button "Leather Bifold Wallet -22% Toggle wishlist Quick View Add to Cart الإكسسوارات Leather Bifold Wallet (4.7) · 945 $69.99 $89.99 Dark Brown Black Tan" [ref=e575] [cursor=pointer]:
+            - generic [ref=e576]:
+              - img "Leather Bifold Wallet" [ref=e577]
+              - generic [ref=e578]: "-22%"
+              - button "Toggle wishlist" [ref=e579]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e582]:
+              - paragraph [ref=e583]: الإكسسوارات
+              - heading "Leather Bifold Wallet" [level=3] [ref=e584]
+              - generic [ref=e585]:
+                - generic [ref=e596]: (4.7)
+                - generic [ref=e597]: · 945
+              - generic [ref=e598]:
+                - generic [ref=e599]: $69.99
+                - generic [ref=e600]: $89.99
+              - generic [ref=e601]:
+                - generic "Dark Brown" [ref=e602]
+                - generic "Black" [ref=e603]
+                - generic "Tan" [ref=e604]
+          - button "Smart Fitness Watch Pro -17% Toggle wishlist Quick View Add to Cart الإلكترونيات Smart Fitness Watch Pro (4.6) · 876 $249.99 $299.99 Black Rose Gold Forest Green" [ref=e606] [cursor=pointer]:
+            - generic [ref=e607]:
+              - img "Smart Fitness Watch Pro" [ref=e608]
+              - generic [ref=e609]: "-17%"
+              - button "Toggle wishlist" [ref=e610]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e613]:
+              - paragraph [ref=e614]: الإلكترونيات
+              - heading "Smart Fitness Watch Pro" [level=3] [ref=e615]
+              - generic [ref=e616]:
+                - generic [ref=e627]: (4.6)
+                - generic [ref=e628]: · 876
+              - generic [ref=e629]:
+                - generic [ref=e630]: $249.99
+                - generic [ref=e631]: $299.99
+              - generic [ref=e632]:
+                - generic "Black" [ref=e633]
+                - generic "Rose Gold" [ref=e634]
+                - generic "Forest Green" [ref=e635]
+          - button "Premium Cotton Hoodie -25% Toggle wishlist Quick View Add to Cart ملابس Premium Cotton Hoodie (4.6) · 1567 $89.99 $119.99 Heather Grey Forest Sand Midnight" [ref=e637] [cursor=pointer]:
+            - generic [ref=e638]:
+              - img "Premium Cotton Hoodie" [ref=e639]
+              - generic [ref=e640]: "-25%"
+              - button "Toggle wishlist" [ref=e641]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e644]:
+              - paragraph [ref=e645]: ملابس
+              - heading "Premium Cotton Hoodie" [level=3] [ref=e646]
+              - generic [ref=e647]:
+                - generic [ref=e658]: (4.6)
+                - generic [ref=e659]: · 1567
+              - generic [ref=e660]:
+                - generic [ref=e661]: $89.99
+                - generic [ref=e662]: $119.99
+              - generic [ref=e663]:
+                - generic "Heather Grey" [ref=e664]
+                - generic "Forest" [ref=e665]
+                - generic "Sand" [ref=e666]
+                - generic "Midnight" [ref=e667]
+          - button "Minimalist Ceramic Desk Lamp -20% Toggle wishlist Quick View Add to Cart المنزل والمعيشة Minimalist Ceramic Desk Lamp (4.5) · 412 $79.99 $99.99 White Terracotta Sage" [ref=e669] [cursor=pointer]:
+            - generic [ref=e670]:
+              - img "Minimalist Ceramic Desk Lamp" [ref=e671]
+              - generic [ref=e672]: "-20%"
+              - button "Toggle wishlist" [ref=e673]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=e676]:
+              - paragraph [ref=e677]: المنزل والمعيشة
+              - heading "Minimalist Ceramic Desk Lamp" [level=3] [ref=e678]
+              - generic [ref=e679]:
+                - generic [ref=e690]: (4.5)
+                - generic [ref=e691]: · 412
+              - generic [ref=e692]:
+                - generic [ref=e693]: $79.99
+                - generic [ref=e694]: $99.99
+              - generic [ref=e695]:
+                - generic "White" [ref=e696]
+                - generic "Terracotta" [ref=e697]
+                - generic "Sage" [ref=e698]
+      - generic [ref=e700]:
+        - generic [ref=e701]:
+          - paragraph [ref=e702]: Mid-Season Sale
+          - heading "Take an extra 10% off best sellers" [level=2] [ref=e703]
+          - button "Shop the Sale" [ref=e704]
+        - generic [ref=e707]:
+          - button [ref=e708]:
+            - img "Italian Leather Crossbody Bag" [ref=e709]
+          - button [ref=e710]:
+            - img "Wireless Noise-Cancelling Headphones" [ref=e711]
+          - button [ref=e712]:
+            - img "Artisan Pour-Over Coffee Set" [ref=e713]
+          - button [ref=e714]:
+            - img "Cashmere Blend Overcoat" [ref=e715]
+  - contentinfo [ref=e716]:
+    - generic [ref=e717]:
+      - generic [ref=e718]:
+        - generic [ref=e719]:
+          - heading "LUXE" [level=3] [ref=e720]
+          - paragraph [ref=e721]: Premium shopping experience with curated collections for the modern lifestyle.
+          - generic [ref=e722]:
+            - paragraph [ref=e723]: Stay in the loop
+            - generic [ref=e724]:
+              - textbox "Your email address" [ref=e725]
+              - button "Subscribe" [ref=e726]
+        - generic [ref=e727]:
+          - heading "Shop" [level=4] [ref=e728]
+          - list [ref=e729]:
+            - listitem [ref=e730]:
+              - button "New Arrivals" [ref=e731] [cursor=pointer]
+            - listitem [ref=e732]:
+              - button "Best Sellers" [ref=e733] [cursor=pointer]
+            - listitem [ref=e734]:
+              - button "Sale" [ref=e735] [cursor=pointer]
+        - generic [ref=e736]:
+          - heading "Support" [level=4] [ref=e737]
+          - list [ref=e738]:
+            - listitem [ref=e739]:
+              - button "Contact Us" [ref=e740] [cursor=pointer]
+            - listitem [ref=e741]:
+              - button "FAQs" [ref=e742] [cursor=pointer]
+            - listitem [ref=e743]:
+              - button "About Us" [ref=e744] [cursor=pointer]
+            - listitem [ref=e745]: Shipping Info
+        - generic [ref=e746]:
+          - heading "Demo Accounts" [level=4] [ref=e747]
+          - list [ref=e748]:
+            - listitem [ref=e749]: "Admin: admin@store.com / admin123"
+            - listitem [ref=e750]: "Customer: user@store.com / user123"
+      - generic [ref=e751]:
+        - paragraph [ref=e752]: © 2026 LUXE. All rights reserved.
+        - button "Back to top ↑" [ref=e753]
+  - generic [ref=e754]:
+    - generic [ref=e755]:
+      - generic [ref=e756]:
+        - heading "Shopping Cart" [level=2] [ref=e760]
+        - generic [ref=e761]: (1)
+      - button "Close" [ref=e762]
+    - generic [ref=e767]:
+      - img "Wireless Noise-Cancelling Headphones" [ref=e768]
+      - generic [ref=e769]:
+        - heading "Wireless Noise-Cancelling Headphones" [level=4] [ref=e770]
+        - generic [ref=e771]: Black
+        - paragraph [ref=e774]: $299.99
+        - generic [ref=e775]:
+          - generic [ref=e776]:
+            - button "Decrease" [ref=e777]
+            - generic [ref=e779]: "1"
+            - button "Increase" [ref=e780]
+          - button "Remove" [ref=e782]
+    - generic [ref=e786]:
+      - generic [ref=e787]: Free Shipping
+      - generic [ref=e791]:
+        - textbox "Coupon code" [ref=e792]
+        - button [disabled] [ref=e793]
+      - generic [ref=e797]:
+        - generic [ref=e798]:
+          - generic [ref=e799]: Subtotal
+          - generic [ref=e800]: $299.99
+        - generic [ref=e801]:
+          - generic [ref=e802]: Shipping
+          - generic [ref=e803]: Free
+        - generic [ref=e804]:
+          - generic [ref=e805]: Tax (15%)
+          - generic [ref=e806]: $45.00
+        - generic [ref=e807]:
+          - generic [ref=e808]: Total
+          - generic [ref=e809]: $344.99
+      - button "Proceed to Checkout" [ref=e810]

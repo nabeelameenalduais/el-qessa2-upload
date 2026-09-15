@@ -1,0 +1,391 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - generic [ref=f2e6]:
+        - button "LUXE" [ref=f2e8]
+        - textbox "ابحث عن المنتجات..." [ref=f2e1561]
+        - generic [ref=f2e13]:
+          - button "اللغة" [ref=f2e1562]:
+            - generic [ref=f2e19]: ع
+          - button "العملة" [ref=f2e1563]:
+            - generic [ref=f2e25]: $
+          - button "Wishlist" [ref=f2e26]
+          - button "Cart" [ref=f2e29]
+          - button "John Doe" [ref=f2e35]
+      - navigation [ref=f2e42]:
+        - button "All" [ref=f2e43]
+        - button "Electronics" [ref=f2e44]
+        - button "Accessories" [ref=f2e45]
+        - button "Fashion" [ref=f2e46]
+        - button "Home" [ref=f2e47]
+  - main [ref=f2e48]:
+    - generic [ref=f2e993]:
+      - complementary [ref=f2e994]:
+        - generic [ref=f2e996]:
+          - generic [ref=f2e997]:
+            - heading "الفلاتر" [level=3] [ref=f2e1564]
+            - button "إعادة تعيين" [ref=f2e1565]
+          - generic [ref=f2e1000]:
+            - heading "الفئة" [level=4] [ref=f2e1566]
+            - generic [ref=f2e1002]:
+              - generic [ref=f2e1003] [cursor=pointer]:
+                - radio "All" [checked] [ref=f2e1004]
+                - generic [ref=f2e1005]: All
+              - generic [ref=f2e1006] [cursor=pointer]:
+                - radio "Electronics" [ref=f2e1007]
+                - generic [ref=f2e1008]: Electronics
+              - generic [ref=f2e1009] [cursor=pointer]:
+                - radio "Accessories" [ref=f2e1010]
+                - generic [ref=f2e1011]: Accessories
+              - generic [ref=f2e1012] [cursor=pointer]:
+                - radio "Fashion" [ref=f2e1013]
+                - generic [ref=f2e1014]: Fashion
+              - generic [ref=f2e1015] [cursor=pointer]:
+                - radio "Home" [ref=f2e1016]
+                - generic [ref=f2e1017]: Home
+          - generic [ref=f2e1018]:
+            - heading "نطاق السعر" [level=4] [ref=f2e1567]
+            - generic [ref=f2e1020]:
+              - generic [ref=f2e1021]:
+                - generic [ref=f2e1022]: $0
+                - generic [ref=f2e1023]: $500
+              - generic [ref=f2e1024]:
+                - slider [ref=f2e1025]: "500"
+                - slider [ref=f2e1026]: "0"
+          - generic [ref=f2e1027]:
+            - heading "التقييم" [level=4] [ref=f2e1568]
+            - generic [ref=f2e1029]:
+              - generic [ref=f2e1030] [cursor=pointer]:
+                - radio "4 فأكثر" [ref=f2e1569]
+                - generic [ref=f2e1032]: 4 فأكثر
+              - generic [ref=f2e1044] [cursor=pointer]:
+                - radio "3 فأكثر" [ref=f2e1570]
+                - generic [ref=f2e1046]: 3 فأكثر
+              - generic [ref=f2e1058] [cursor=pointer]:
+                - radio "2 فأكثر" [ref=f2e1571]
+                - generic [ref=f2e1060]: 2 فأكثر
+              - generic [ref=f2e1072] [cursor=pointer]:
+                - radio "1 فأكثر" [ref=f2e1572]
+                - generic [ref=f2e1074]: 1 فأكثر
+          - generic [ref=f2e1086]:
+            - heading "التوفر" [level=4] [ref=f2e1573]
+            - generic [ref=f2e1088] [cursor=pointer]:
+              - checkbox "المتوفر فقط" [ref=f2e1574]
+              - generic [ref=f2e1090]: المتوفر فقط
+      - generic [ref=f2e1092]:
+        - generic [ref=f2e1093]:
+          - generic [ref=f2e1094]:
+            - heading "المنتجات" [level=2] [ref=f2e1575]
+            - paragraph [ref=f2e1096]: 12 منتجات
+          - generic [ref=f2e1097]:
+            - generic [ref=f2e1098]: ترتيب حسب
+            - combobox "ترتيب حسب" [ref=f2e1576]:
+              - option "المميز" [selected]
+              - 'option "السعر: من الأقل إلى الأعلى"'
+              - 'option "السعر: من الأعلى إلى الأقل"'
+              - option "الأعلى تقييماً"
+              - option "الأحدث"
+            - generic [ref=f2e1100]:
+              - button "عرض شبكي" [ref=f2e1577]
+              - button "عرض قائمة" [ref=f2e1578]
+        - generic [ref=f2e1109]:
+          - button "سماعات لاسلكية مضادة للضوضاء -25% Toggle wishlist عرض سريع أضف للسلة Electronics سماعات لاسلكية مضادة للضوضاء (4.8) · 1243 $299.99 $399.99 Black Silver Midnight Blue" [ref=f2e1579] [cursor=pointer]:
+            - generic [ref=f2e1111]:
+              - img "سماعات لاسلكية مضادة للضوضاء" [ref=f2e1580]
+              - generic [ref=f2e1113]: "-25%"
+              - button "Toggle wishlist" [ref=f2e1114]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1117]:
+              - paragraph [ref=f2e1118]: Electronics
+              - heading "سماعات لاسلكية مضادة للضوضاء" [level=3] [ref=f2e1581]
+              - generic [ref=f2e1120]:
+                - generic [ref=f2e1131]: (4.8)
+                - generic [ref=f2e1132]: · 1243
+              - generic [ref=f2e1133]:
+                - generic [ref=f2e1134]: $299.99
+                - generic [ref=f2e1135]: $399.99
+              - generic [ref=f2e1136]:
+                - generic "Black" [ref=f2e1137]
+                - generic "Silver" [ref=f2e1138]
+                - generic "Midnight Blue" [ref=f2e1139]
+          - button "ساعة لياقة ذكية برو -17% Toggle wishlist عرض سريع أضف للسلة Electronics ساعة لياقة ذكية برو (4.6) · 876 $249.99 $299.99 Black Rose Gold Forest Green" [ref=f2e1582] [cursor=pointer]:
+            - generic [ref=f2e1141]:
+              - img "ساعة لياقة ذكية برو" [ref=f2e1583]
+              - generic [ref=f2e1143]: "-17%"
+              - button "Toggle wishlist" [ref=f2e1144]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1147]:
+              - paragraph [ref=f2e1148]: Electronics
+              - heading "ساعة لياقة ذكية برو" [level=3] [ref=f2e1584]
+              - generic [ref=f2e1150]:
+                - generic [ref=f2e1161]: (4.6)
+                - generic [ref=f2e1162]: · 876
+              - generic [ref=f2e1163]:
+                - generic [ref=f2e1164]: $249.99
+                - generic [ref=f2e1165]: $299.99
+              - generic [ref=f2e1166]:
+                - generic "Black" [ref=f2e1167]
+                - generic "Rose Gold" [ref=f2e1168]
+                - generic "Forest Green" [ref=f2e1169]
+          - button "حقيبة جلدية إيطالية عابرة للجسم -24% Toggle wishlist عرض سريع أضف للسلة Accessories حقيبة جلدية إيطالية عابرة للجسم (4.9) · 534 $189.99 $249.99 Cognac Black Burgundy" [ref=f2e1585] [cursor=pointer]:
+            - generic [ref=f2e1171]:
+              - img "حقيبة جلدية إيطالية عابرة للجسم" [ref=f2e1586]
+              - generic [ref=f2e1173]: "-24%"
+              - button "Toggle wishlist" [ref=f2e1174]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1177]:
+              - paragraph [ref=f2e1178]: Accessories
+              - heading "حقيبة جلدية إيطالية عابرة للجسم" [level=3] [ref=f2e1587]
+              - generic [ref=f2e1180]:
+                - generic [ref=f2e1191]: (4.9)
+                - generic [ref=f2e1192]: · 534
+              - generic [ref=f2e1193]:
+                - generic [ref=f2e1194]: $189.99
+                - generic [ref=f2e1195]: $249.99
+              - generic [ref=f2e1196]:
+                - generic "Cognac" [ref=f2e1197]
+                - generic "Black" [ref=f2e1198]
+                - generic "Burgundy" [ref=f2e1199]
+          - button "معطف من خليط الكشمير -23% Toggle wishlist عرض سريع أضف للسلة Fashion معطف من خليط الكشمير (4.7) · 298 $459.99 $599.99 Camel Charcoal Navy بقي 5 فقط!" [ref=f2e1588] [cursor=pointer]:
+            - generic [ref=f2e1201]:
+              - img "معطف من خليط الكشمير" [ref=f2e1589]
+              - generic [ref=f2e1203]: "-23%"
+              - button "Toggle wishlist" [ref=f2e1204]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1207]:
+              - paragraph [ref=f2e1208]: Fashion
+              - heading "معطف من خليط الكشمير" [level=3] [ref=f2e1590]
+              - generic [ref=f2e1210]:
+                - generic [ref=f2e1221]: (4.7)
+                - generic [ref=f2e1222]: · 298
+              - generic [ref=f2e1223]:
+                - generic [ref=f2e1224]: $459.99
+                - generic [ref=f2e1225]: $599.99
+              - generic [ref=f2e1226]:
+                - generic "Camel" [ref=f2e1227]
+                - generic "Charcoal" [ref=f2e1228]
+                - generic "Navy" [ref=f2e1229]
+              - generic [ref=f2e1230]: بقي 5 فقط!
+          - button "مصباح مكتب سيراميك بسيط -20% Toggle wishlist عرض سريع أضف للسلة Home مصباح مكتب سيراميك بسيط (4.5) · 412 $79.99 $99.99 White Terracotta Sage" [ref=f2e1591] [cursor=pointer]:
+            - generic [ref=f2e1232]:
+              - img "مصباح مكتب سيراميك بسيط" [ref=f2e1592]
+              - generic [ref=f2e1234]: "-20%"
+              - button "Toggle wishlist" [ref=f2e1235]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1238]:
+              - paragraph [ref=f2e1239]: Home
+              - heading "مصباح مكتب سيراميك بسيط" [level=3] [ref=f2e1593]
+              - generic [ref=f2e1241]:
+                - generic [ref=f2e1252]: (4.5)
+                - generic [ref=f2e1253]: · 412
+              - generic [ref=f2e1254]:
+                - generic [ref=f2e1255]: $79.99
+                - generic [ref=f2e1256]: $99.99
+              - generic [ref=f2e1257]:
+                - generic "White" [ref=f2e1258]
+                - generic "Terracotta" [ref=f2e1259]
+                - generic "Sage" [ref=f2e1260]
+          - button "نظارات شمسية أفياتر مستقطبة -20% Toggle wishlist عرض سريع أضف للسلة Accessories نظارات شمسية أفياتر مستقطبة (4.4) · 763 $159.99 $199.99 Gold/Green Silver/Blue Matte Black" [ref=f2e1594] [cursor=pointer]:
+            - generic [ref=f2e1262]:
+              - img "نظارات شمسية أفياتر مستقطبة" [ref=f2e1595]
+              - generic [ref=f2e1264]: "-20%"
+              - button "Toggle wishlist" [ref=f2e1265]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1278]:
+              - paragraph [ref=f2e1279]: Accessories
+              - heading "نظارات شمسية أفياتر مستقطبة" [level=3] [ref=f2e1596]
+              - generic [ref=f2e1281]:
+                - generic [ref=f2e1292]: (4.4)
+                - generic [ref=f2e1293]: · 763
+              - generic [ref=f2e1294]:
+                - generic [ref=f2e1295]: $159.99
+                - generic [ref=f2e1296]: $199.99
+              - generic [ref=f2e1297]:
+                - generic "Gold/Green" [ref=f2e1298]
+                - generic "Silver/Blue" [ref=f2e1299]
+                - generic "Matte Black" [ref=f2e1300]
+          - button "هودي قطن متميز -25% Toggle wishlist عرض سريع أضف للسلة Fashion هودي قطن متميز (4.6) · 1567 $89.99 $119.99 Heather Grey Forest Sand Midnight" [ref=f2e1597] [cursor=pointer]:
+            - generic [ref=f2e1302]:
+              - img "هودي قطن متميز" [ref=f2e1598]
+              - generic [ref=f2e1304]: "-25%"
+              - button "Toggle wishlist" [ref=f2e1305]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1308]:
+              - paragraph [ref=f2e1309]: Fashion
+              - heading "هودي قطن متميز" [level=3] [ref=f2e1599]
+              - generic [ref=f2e1311]:
+                - generic [ref=f2e1322]: (4.6)
+                - generic [ref=f2e1323]: · 1567
+              - generic [ref=f2e1324]:
+                - generic [ref=f2e1325]: $89.99
+                - generic [ref=f2e1326]: $119.99
+              - generic [ref=f2e1327]:
+                - generic "Heather Grey" [ref=f2e1328]
+                - generic "Forest" [ref=f2e1329]
+                - generic "Sand" [ref=f2e1330]
+                - generic "Midnight" [ref=f2e1331]
+          - button "مكبر صوت ذكي للمنزل -28% Toggle wishlist عرض سريع أضف للسلة Electronics مكبر صوت ذكي للمنزل (4.3) · 2104 $129.99 $179.99 Charcoal Sandstone" [ref=f2e1600] [cursor=pointer]:
+            - generic [ref=f2e1333]:
+              - img "مكبر صوت ذكي للمنزل" [ref=f2e1601]
+              - generic [ref=f2e1335]: "-28%"
+              - button "Toggle wishlist" [ref=f2e1336]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1339]:
+              - paragraph [ref=f2e1340]: Electronics
+              - heading "مكبر صوت ذكي للمنزل" [level=3] [ref=f2e1602]
+              - generic [ref=f2e1342]:
+                - generic [ref=f2e1353]: (4.3)
+                - generic [ref=f2e1354]: · 2104
+              - generic [ref=f2e1355]:
+                - generic [ref=f2e1356]: $129.99
+                - generic [ref=f2e1357]: $179.99
+              - generic [ref=f2e1358]:
+                - generic "Charcoal" [ref=f2e1359]
+                - generic "Sandstone" [ref=f2e1360]
+          - button "طقم قهوة صب فني -24% Toggle wishlist عرض سريع أضف للسلة Home طقم قهوة صب فني (4.8) · 687 $64.99 $84.99 Clear Amber" [ref=f2e1603] [cursor=pointer]:
+            - generic [ref=f2e1362]:
+              - img "طقم قهوة صب فني" [ref=f2e1604]
+              - generic [ref=f2e1364]: "-24%"
+              - button "Toggle wishlist" [ref=f2e1365]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1368]:
+              - paragraph [ref=f2e1369]: Home
+              - heading "طقم قهوة صب فني" [level=3] [ref=f2e1605]
+              - generic [ref=f2e1371]:
+                - generic [ref=f2e1382]: (4.8)
+                - generic [ref=f2e1383]: · 687
+              - generic [ref=f2e1384]:
+                - generic [ref=f2e1385]: $64.99
+                - generic [ref=f2e1386]: $84.99
+              - generic [ref=f2e1387]:
+                - generic "Clear" [ref=f2e1388]
+                - generic "Amber" [ref=f2e1389]
+          - button "محفظة جلد ثنائية الطي -22% Toggle wishlist عرض سريع أضف للسلة Accessories محفظة جلد ثنائية الطي (4.7) · 945 $69.99 $89.99 Dark Brown Black Tan" [ref=f2e1606] [cursor=pointer]:
+            - generic [ref=f2e1391]:
+              - img "محفظة جلد ثنائية الطي" [ref=f2e1607]
+              - generic [ref=f2e1393]: "-22%"
+              - button "Toggle wishlist" [ref=f2e1394]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1397]:
+              - paragraph [ref=f2e1398]: Accessories
+              - heading "محفظة جلد ثنائية الطي" [level=3] [ref=f2e1608]
+              - generic [ref=f2e1400]:
+                - generic [ref=f2e1411]: (4.7)
+                - generic [ref=f2e1412]: · 945
+              - generic [ref=f2e1413]:
+                - generic [ref=f2e1414]: $69.99
+                - generic [ref=f2e1415]: $89.99
+              - generic [ref=f2e1416]:
+                - generic "Dark Brown" [ref=f2e1417]
+                - generic "Black" [ref=f2e1418]
+                - generic "Tan" [ref=f2e1419]
+          - button "طقم أطباق حجرية -20% غير متوفر Toggle wishlist عرض سريع غير متوفر Home طقم أطباق حجرية (4.5) · 324 $119.99 $149.99 Speckled White Ocean Blue" [ref=f2e1609] [cursor=pointer]:
+            - generic [ref=f2e1421]:
+              - img "طقم أطباق حجرية" [ref=f2e1610]
+              - generic [ref=f2e1423]: "-20%"
+              - generic [ref=f2e1424]: غير متوفر
+              - button "Toggle wishlist" [ref=f2e1426]
+              - generic:
+                - button "عرض سريع"
+                - button "غير متوفر"
+            - generic [ref=f2e1429]:
+              - paragraph [ref=f2e1430]: Home
+              - heading "طقم أطباق حجرية" [level=3] [ref=f2e1611]
+              - generic [ref=f2e1432]:
+                - generic [ref=f2e1443]: (4.5)
+                - generic [ref=f2e1444]: · 324
+              - generic [ref=f2e1445]:
+                - generic [ref=f2e1446]: $119.99
+                - generic [ref=f2e1447]: $149.99
+              - generic [ref=f2e1448]:
+                - generic "Speckled White" [ref=f2e1449]
+                - generic "Ocean Blue" [ref=f2e1450]
+          - button "بنطلون شينو ضيق مفصل -25% Toggle wishlist عرض سريع أضف للسلة Fashion بنطلون شينو ضيق مفصل (4.4) · 1089 $74.99 $99.99 Khaki Olive Navy Black" [ref=f2e1612] [cursor=pointer]:
+            - generic [ref=f2e1452]:
+              - img "بنطلون شينو ضيق مفصل" [ref=f2e1613]
+              - generic [ref=f2e1454]: "-25%"
+              - button "Toggle wishlist" [ref=f2e1455]
+              - generic:
+                - button "عرض سريع"
+                - button "أضف للسلة"
+            - generic [ref=f2e1458]:
+              - paragraph [ref=f2e1459]: Fashion
+              - heading "بنطلون شينو ضيق مفصل" [level=3] [ref=f2e1614]
+              - generic [ref=f2e1461]:
+                - generic [ref=f2e1472]: (4.4)
+                - generic [ref=f2e1473]: · 1089
+              - generic [ref=f2e1474]:
+                - generic [ref=f2e1475]: $74.99
+                - generic [ref=f2e1476]: $99.99
+              - generic [ref=f2e1477]:
+                - generic "Khaki" [ref=f2e1478]
+                - generic "Olive" [ref=f2e1479]
+                - generic "Navy" [ref=f2e1480]
+                - generic "Black" [ref=f2e1481]
+  - contentinfo [ref=f2e680]:
+    - generic [ref=f2e681]:
+      - generic [ref=f2e682]:
+        - generic [ref=f2e683]:
+          - heading "LUXE" [level=3] [ref=f2e684]
+          - paragraph [ref=f2e685]: تجربة تسوق فاخرة مع تشكيلات مختارة بعناية لأسلوب الحياة العصري.
+          - generic [ref=f2e686]:
+            - paragraph [ref=f2e687]: ابق على اطلاع
+            - generic [ref=f2e688]:
+              - textbox "بريدك الإلكتروني" [ref=f2e1615]
+              - button "اشترك" [ref=f2e1616]
+        - generic [ref=f2e691]:
+          - heading "المتجر" [level=4] [ref=f2e1617]
+          - list [ref=f2e693]:
+            - listitem [ref=f2e694]:
+              - button "وصل حديثاً" [ref=f2e1618] [cursor=pointer]
+            - listitem [ref=f2e696]:
+              - button "الأكثر مبيعاً" [ref=f2e1619] [cursor=pointer]
+            - listitem [ref=f2e698]:
+              - button "التخفيضات" [ref=f2e1620] [cursor=pointer]
+        - generic [ref=f2e700]:
+          - heading "الدعم" [level=4] [ref=f2e1621]
+          - list [ref=f2e702]:
+            - listitem [ref=f2e703]:
+              - button "اتصل بنا" [ref=f2e1622] [cursor=pointer]
+            - listitem [ref=f2e705]:
+              - button "الأسئلة الشائعة" [ref=f2e1623] [cursor=pointer]
+            - listitem [ref=f2e707]:
+              - button "من نحن" [ref=f2e1624] [cursor=pointer]
+            - listitem [ref=f2e709]: معلومات الشحن
+        - generic [ref=f2e710]:
+          - heading "حسابات تجريبية" [level=4] [ref=f2e1625]
+          - list [ref=f2e712]:
+            - listitem [ref=f2e713]: "المدير: admin@store.com / admin123"
+            - listitem [ref=f2e714]: "العميل: user@store.com / user123"
+      - generic [ref=f2e715]:
+        - paragraph [ref=f2e716]: © 2026 LUXE. جميع الحقوق محفوظة.
+        - button "العودة للأعلى ↑" [ref=f2e1626]
+  - generic [ref=f2e718]:
+    - generic [ref=f2e719]:
+      - generic [ref=f2e720]:
+        - heading "سلة التسوق" [level=2] [ref=f2e1627]
+        - generic [ref=f2e725]: (0)
+      - button "إغلاق" [ref=f2e1628]
+    - generic [ref=f2e977]:
+      - paragraph [ref=f2e981]: سلتك فارغة
+      - paragraph [ref=f2e982]: ابدأ التسوق الآن!

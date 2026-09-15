@@ -1,0 +1,138 @@
+- generic [ref=f5e3]:
+  - complementary [ref=f5e4]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=f5e6] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f5e7]: ق
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]: نادي القصة «إلمقه»
+        - generic [ref=f5e10]: لوحة إدارة النادي
+    - navigation [ref=f5e11]:
+      - generic [ref=f5e12]:
+        - paragraph [ref=f5e13]: الرئيسية
+        - generic [ref=f5e14]:
+          - link "لوحة التحكم" [ref=f5e15] [cursor=pointer]:
+            - /url: /dashboard
+          - link "نظرة عامة على الموقع" [ref=f5e23] [cursor=pointer]:
+            - /url: /dashboard/overview
+      - generic [ref=f5e28]:
+        - paragraph [ref=f5e29]: محتوى الموقع
+        - generic [ref=f5e30]:
+          - link "فعاليات الموقع" [ref=f5e31] [cursor=pointer]:
+            - /url: /dashboard/events-site
+          - link "الورش" [ref=f5e35] [cursor=pointer]:
+            - /url: /dashboard/workshops
+          - link "الإصدارات" [ref=f5e42] [cursor=pointer]:
+            - /url: /dashboard/publications
+          - link "الأخبار" [ref=f5e46] [cursor=pointer]:
+            - /url: /dashboard/news
+          - link "الكتّاب والأعضاء" [ref=f5e51] [cursor=pointer]:
+            - /url: /dashboard/writers
+          - link "رسائل التواصل 4" [ref=f5e58] [cursor=pointer]:
+            - /url: /dashboard/messages
+            - generic [ref=f5e62]: رسائل التواصل
+            - generic [ref=f5e63]: "4"
+          - link "معرض الصور" [ref=f5e64] [cursor=pointer]:
+            - /url: /dashboard/gallery
+          - link "إعدادات الموقع" [ref=f5e71] [cursor=pointer]:
+            - /url: /dashboard/settings
+      - generic [ref=f5e76]:
+        - paragraph [ref=f5e77]: إدارة الفعاليات
+        - generic [ref=f5e78]:
+          - link "كل الفعاليات" [ref=f5e79] [cursor=pointer]:
+            - /url: /dashboard/events
+          - link "ملاحظات الحضور" [ref=f5e85] [cursor=pointer]:
+            - /url: /dashboard/feedback
+          - link "الإشعارات" [ref=f5e89] [cursor=pointer]:
+            - /url: /dashboard/notifications
+          - link "الملف الشخصي" [ref=f5e94] [cursor=pointer]:
+            - /url: /dashboard/profile
+      - generic [ref=f5e99]:
+        - paragraph [ref=f5e100]: إدارة النظام
+        - generic [ref=f5e101]:
+          - link "المستخدمون" [ref=f5e102] [cursor=pointer]:
+            - /url: /dashboard/admin/users
+          - link "التصنيفات" [ref=f5e116] [cursor=pointer]:
+            - /url: /dashboard/admin/categories
+          - link "الأماكن" [ref=f5e122] [cursor=pointer]:
+            - /url: /dashboard/admin/venues
+          - link "الملفات" [ref=f5e128] [cursor=pointer]:
+            - /url: /dashboard/admin/files
+          - link "التقارير" [ref=f5e134] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+          - link "إعدادات النظام" [ref=f5e138] [cursor=pointer]:
+            - /url: /dashboard/admin/settings
+          - link "الأمان" [ref=f5e143] [cursor=pointer]:
+            - /url: /dashboard/admin/security
+    - generic [ref=f5e147]:
+      - link "العودة إلى الموقع" [ref=f5e148] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=f5e153] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=f5e157]:
+    - banner [ref=f5e158]:
+      - generic [ref=f5e159]:
+        - button "4 رسائل جديدة" [ref=f5e160]:
+          - generic [ref=f5e161]: "4"
+          - generic [ref=f5e162]: رسائل جديدة
+        - generic [ref=f5e163]: وضع العرض التجريبي
+        - generic [ref=f5e165]: إد
+        - generic [ref=f5e167]:
+          - paragraph [ref=f5e168]: إدارة النادي
+          - paragraph [ref=f5e169]: مشرف عام
+    - main [ref=f5e170]:
+      - generic [ref=f5e175]:
+        - button "العودة إلى الفعاليات" [ref=f5e176]
+        - generic [ref=f5e177]:
+          - 'heading "التكاليف: مؤتمر التقنية الدولي 2026" [level=1] [ref=f5e178]'
+          - button "تصدير CSV" [ref=f5e179]
+        - generic [ref=f5e180]:
+          - generic [ref=f5e186]:
+            - paragraph [ref=f5e187]: إجمالي المخطط
+            - paragraph [ref=f5e188]: "0"
+          - generic [ref=f5e194]:
+            - paragraph [ref=f5e195]: إجمالي الفعلي
+            - paragraph [ref=f5e196]: "0"
+          - generic [ref=f5e202]:
+            - paragraph [ref=f5e203]: الفرق (المخطط - الفعلي)
+            - paragraph [ref=f5e204]: "+0"
+        - generic [ref=f5e205]:
+          - button "مخطط" [ref=f5e206]
+          - button "فعلي" [ref=f5e207]
+        - generic [ref=f5e208]:
+          - generic [ref=f5e209]:
+            - paragraph [ref=f5e210]: تكاليف مخطط
+            - button "إضافة تكلفة مخطط" [active] [ref=f5e211]
+          - generic [ref=f5e212]:
+            - heading "لا توجد تكاليف بعد" [level=3] [ref=f5e217]
+            - paragraph [ref=f5e218]: أضف مصاريف مخطط الخاصة بك لتتبّع ميزانية الفعالية.
+        - generic [ref=f5e220]:
+          - heading "إضافة تكلفة مخطط" [level=2] [ref=f5e221]
+          - generic [ref=f5e222]:
+            - generic [ref=f5e223]: البند
+            - 'textbox "مثال: خدمة تموين" [ref=f5e224]'
+          - generic [ref=f5e225]:
+            - generic [ref=f5e226]: نوع الحاجة
+            - combobox [ref=f5e227]:
+              - option "تموين" [selected]
+              - option "تنظيف"
+              - option "أثاث"
+              - option "تقنية"
+              - option "ديكور"
+              - option "طباعة"
+              - option "نقل"
+              - option "أمن"
+              - option "أخرى"
+          - generic [ref=f5e228]:
+            - generic [ref=f5e229]:
+              - generic [ref=f5e230]: الكمية
+              - spinbutton [ref=f5e231]: "1"
+            - generic [ref=f5e232]:
+              - generic [ref=f5e233]: سعر الوحدة
+              - spinbutton [ref=f5e234]
+          - generic [ref=f5e235]:
+            - generic [ref=f5e236]: ملاحظات
+            - textbox [ref=f5e237]
+          - generic [ref=f5e238]:
+            - button "إلغاء" [ref=f5e239]
+            - button "حفظ" [ref=f5e240]
+  - region "Notifications alt+T"

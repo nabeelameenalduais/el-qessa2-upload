@@ -1,0 +1,207 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - button "LUXE" [ref=f1e8]
+        - textbox "Search products..." [ref=f1e12]
+        - generic [ref=f1e13]:
+          - button "Language" [ref=f1e15]:
+            - generic [ref=f1e19]: EN
+          - button "Currency" [ref=f1e21]:
+            - generic [ref=f1e25]: ر.س
+          - button "Wishlist" [ref=f1e26]
+          - button "Cart" [ref=f1e29]:
+            - generic [ref=f1e937]: "1"
+          - button "Login" [ref=f1e34]
+      - navigation [ref=f1e39]:
+        - button "All" [ref=f1e40]
+        - button "Electronics" [ref=f1e41]
+        - button "Accessories" [ref=f1e42]
+        - button "Fashion" [ref=f1e43]
+        - button "Home" [ref=f1e44]
+  - main [ref=f1e45]:
+    - generic [ref=f1e738]:
+      - navigation "Breadcrumb" [ref=f1e739]:
+        - button "LUXE" [ref=f1e740]
+        - button "Electronics" [ref=f1e744]
+        - generic [ref=f1e747]: Wireless Noise-Cancelling Headphones
+      - generic [ref=f1e748]:
+        - generic [ref=f1e749]:
+          - generic [ref=f1e750]:
+            - img "Wireless Noise-Cancelling Headphones" [ref=f1e751]
+            - generic [ref=f1e752]: "-25%"
+          - generic [ref=f1e753]:
+            - button [ref=f1e754]
+            - button [ref=f1e755]
+        - generic [ref=f1e756]:
+          - generic [ref=f1e757]:
+            - paragraph [ref=f1e758]: Electronics
+            - heading "Wireless Noise-Cancelling Headphones" [level=1] [ref=f1e759]
+            - generic [ref=f1e760]:
+              - generic [ref=f1e772]: (4.8 rating)
+              - generic [ref=f1e773]: · 1243
+          - generic [ref=f1e774]:
+            - generic [ref=f1e775]: 1124.96 ر.س
+            - generic [ref=f1e776]: 1499.96 ر.س
+          - generic [ref=f1e777]: In Stock
+          - paragraph [ref=f1e781]: Premium wireless headphones with industry-leading noise cancellation, 30-hour battery life, and crystal-clear audio quality.
+          - generic [ref=f1e782]:
+            - paragraph [ref=f1e783]: "Color: Black"
+            - generic [ref=f1e784]:
+              - button "Black" [ref=f1e785]
+              - button "Silver" [ref=f1e786]
+              - button "Midnight Blue" [ref=f1e787]
+          - generic [ref=f1e788]:
+            - paragraph [ref=f1e789]: Quantity
+            - generic [ref=f1e791]:
+              - button "Decrease quantity" [ref=f1e792]
+              - generic [ref=f1e794]: "1"
+              - button "Increase quantity" [ref=f1e795]
+          - generic [ref=f1e797]:
+            - button "Add to Cart" [ref=f1e798]
+            - button "Buy Now" [ref=f1e803]
+            - button "Toggle wishlist" [ref=f1e806]
+          - generic [ref=f1e809]:
+            - paragraph [ref=f1e816]: Free shipping on orders over $50
+            - paragraph [ref=f1e821]: 30-day hassle-free returns
+            - paragraph [ref=f1e826]: 100% protected
+      - generic [ref=f1e827]:
+        - generic [ref=f1e828]:
+          - button "Description" [ref=f1e829]
+          - button "Specifications" [ref=f1e830]
+          - button "Reviews (0)" [ref=f1e831]
+        - generic [ref=f1e832]:
+          - paragraph [ref=f1e834]: Premium wireless headphones with industry-leading noise cancellation, 30-hour battery life, and crystal-clear audio quality.
+          - generic [ref=f1e835]:
+            - heading "Description" [level=3] [ref=f1e836]
+            - list [ref=f1e837]:
+              - listitem [ref=f1e838]: Active Noise Cancellation
+              - listitem [ref=f1e841]: 30-Hour Battery Life
+              - listitem [ref=f1e844]: Bluetooth 5.2
+              - listitem [ref=f1e847]: Multipoint Connection
+              - listitem [ref=f1e850]: Speak-to-Chat
+      - generic [ref=f1e853]:
+        - generic [ref=f1e854]:
+          - heading "You may also like" [level=2] [ref=f1e855]
+          - generic [ref=f1e856]:
+            - button "View All" [ref=f1e857]
+            - generic [ref=f1e858]:
+              - button "Previous" [ref=f1e859]
+              - button "Next" [ref=f1e862]
+        - generic [ref=f1e865]:
+          - button "Smart Fitness Watch Pro -17% Toggle wishlist Quick View Add to Cart Electronics Smart Fitness Watch Pro (4.6) · 876 937.46 ر.س 1124.96 ر.س Black Rose Gold Forest Green" [ref=f1e1005] [cursor=pointer]:
+            - generic [ref=f1e868]:
+              - img "Smart Fitness Watch Pro" [ref=f1e869]
+              - generic [ref=f1e870]: "-17%"
+              - button "Toggle wishlist" [ref=f1e871]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f1e884]:
+              - paragraph [ref=f1e885]: Electronics
+              - heading "Smart Fitness Watch Pro" [level=3] [ref=f1e886]
+              - generic [ref=f1e887]:
+                - generic [ref=f1e898]: (4.6)
+                - generic [ref=f1e899]: · 876
+              - generic [ref=f1e900]:
+                - generic [ref=f1e901]: 937.46 ر.س
+                - generic [ref=f1e902]: 1124.96 ر.س
+              - generic [ref=f1e903]:
+                - generic "Black" [ref=f1e904]
+                - generic "Rose Gold" [ref=f1e905]
+                - generic "Forest Green" [ref=f1e906]
+          - button "Smart Home Speaker -28% Toggle wishlist Quick View Add to Cart Electronics Smart Home Speaker (4.3) · 2104 487.46 ر.س 674.96 ر.س Charcoal Sandstone" [ref=f1e1006] [cursor=pointer]:
+            - generic [ref=f1e909]:
+              - img "Smart Home Speaker" [ref=f1e910]
+              - generic [ref=f1e911]: "-28%"
+              - button "Toggle wishlist" [ref=f1e912]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f1e915]:
+              - paragraph [ref=f1e916]: Electronics
+              - heading "Smart Home Speaker" [level=3] [ref=f1e917]
+              - generic [ref=f1e918]:
+                - generic [ref=f1e929]: (4.3)
+                - generic [ref=f1e930]: · 2104
+              - generic [ref=f1e931]:
+                - generic [ref=f1e932]: 487.46 ر.س
+                - generic [ref=f1e933]: 674.96 ر.س
+              - generic [ref=f1e934]:
+                - generic "Charcoal" [ref=f1e935]
+                - generic "Sandstone" [ref=f1e936]
+  - contentinfo [ref=f1e677]:
+    - generic [ref=f1e678]:
+      - generic [ref=f1e679]:
+        - generic [ref=f1e680]:
+          - heading "LUXE" [level=3] [ref=f1e681]
+          - paragraph [ref=f1e682]: Premium shopping experience with curated collections for the modern lifestyle.
+          - generic [ref=f1e683]:
+            - paragraph [ref=f1e684]: Stay in the loop
+            - generic [ref=f1e685]:
+              - textbox "Your email address" [ref=f1e686]
+              - button "Subscribe" [ref=f1e687]
+        - generic [ref=f1e688]:
+          - heading "Shop" [level=4] [ref=f1e689]
+          - list [ref=f1e690]:
+            - listitem [ref=f1e691]:
+              - button "New Arrivals" [ref=f1e692] [cursor=pointer]
+            - listitem [ref=f1e693]:
+              - button "Best Sellers" [ref=f1e694] [cursor=pointer]
+            - listitem [ref=f1e695]:
+              - button "Sale" [ref=f1e696] [cursor=pointer]
+        - generic [ref=f1e697]:
+          - heading "Support" [level=4] [ref=f1e698]
+          - list [ref=f1e699]:
+            - listitem [ref=f1e700]:
+              - button "Contact Us" [ref=f1e701] [cursor=pointer]
+            - listitem [ref=f1e702]:
+              - button "FAQs" [ref=f1e703] [cursor=pointer]
+            - listitem [ref=f1e704]:
+              - button "About Us" [ref=f1e705] [cursor=pointer]
+            - listitem [ref=f1e706]: Shipping Info
+        - generic [ref=f1e707]:
+          - heading "Demo Accounts" [level=4] [ref=f1e708]
+          - list [ref=f1e709]:
+            - listitem [ref=f1e710]: "Admin: admin@store.com / admin123"
+            - listitem [ref=f1e711]: "Customer: user@store.com / user123"
+      - generic [ref=f1e712]:
+        - paragraph [ref=f1e713]: © 2026 LUXE. All rights reserved.
+        - button "Back to top ↑" [ref=f1e714]
+  - generic [ref=f1e715]:
+    - generic [ref=f1e716]:
+      - generic [ref=f1e717]:
+        - heading "Shopping Cart" [level=2] [ref=f1e721]
+        - generic [ref=f1e722]: (1)
+      - button "Close" [ref=f1e723]
+    - generic [ref=f1e939]:
+      - img "Wireless Noise-Cancelling Headphones" [ref=f1e940]
+      - generic [ref=f1e941]:
+        - heading "Wireless Noise-Cancelling Headphones" [level=4] [ref=f1e942]
+        - generic [ref=f1e943]: Black
+        - paragraph [ref=f1e946]: 1124.96 ر.س
+        - generic [ref=f1e947]:
+          - generic [ref=f1e948]:
+            - button "Decrease" [ref=f1e949]
+            - generic [ref=f1e951]: "1"
+            - button "Increase" [ref=f1e952]
+          - button "Remove" [ref=f1e954]
+    - generic [ref=f1e958]:
+      - generic [ref=f1e959]: Free Shipping
+      - generic [ref=f1e963]:
+        - textbox "Coupon code" [ref=f1e964]
+        - button [disabled] [ref=f1e965]
+      - generic [ref=f1e969]:
+        - generic [ref=f1e970]:
+          - generic [ref=f1e971]: Subtotal
+          - generic [ref=f1e972]: 1124.96 ر.س
+        - generic [ref=f1e973]:
+          - generic [ref=f1e974]: Shipping
+          - generic [ref=f1e975]: Free
+        - generic [ref=f1e976]:
+          - generic [ref=f1e977]: Tax (15%)
+          - generic [ref=f1e978]: 168.74 ر.س
+        - generic [ref=f1e979]:
+          - generic [ref=f1e980]: Total
+          - generic [ref=f1e981]: 1293.71 ر.س
+      - button "Proceed to Checkout" [ref=f1e982]

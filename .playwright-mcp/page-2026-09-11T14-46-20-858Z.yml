@@ -1,0 +1,122 @@
+- generic [ref=f40e3]:
+  - complementary [ref=f40e4]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=f40e6] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f40e7]: ق
+      - generic [ref=f40e8]:
+        - generic [ref=f40e9]: نادي القصة «إلمقه»
+        - generic [ref=f40e10]: لوحة إدارة النادي
+    - navigation [ref=f40e11]:
+      - link "نظرة عامة" [ref=f40e12] [cursor=pointer]:
+        - /url: /dashboard
+      - link "الفعاليات" [ref=f40e20] [cursor=pointer]:
+        - /url: /dashboard/events
+      - link "الورش" [ref=f40e24] [cursor=pointer]:
+        - /url: /dashboard/workshops
+      - link "الإصدارات" [ref=f40e31] [cursor=pointer]:
+        - /url: /dashboard/publications
+      - link "الأخبار" [ref=f40e35] [cursor=pointer]:
+        - /url: /dashboard/news
+      - link "الكتّاب والأعضاء" [ref=f40e40] [cursor=pointer]:
+        - /url: /dashboard/writers
+      - link "رسائل التواصل 4" [ref=f40e47] [cursor=pointer]:
+        - /url: /dashboard/messages
+        - generic [ref=f40e52]: رسائل التواصل
+        - generic [ref=f40e53]: "4"
+      - link "معرض الصور" [ref=f40e54] [cursor=pointer]:
+        - /url: /dashboard/gallery
+      - link "الإعدادات" [ref=f40e61] [cursor=pointer]:
+        - /url: /dashboard/settings
+    - generic [ref=f40e66]:
+      - link "العودة إلى الموقع" [ref=f40e67] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=f40e72] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=f40e76]:
+    - banner [ref=f40e77]:
+      - textbox "بحث" [ref=f40e82]:
+        - /placeholder: بحث سريع...
+      - generic [ref=f40e83]:
+        - button "4 رسائل جديدة" [ref=f40e84]:
+          - generic [ref=f40e85]: "4"
+          - generic [ref=f40e86]: رسائل جديدة
+        - generic [ref=f40e87]: وضع العرض التجريبي
+        - generic [ref=f40e89]: إد
+        - generic [ref=f40e91]:
+          - paragraph [ref=f40e92]: إدارة النادي
+          - paragraph [ref=f40e93]: مشرف عام
+    - main [ref=f40e94]:
+      - generic [ref=f40e96]:
+        - generic [ref=f40e97]:
+          - generic [ref=f40e98]:
+            - heading "رسائل التواصل" [level=1] [ref=f40e99]
+            - paragraph [ref=f40e100]: 6 رسالة — 4 غير مقروءة
+          - generic [ref=f40e101]: 4 رسالة جديدة
+        - generic [ref=f40e102]:
+          - generic [ref=f40e104]:
+            - generic [ref=f40e106]:
+              - generic [ref=f40e107]:
+                - paragraph [ref=f40e109]: خالد القدسي
+                - generic [ref=f40e110]: khalid@test.com
+                - generic [ref=f40e111]: ١١ سبتمبر ٢٠٢٦
+              - paragraph [ref=f40e112]: طلب انتساب
+              - paragraph [ref=f40e113]: أرغب بالانضمام لنادي القصة
+            - generic [ref=f40e114]:
+              - button "تحديد كمقروءة" [ref=f40e115]
+              - button "حذف" [ref=f40e119]
+          - generic [ref=f40e124]:
+            - generic [ref=f40e126]:
+              - generic [ref=f40e127]:
+                - paragraph [ref=f40e129]: نبيل الحضرمي
+                - generic [ref=f40e130]: nabil@example.com
+                - generic [ref=f40e131]: 10 سبتمبر 2026
+              - paragraph [ref=f40e132]: اقتراح لقراءة قصصية
+              - paragraph [ref=f40e133]: أود عرض مشاركة في إحدى الأمسيات القراءة القصصية خلال الموسم القادم، ولدي مجموعة نصوص جاهزة.
+            - generic [ref=f40e134]:
+              - button "تحديد كمقروءة" [ref=f40e135]
+              - button "حذف" [ref=f40e139]
+          - generic [ref=f40e144]:
+            - generic [ref=f40e146]:
+              - generic [ref=f40e147]:
+                - paragraph [ref=f40e149]: سارة المقطري
+                - generic [ref=f40e150]: sara.m@example.com
+                - generic [ref=f40e151]: 9 سبتمبر 2026
+              - paragraph [ref=f40e152]: الانضمام للورشة القصصية
+              - paragraph [ref=f40e153]: السلام عليكم، رغبت في التسجيل في ورشة كتابة القصة القصيرة. هل لا يزال التسجيل مفتوحاً؟
+            - generic [ref=f40e154]:
+              - button "تحديد كمقروءة" [ref=f40e155]
+              - button "حذف" [ref=f40e159]
+          - generic [ref=f40e164]:
+            - generic [ref=f40e166]:
+              - generic [ref=f40e167]:
+                - paragraph [ref=f40e169]: فؤاد السنيدار
+                - generic [ref=f40e170]: fouad@example.com
+                - generic [ref=f40e171]: 8 سبتمبر 2026
+              - paragraph [ref=f40e172]: إهداء إصدار للمكتبة
+              - paragraph [ref=f40e173]: أرغب في إهداء نسخة من كتابي الجديد إلى مكتبة النادي، وسأتواصل لتنسيق التسليم.
+            - generic [ref=f40e174]:
+              - button "تحديد كمقروءة" [ref=f40e175]
+              - button "حذف" [ref=f40e179]
+          - generic [ref=f40e184]:
+            - generic [ref=f40e186]:
+              - generic [ref=f40e187]:
+                - paragraph [ref=f40e188]: منى البطاح
+                - generic [ref=f40e189]: mona.b@example.com
+                - generic [ref=f40e190]: 5 سبتمبر 2026
+              - paragraph [ref=f40e191]: نشر نص قصصي
+              - paragraph [ref=f40e192]: هل يقبل النادي نصوصاً خارجية للنشر في الملف السنوي؟ أرسلت نصاً لكم عبر البريد وسعيدة بمراجعتكم.
+            - generic [ref=f40e193]:
+              - generic [ref=f40e194]: تمت قراءتها
+              - button "حذف" [ref=f40e195]
+          - generic [ref=f40e200]:
+            - generic [ref=f40e202]:
+              - generic [ref=f40e203]:
+                - paragraph [ref=f40e204]: عبدالرحمن الكبسي
+                - generic [ref=f40e205]: a.kibsi@example.com
+                - generic [ref=f40e206]: 2 سبتمبر 2026
+              - paragraph [ref=f40e207]: اقتراح شراكة ثقافية
+              - paragraph [ref=f40e208]: يمثل اقتراحنا إقامة نشاط مشترك بين النادي ومؤسستنا في مدينة إب خلال خريف هذا العام.
+            - generic [ref=f40e209]:
+              - generic [ref=f40e210]: تمت قراءتها
+              - button "حذف" [ref=f40e211]
+  - region "Notifications alt+T"

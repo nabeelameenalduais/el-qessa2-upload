@@ -1,0 +1,542 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - generic [ref=f3e6]:
+        - button "LUXE" [ref=f3e8]
+        - textbox "Search products..." [ref=f3e12]
+        - generic [ref=f3e13]:
+          - button "Language" [ref=f3e15]:
+            - generic [ref=f3e19]: EN
+          - button "Currency" [ref=f3e21]:
+            - generic [ref=f3e25]: ﷼
+          - button "Wishlist" [ref=f3e26]
+          - button "Cart" [ref=f3e29]:
+            - generic [ref=f3e34]: "1"
+          - button "System Admin" [ref=f3e36]
+      - navigation [ref=f3e42]:
+        - button "Home" [ref=f3e43]
+        - button "ملابس" [ref=f3e45]
+        - button "الإكسسوارات" [ref=f3e49]
+        - button "الأحذية" [ref=f3e53]
+        - button "الجمال والعناية" [ref=f3e57]
+        - button "الإلكترونيات" [ref=f3e61]
+        - generic [ref=f3e64]:
+          - button "المنزل والمعيشة" [ref=f3e65]
+          - generic [ref=f3e860]:
+            - button "All" [ref=f3e861]
+            - button "الأثاث" [ref=f3e862]
+            - button "المطبخ وتناول الطعام" [ref=f3e863]
+            - button "ديكور المنزل" [ref=f3e864]
+            - button "الإضاءة" [ref=f3e865]
+            - button "الفراش" [ref=f3e866]
+        - button "تجربة" [ref=f3e69]
+  - main [ref=f3e72]:
+    - generic [ref=f3e73]:
+      - generic [ref=f3e74]:
+        - generic [ref=f3e75]:
+          - generic [ref=f3e867]:
+            - heading "Up to 30% Off" [level=1] [ref=f3e868]
+            - paragraph [ref=f3e869]: Premium accessories for the modern lifestyle
+            - button "Shop Now" [ref=f3e870]
+          - button "Previous" [ref=f3e84]
+          - button "Next" [ref=f3e87]
+          - generic [ref=f3e90]:
+            - button [ref=f3e91]
+            - button [ref=f3e92]
+            - button [ref=f3e93]
+        - generic [ref=f3e96]:
+          - generic [ref=f3e103]:
+            - paragraph [ref=f3e104]: Free Shipping
+            - paragraph [ref=f3e105]: On orders over $50
+          - generic [ref=f3e109]:
+            - paragraph [ref=f3e110]: 24/7 Support
+            - paragraph [ref=f3e111]: Always here to help
+          - generic [ref=f3e115]:
+            - paragraph [ref=f3e116]: Secure Payment
+            - paragraph [ref=f3e117]: 100% protected
+          - generic [ref=f3e124]:
+            - paragraph [ref=f3e125]: Money-Back
+            - paragraph [ref=f3e126]: 30-day guarantee
+      - generic [ref=f3e127]:
+        - heading "Shop by Category" [level=2] [ref=f3e129]
+        - generic [ref=f3e130]:
+          - button [ref=f3e131] [cursor=pointer]:
+            - img "ملابس" [ref=f3e132]
+            - generic [ref=f3e134]:
+              - paragraph [ref=f3e135]: ملابس
+              - paragraph [ref=f3e136]: Start Shopping
+          - button [ref=f3e139] [cursor=pointer]:
+            - img "الإكسسوارات" [ref=f3e140]
+            - generic [ref=f3e142]:
+              - paragraph [ref=f3e143]: الإكسسوارات
+              - paragraph [ref=f3e144]: Start Shopping
+          - button [ref=f3e147] [cursor=pointer]:
+            - img "الأحذية" [ref=f3e148]
+            - generic [ref=f3e150]:
+              - paragraph [ref=f3e151]: الأحذية
+              - paragraph [ref=f3e152]: Start Shopping
+          - button [ref=f3e155] [cursor=pointer]:
+            - img "الجمال والعناية" [ref=f3e156]
+            - generic [ref=f3e158]:
+              - paragraph [ref=f3e159]: الجمال والعناية
+              - paragraph [ref=f3e160]: Start Shopping
+          - button [ref=f3e163] [cursor=pointer]:
+            - img "الإلكترونيات" [ref=f3e164]
+            - generic [ref=f3e166]:
+              - paragraph [ref=f3e167]: الإلكترونيات
+              - paragraph [ref=f3e168]: Start Shopping
+          - button [ref=f3e171] [cursor=pointer]:
+            - img "المنزل والمعيشة" [ref=f3e172]
+            - generic [ref=f3e174]:
+              - paragraph [ref=f3e175]: المنزل والمعيشة
+              - paragraph [ref=f3e176]: Start Shopping
+          - button [ref=f3e179] [cursor=pointer]:
+            - img "تجربة" [ref=f3e180]
+            - generic [ref=f3e182]:
+              - paragraph [ref=f3e183]: تجربة
+              - paragraph [ref=f3e184]: Start Shopping
+      - generic [ref=f3e187]:
+        - generic [ref=f3e188]:
+          - heading "New Arrivals" [level=2] [ref=f3e189]
+          - generic [ref=f3e190]:
+            - button "View All" [ref=f3e191]
+            - generic [ref=f3e192]:
+              - button "Previous" [ref=f3e193]
+              - button "Next" [ref=f3e196]
+        - generic [ref=f3e199]:
+          - button "Wireless Noise-Cancelling Headphones -25% Toggle wishlist Quick View Add to Cart الإلكترونيات Wireless Noise-Cancelling Headphones (4.8) · 1243 74997.50 ﷼ 99997.50 ﷼ Black Silver Midnight Blue" [ref=f3e871] [cursor=pointer]:
+            - generic [ref=f3e202]:
+              - img "Wireless Noise-Cancelling Headphones" [ref=f3e203]
+              - generic [ref=f3e204]: "-25%"
+              - button "Toggle wishlist" [ref=f3e205]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e208]:
+              - paragraph [ref=f3e209]: الإلكترونيات
+              - heading "Wireless Noise-Cancelling Headphones" [level=3] [ref=f3e210]
+              - generic [ref=f3e211]:
+                - generic [ref=f3e222]: (4.8)
+                - generic [ref=f3e223]: · 1243
+              - generic [ref=f3e224]:
+                - generic [ref=f3e225]: 74997.50 ﷼
+                - generic [ref=f3e226]: 99997.50 ﷼
+              - generic [ref=f3e227]:
+                - generic "Black" [ref=f3e228]
+                - generic "Silver" [ref=f3e229]
+                - generic "Midnight Blue" [ref=f3e230]
+          - button "Smart Fitness Watch Pro -17% Toggle wishlist Quick View Add to Cart الإلكترونيات Smart Fitness Watch Pro (4.6) · 876 62497.50 ﷼ 74997.50 ﷼ Black Rose Gold Forest Green" [ref=f3e872] [cursor=pointer]:
+            - generic [ref=f3e233]:
+              - img "Smart Fitness Watch Pro" [ref=f3e234]
+              - generic [ref=f3e235]: "-17%"
+              - button "Toggle wishlist" [ref=f3e236]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e239]:
+              - paragraph [ref=f3e240]: الإلكترونيات
+              - heading "Smart Fitness Watch Pro" [level=3] [ref=f3e241]
+              - generic [ref=f3e242]:
+                - generic [ref=f3e253]: (4.6)
+                - generic [ref=f3e254]: · 876
+              - generic [ref=f3e255]:
+                - generic [ref=f3e256]: 62497.50 ﷼
+                - generic [ref=f3e257]: 74997.50 ﷼
+              - generic [ref=f3e258]:
+                - generic "Black" [ref=f3e259]
+                - generic "Rose Gold" [ref=f3e260]
+                - generic "Forest Green" [ref=f3e261]
+          - button "Italian Leather Crossbody Bag -24% Toggle wishlist Quick View Add to Cart الإكسسوارات Italian Leather Crossbody Bag (4.9) · 534 47497.50 ﷼ 62497.50 ﷼ Cognac Black Burgundy" [ref=f3e873] [cursor=pointer]:
+            - generic [ref=f3e264]:
+              - img "Italian Leather Crossbody Bag" [ref=f3e265]
+              - generic [ref=f3e266]: "-24%"
+              - button "Toggle wishlist" [ref=f3e267]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e270]:
+              - paragraph [ref=f3e271]: الإكسسوارات
+              - heading "Italian Leather Crossbody Bag" [level=3] [ref=f3e272]
+              - generic [ref=f3e273]:
+                - generic [ref=f3e284]: (4.9)
+                - generic [ref=f3e285]: · 534
+              - generic [ref=f3e286]:
+                - generic [ref=f3e287]: 47497.50 ﷼
+                - generic [ref=f3e288]: 62497.50 ﷼
+              - generic [ref=f3e289]:
+                - generic "Cognac" [ref=f3e290]
+                - generic "Black" [ref=f3e291]
+                - generic "Burgundy" [ref=f3e292]
+          - button "Cashmere Blend Overcoat -23% Toggle wishlist Quick View Add to Cart ملابس Cashmere Blend Overcoat (4.7) · 298 114997.50 ﷼ 149997.50 ﷼ Camel Charcoal Navy Only 5 left!" [ref=f3e874] [cursor=pointer]:
+            - generic [ref=f3e295]:
+              - img "Cashmere Blend Overcoat" [ref=f3e296]
+              - generic [ref=f3e297]: "-23%"
+              - button "Toggle wishlist" [ref=f3e298]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e301]:
+              - paragraph [ref=f3e302]: ملابس
+              - heading "Cashmere Blend Overcoat" [level=3] [ref=f3e303]
+              - generic [ref=f3e304]:
+                - generic [ref=f3e315]: (4.7)
+                - generic [ref=f3e316]: · 298
+              - generic [ref=f3e317]:
+                - generic [ref=f3e318]: 114997.50 ﷼
+                - generic [ref=f3e319]: 149997.50 ﷼
+              - generic [ref=f3e320]:
+                - generic "Camel" [ref=f3e321]
+                - generic "Charcoal" [ref=f3e322]
+                - generic "Navy" [ref=f3e323]
+              - generic [ref=f3e324]: Only 5 left!
+          - button "Minimalist Ceramic Desk Lamp -20% Toggle wishlist Quick View Add to Cart المنزل والمعيشة Minimalist Ceramic Desk Lamp (4.5) · 412 19997.50 ﷼ 24997.50 ﷼ White Terracotta Sage" [ref=f3e875] [cursor=pointer]:
+            - generic [ref=f3e327]:
+              - img "Minimalist Ceramic Desk Lamp" [ref=f3e328]
+              - generic [ref=f3e329]: "-20%"
+              - button "Toggle wishlist" [ref=f3e330]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e333]:
+              - paragraph [ref=f3e334]: المنزل والمعيشة
+              - heading "Minimalist Ceramic Desk Lamp" [level=3] [ref=f3e335]
+              - generic [ref=f3e336]:
+                - generic [ref=f3e347]: (4.5)
+                - generic [ref=f3e348]: · 412
+              - generic [ref=f3e349]:
+                - generic [ref=f3e350]: 19997.50 ﷼
+                - generic [ref=f3e351]: 24997.50 ﷼
+              - generic [ref=f3e352]:
+                - generic "White" [ref=f3e353]
+                - generic "Terracotta" [ref=f3e354]
+                - generic "Sage" [ref=f3e355]
+          - button "Polarized Aviator Sunglasses -20% Toggle wishlist Quick View Add to Cart الإكسسوارات Polarized Aviator Sunglasses (4.4) · 763 39997.50 ﷼ 49997.50 ﷼ Gold/Green Silver/Blue Matte Black" [ref=f3e876] [cursor=pointer]:
+            - generic [ref=f3e358]:
+              - img "Polarized Aviator Sunglasses" [ref=f3e359]
+              - generic [ref=f3e360]: "-20%"
+              - button "Toggle wishlist" [ref=f3e361]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e364]:
+              - paragraph [ref=f3e365]: الإكسسوارات
+              - heading "Polarized Aviator Sunglasses" [level=3] [ref=f3e366]
+              - generic [ref=f3e367]:
+                - generic [ref=f3e378]: (4.4)
+                - generic [ref=f3e379]: · 763
+              - generic [ref=f3e380]:
+                - generic [ref=f3e381]: 39997.50 ﷼
+                - generic [ref=f3e382]: 49997.50 ﷼
+              - generic [ref=f3e383]:
+                - generic "Gold/Green" [ref=f3e384]
+                - generic "Silver/Blue" [ref=f3e385]
+                - generic "Matte Black" [ref=f3e386]
+          - button "Premium Cotton Hoodie -25% Toggle wishlist Quick View Add to Cart ملابس Premium Cotton Hoodie (4.6) · 1567 22497.50 ﷼ 29997.50 ﷼ Heather Grey Forest Sand Midnight" [ref=f3e877] [cursor=pointer]:
+            - generic [ref=f3e389]:
+              - img "Premium Cotton Hoodie" [ref=f3e390]
+              - generic [ref=f3e391]: "-25%"
+              - button "Toggle wishlist" [ref=f3e392]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e395]:
+              - paragraph [ref=f3e396]: ملابس
+              - heading "Premium Cotton Hoodie" [level=3] [ref=f3e397]
+              - generic [ref=f3e398]:
+                - generic [ref=f3e409]: (4.6)
+                - generic [ref=f3e410]: · 1567
+              - generic [ref=f3e411]:
+                - generic [ref=f3e412]: 22497.50 ﷼
+                - generic [ref=f3e413]: 29997.50 ﷼
+              - generic [ref=f3e414]:
+                - generic "Heather Grey" [ref=f3e415]
+                - generic "Forest" [ref=f3e416]
+                - generic "Sand" [ref=f3e417]
+                - generic "Midnight" [ref=f3e418]
+          - button "Smart Home Speaker -28% Toggle wishlist Quick View Add to Cart الإلكترونيات Smart Home Speaker (4.3) · 2104 32497.50 ﷼ 44997.50 ﷼ Charcoal Sandstone" [ref=f3e878] [cursor=pointer]:
+            - generic [ref=f3e421]:
+              - img "Smart Home Speaker" [ref=f3e422]
+              - generic [ref=f3e423]: "-28%"
+              - button "Toggle wishlist" [ref=f3e424]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e427]:
+              - paragraph [ref=f3e428]: الإلكترونيات
+              - heading "Smart Home Speaker" [level=3] [ref=f3e429]
+              - generic [ref=f3e430]:
+                - generic [ref=f3e441]: (4.3)
+                - generic [ref=f3e442]: · 2104
+              - generic [ref=f3e443]:
+                - generic [ref=f3e444]: 32497.50 ﷼
+                - generic [ref=f3e445]: 44997.50 ﷼
+              - generic [ref=f3e446]:
+                - generic "Charcoal" [ref=f3e447]
+                - generic "Sandstone" [ref=f3e448]
+      - generic [ref=f3e449]:
+        - generic [ref=f3e450]:
+          - heading "Best Sellers" [level=2] [ref=f3e451]
+          - generic [ref=f3e452]:
+            - button "View All" [ref=f3e453]
+            - generic [ref=f3e454]:
+              - button "Previous" [ref=f3e455]
+              - button "Next" [ref=f3e458]
+        - generic [ref=f3e461]:
+          - button "Italian Leather Crossbody Bag -24% Toggle wishlist Quick View Add to Cart الإكسسوارات Italian Leather Crossbody Bag (4.9) · 534 47497.50 ﷼ 62497.50 ﷼ Cognac Black Burgundy" [ref=f3e879] [cursor=pointer]:
+            - generic [ref=f3e464]:
+              - img "Italian Leather Crossbody Bag" [ref=f3e465]
+              - generic [ref=f3e466]: "-24%"
+              - button "Toggle wishlist" [ref=f3e467]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e470]:
+              - paragraph [ref=f3e471]: الإكسسوارات
+              - heading "Italian Leather Crossbody Bag" [level=3] [ref=f3e472]
+              - generic [ref=f3e473]:
+                - generic [ref=f3e484]: (4.9)
+                - generic [ref=f3e485]: · 534
+              - generic [ref=f3e486]:
+                - generic [ref=f3e487]: 47497.50 ﷼
+                - generic [ref=f3e488]: 62497.50 ﷼
+              - generic [ref=f3e489]:
+                - generic "Cognac" [ref=f3e490]
+                - generic "Black" [ref=f3e491]
+                - generic "Burgundy" [ref=f3e492]
+          - button "Wireless Noise-Cancelling Headphones -25% Toggle wishlist Quick View Add to Cart الإلكترونيات Wireless Noise-Cancelling Headphones (4.8) · 1243 74997.50 ﷼ 99997.50 ﷼ Black Silver Midnight Blue" [ref=f3e880] [cursor=pointer]:
+            - generic [ref=f3e495]:
+              - img "Wireless Noise-Cancelling Headphones" [ref=f3e496]
+              - generic [ref=f3e497]: "-25%"
+              - button "Toggle wishlist" [ref=f3e498]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e501]:
+              - paragraph [ref=f3e502]: الإلكترونيات
+              - heading "Wireless Noise-Cancelling Headphones" [level=3] [ref=f3e503]
+              - generic [ref=f3e504]:
+                - generic [ref=f3e515]: (4.8)
+                - generic [ref=f3e516]: · 1243
+              - generic [ref=f3e517]:
+                - generic [ref=f3e518]: 74997.50 ﷼
+                - generic [ref=f3e519]: 99997.50 ﷼
+              - generic [ref=f3e520]:
+                - generic "Black" [ref=f3e521]
+                - generic "Silver" [ref=f3e522]
+                - generic "Midnight Blue" [ref=f3e523]
+          - button "Artisan Pour-Over Coffee Set -24% Toggle wishlist Quick View Add to Cart المنزل والمعيشة Artisan Pour-Over Coffee Set (4.8) · 687 16247.50 ﷼ 21247.50 ﷼ Clear Amber" [ref=f3e881] [cursor=pointer]:
+            - generic [ref=f3e526]:
+              - img "Artisan Pour-Over Coffee Set" [ref=f3e527]
+              - generic [ref=f3e528]: "-24%"
+              - button "Toggle wishlist" [ref=f3e529]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e532]:
+              - paragraph [ref=f3e533]: المنزل والمعيشة
+              - heading "Artisan Pour-Over Coffee Set" [level=3] [ref=f3e534]
+              - generic [ref=f3e535]:
+                - generic [ref=f3e546]: (4.8)
+                - generic [ref=f3e547]: · 687
+              - generic [ref=f3e548]:
+                - generic [ref=f3e549]: 16247.50 ﷼
+                - generic [ref=f3e550]: 21247.50 ﷼
+              - generic [ref=f3e551]:
+                - generic "Clear" [ref=f3e552]
+                - generic "Amber" [ref=f3e553]
+          - button "Cashmere Blend Overcoat -23% Toggle wishlist Quick View Add to Cart ملابس Cashmere Blend Overcoat (4.7) · 298 114997.50 ﷼ 149997.50 ﷼ Camel Charcoal Navy Only 5 left!" [ref=f3e882] [cursor=pointer]:
+            - generic [ref=f3e556]:
+              - img "Cashmere Blend Overcoat" [ref=f3e557]
+              - generic [ref=f3e558]: "-23%"
+              - button "Toggle wishlist" [ref=f3e559]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e562]:
+              - paragraph [ref=f3e563]: ملابس
+              - heading "Cashmere Blend Overcoat" [level=3] [ref=f3e564]
+              - generic [ref=f3e565]:
+                - generic [ref=f3e576]: (4.7)
+                - generic [ref=f3e577]: · 298
+              - generic [ref=f3e578]:
+                - generic [ref=f3e579]: 114997.50 ﷼
+                - generic [ref=f3e580]: 149997.50 ﷼
+              - generic [ref=f3e581]:
+                - generic "Camel" [ref=f3e582]
+                - generic "Charcoal" [ref=f3e583]
+                - generic "Navy" [ref=f3e584]
+              - generic [ref=f3e585]: Only 5 left!
+          - button "Leather Bifold Wallet -22% Toggle wishlist Quick View Add to Cart الإكسسوارات Leather Bifold Wallet (4.7) · 945 17497.50 ﷼ 22497.50 ﷼ Dark Brown Black Tan" [ref=f3e883] [cursor=pointer]:
+            - generic [ref=f3e588]:
+              - img "Leather Bifold Wallet" [ref=f3e589]
+              - generic [ref=f3e590]: "-22%"
+              - button "Toggle wishlist" [ref=f3e591]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e594]:
+              - paragraph [ref=f3e595]: الإكسسوارات
+              - heading "Leather Bifold Wallet" [level=3] [ref=f3e596]
+              - generic [ref=f3e597]:
+                - generic [ref=f3e608]: (4.7)
+                - generic [ref=f3e609]: · 945
+              - generic [ref=f3e610]:
+                - generic [ref=f3e611]: 17497.50 ﷼
+                - generic [ref=f3e612]: 22497.50 ﷼
+              - generic [ref=f3e613]:
+                - generic "Dark Brown" [ref=f3e614]
+                - generic "Black" [ref=f3e615]
+                - generic "Tan" [ref=f3e616]
+          - button "Smart Fitness Watch Pro -17% Toggle wishlist Quick View Add to Cart الإلكترونيات Smart Fitness Watch Pro (4.6) · 876 62497.50 ﷼ 74997.50 ﷼ Black Rose Gold Forest Green" [ref=f3e884] [cursor=pointer]:
+            - generic [ref=f3e619]:
+              - img "Smart Fitness Watch Pro" [ref=f3e620]
+              - generic [ref=f3e621]: "-17%"
+              - button "Toggle wishlist" [ref=f3e622]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e625]:
+              - paragraph [ref=f3e626]: الإلكترونيات
+              - heading "Smart Fitness Watch Pro" [level=3] [ref=f3e627]
+              - generic [ref=f3e628]:
+                - generic [ref=f3e639]: (4.6)
+                - generic [ref=f3e640]: · 876
+              - generic [ref=f3e641]:
+                - generic [ref=f3e642]: 62497.50 ﷼
+                - generic [ref=f3e643]: 74997.50 ﷼
+              - generic [ref=f3e644]:
+                - generic "Black" [ref=f3e645]
+                - generic "Rose Gold" [ref=f3e646]
+                - generic "Forest Green" [ref=f3e647]
+          - button "Premium Cotton Hoodie -25% Toggle wishlist Quick View Add to Cart ملابس Premium Cotton Hoodie (4.6) · 1567 22497.50 ﷼ 29997.50 ﷼ Heather Grey Forest Sand Midnight" [ref=f3e885] [cursor=pointer]:
+            - generic [ref=f3e650]:
+              - img "Premium Cotton Hoodie" [ref=f3e651]
+              - generic [ref=f3e652]: "-25%"
+              - button "Toggle wishlist" [ref=f3e653]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e656]:
+              - paragraph [ref=f3e657]: ملابس
+              - heading "Premium Cotton Hoodie" [level=3] [ref=f3e658]
+              - generic [ref=f3e659]:
+                - generic [ref=f3e670]: (4.6)
+                - generic [ref=f3e671]: · 1567
+              - generic [ref=f3e672]:
+                - generic [ref=f3e673]: 22497.50 ﷼
+                - generic [ref=f3e674]: 29997.50 ﷼
+              - generic [ref=f3e675]:
+                - generic "Heather Grey" [ref=f3e676]
+                - generic "Forest" [ref=f3e677]
+                - generic "Sand" [ref=f3e678]
+                - generic "Midnight" [ref=f3e679]
+          - button "Minimalist Ceramic Desk Lamp -20% Toggle wishlist Quick View Add to Cart المنزل والمعيشة Minimalist Ceramic Desk Lamp (4.5) · 412 19997.50 ﷼ 24997.50 ﷼ White Terracotta Sage" [ref=f3e886] [cursor=pointer]:
+            - generic [ref=f3e682]:
+              - img "Minimalist Ceramic Desk Lamp" [ref=f3e683]
+              - generic [ref=f3e684]: "-20%"
+              - button "Toggle wishlist" [ref=f3e685]
+              - generic:
+                - button "Quick View"
+                - button "Add to Cart"
+            - generic [ref=f3e688]:
+              - paragraph [ref=f3e689]: المنزل والمعيشة
+              - heading "Minimalist Ceramic Desk Lamp" [level=3] [ref=f3e690]
+              - generic [ref=f3e691]:
+                - generic [ref=f3e702]: (4.5)
+                - generic [ref=f3e703]: · 412
+              - generic [ref=f3e704]:
+                - generic [ref=f3e705]: 19997.50 ﷼
+                - generic [ref=f3e706]: 24997.50 ﷼
+              - generic [ref=f3e707]:
+                - generic "White" [ref=f3e708]
+                - generic "Terracotta" [ref=f3e709]
+                - generic "Sage" [ref=f3e710]
+      - generic [ref=f3e712]:
+        - generic [ref=f3e713]:
+          - paragraph [ref=f3e714]: Mid-Season Sale
+          - heading "Take an extra 10% off best sellers" [level=2] [ref=f3e715]
+          - button "Shop the Sale" [ref=f3e716]
+        - generic [ref=f3e719]:
+          - button [ref=f3e720]:
+            - img "Italian Leather Crossbody Bag" [ref=f3e721]
+          - button [ref=f3e722]:
+            - img "Wireless Noise-Cancelling Headphones" [ref=f3e723]
+          - button [ref=f3e724]:
+            - img "Artisan Pour-Over Coffee Set" [ref=f3e725]
+          - button [ref=f3e726]:
+            - img "Cashmere Blend Overcoat" [ref=f3e727]
+  - contentinfo [ref=f3e728]:
+    - generic [ref=f3e729]:
+      - generic [ref=f3e730]:
+        - generic [ref=f3e731]:
+          - heading "LUXE" [level=3] [ref=f3e732]
+          - paragraph [ref=f3e733]: Premium shopping experience with curated collections for the modern lifestyle.
+          - generic [ref=f3e734]:
+            - paragraph [ref=f3e735]: Stay in the loop
+            - generic [ref=f3e736]:
+              - textbox "Your email address" [ref=f3e737]
+              - button "Subscribe" [ref=f3e738]
+        - generic [ref=f3e739]:
+          - heading "Shop" [level=4] [ref=f3e740]
+          - list [ref=f3e741]:
+            - listitem [ref=f3e742]:
+              - button "New Arrivals" [ref=f3e743] [cursor=pointer]
+            - listitem [ref=f3e744]:
+              - button "Best Sellers" [ref=f3e745] [cursor=pointer]
+            - listitem [ref=f3e746]:
+              - button "Sale" [ref=f3e747] [cursor=pointer]
+        - generic [ref=f3e748]:
+          - heading "Support" [level=4] [ref=f3e749]
+          - list [ref=f3e750]:
+            - listitem [ref=f3e751]:
+              - button "Contact Us" [ref=f3e752] [cursor=pointer]
+            - listitem [ref=f3e753]:
+              - button "FAQs" [ref=f3e754] [cursor=pointer]
+            - listitem [ref=f3e755]:
+              - button "About Us" [ref=f3e756] [cursor=pointer]
+            - listitem [ref=f3e757]: Shipping Info
+        - generic [ref=f3e758]:
+          - heading "Demo Accounts" [level=4] [ref=f3e759]
+          - list [ref=f3e760]:
+            - listitem [ref=f3e761]: "Admin: admin@store.com / admin123"
+            - listitem [ref=f3e762]: "Customer: user@store.com / user123"
+      - generic [ref=f3e763]:
+        - paragraph [ref=f3e764]: © 2026 LUXE. All rights reserved.
+        - button "Back to top ↑" [ref=f3e765]
+  - generic [ref=f3e766]:
+    - generic [ref=f3e767]:
+      - generic [ref=f3e768]:
+        - heading "Shopping Cart" [level=2] [ref=f3e772]
+        - generic [ref=f3e773]: (1)
+      - button "Close" [ref=f3e774]
+    - generic [ref=f3e779]:
+      - img "Wireless Noise-Cancelling Headphones" [ref=f3e780]
+      - generic [ref=f3e781]:
+        - heading "Wireless Noise-Cancelling Headphones" [level=4] [ref=f3e782]
+        - generic [ref=f3e783]: Black
+        - paragraph [ref=f3e786]: 74997.50 ﷼
+        - generic [ref=f3e787]:
+          - generic [ref=f3e788]:
+            - button "Decrease" [ref=f3e789]
+            - generic [ref=f3e791]: "1"
+            - button "Increase" [ref=f3e792]
+          - button "Remove" [ref=f3e794]
+    - generic [ref=f3e798]:
+      - generic [ref=f3e799]: Free Shipping
+      - generic [ref=f3e803]:
+        - textbox "Coupon code" [ref=f3e804]
+        - button [disabled] [ref=f3e805]
+      - generic [ref=f3e809]:
+        - generic [ref=f3e810]:
+          - generic [ref=f3e811]: Subtotal
+          - generic [ref=f3e812]: 74997.50 ﷼
+        - generic [ref=f3e813]:
+          - generic [ref=f3e814]: Shipping
+          - generic [ref=f3e815]: Free
+        - generic [ref=f3e816]:
+          - generic [ref=f3e817]: Tax (15%)
+          - generic [ref=f3e818]: 11250.00 ﷼
+        - generic [ref=f3e819]:
+          - generic [ref=f3e820]: Total
+          - generic [ref=f3e821]: 86247.50 ﷼
+      - button "Proceed to Checkout" [ref=f3e822]

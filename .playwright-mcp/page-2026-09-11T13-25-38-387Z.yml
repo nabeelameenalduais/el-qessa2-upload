@@ -1,0 +1,119 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e6]:
+      - link "ق نادي القصة «إلمقه» مؤسسة ثقافية أدبية يمنية" [ref=f7e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f7e8]: ق
+        - generic [ref=f7e9]:
+          - generic [ref=f7e10]: نادي القصة «إلمقه»
+          - generic [ref=f7e11]: مؤسسة ثقافية أدبية يمنية
+      - navigation [ref=f7e12]:
+        - link "الرئيسية" [ref=f7e13] [cursor=pointer]:
+          - /url: /
+        - link "عن النادي" [ref=f7e14] [cursor=pointer]:
+          - /url: /about
+        - link "الفعاليات" [ref=f7e15] [cursor=pointer]:
+          - /url: /events
+        - link "الكتّاب" [ref=f7e16] [cursor=pointer]:
+          - /url: /writers
+        - link "الإصدارات" [ref=f7e17] [cursor=pointer]:
+          - /url: /publications
+        - link "الورش" [ref=f7e18] [cursor=pointer]:
+          - /url: /workshops
+        - link "الأخبار" [ref=f7e19] [cursor=pointer]:
+          - /url: /news
+        - link "الأرشيف" [ref=f7e20] [cursor=pointer]:
+          - /url: /archive
+        - link "معرض الصور" [ref=f7e21] [cursor=pointer]:
+          - /url: /gallery
+        - link "تواصل معنا" [ref=f7e22] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f7e23]:
+    - generic [ref=f7e24]:
+      - link "العودة إلى الإصدارات" [ref=f7e25] [cursor=pointer]:
+        - /url: /publications
+      - generic [ref=f7e28]:
+        - generic [ref=f7e35]:
+          - text: "2026"
+          - heading "حكايات صنعاء" [level=1] [ref=f7e36]
+          - paragraph [ref=f7e37]: ياسر العنسي
+        - generic [ref=f7e38]:
+          - generic [ref=f7e39]:
+            - generic [ref=f7e40]: رواية
+            - generic [ref=f7e41]: "2026"
+            - generic [ref=f7e42]: 214 صفحة
+          - heading "نبذة عن العمل" [level=2] [ref=f7e43]
+          - generic [ref=f7e44]: رواية تستعيد أزقة صنعاء وحكاياتها عبر أصوات متعددة، من الماضي إلى الحاضر، في عمل يقوم على فكرة أن المدينة كتاب لا يقفل أبداً.
+          - generic [ref=f7e45]:
+            - paragraph [ref=f7e46]:
+              - text: "التصنيف:"
+              - generic [ref=f7e49]: رواية
+            - paragraph [ref=f7e50]:
+              - text: "سنة الإصدار:"
+              - generic [ref=f7e53]: "2026"
+            - paragraph [ref=f7e54]:
+              - text: "عدد الصفحات:"
+              - generic [ref=f7e58]: "214"
+            - paragraph [ref=f7e59]:
+              - text: "الناشر:"
+              - generic [ref=f7e62]: إصدارات نادي القصة
+          - link [ref=f7e63] [cursor=pointer]:
+            - /url: /writers/wrt_002
+            - img "ياسر العنسي" [ref=f7e65]
+            - generic [ref=f7e66]:
+              - paragraph [ref=f7e67]: المؤلف
+              - paragraph [ref=f7e71]: ياسر العنسي
+              - paragraph [ref=f7e72]: روائي
+  - contentinfo [ref=f7e73]:
+    - generic [ref=f7e74]:
+      - generic [ref=f7e75]:
+        - generic [ref=f7e76]:
+          - generic [ref=f7e77]: ق
+          - generic [ref=f7e78]: نادي القصة «إلمقه»
+        - paragraph [ref=f7e79]: مؤسسة ثقافية أدبية تحتفي بالقصة القصيرة والرواية اليمنية، ترعى الكتّاب وتنشر الإبداع من قلب صنعاء إلى كل قراءة عربية.
+        - generic [ref=f7e80]:
+          - link "فيسبوك" [ref=f7e81] [cursor=pointer]:
+            - /url: /gallery
+          - link "انستغرام" [ref=f7e85] [cursor=pointer]:
+            - /url: /gallery
+          - link "معرض الصور" [ref=f7e89] [cursor=pointer]:
+            - /url: /gallery
+      - generic [ref=f7e93]:
+        - heading "أقسام الموقع" [level=3] [ref=f7e94]
+        - list [ref=f7e95]:
+          - listitem [ref=f7e96]:
+            - link "عن النادي" [ref=f7e97] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f7e98]:
+            - link "الفعاليات" [ref=f7e99] [cursor=pointer]:
+              - /url: /events
+          - listitem [ref=f7e100]:
+            - link "الكتّاب" [ref=f7e101] [cursor=pointer]:
+              - /url: /writers
+          - listitem [ref=f7e102]:
+            - link "الإصدارات" [ref=f7e103] [cursor=pointer]:
+              - /url: /publications
+          - listitem [ref=f7e104]:
+            - link "الورش" [ref=f7e105] [cursor=pointer]:
+              - /url: /workshops
+          - listitem [ref=f7e106]:
+            - link "الأخبار" [ref=f7e107] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f7e108]:
+            - link "الأرشيف" [ref=f7e109] [cursor=pointer]:
+              - /url: /archive
+          - listitem [ref=f7e110]:
+            - link "معرض الصور" [ref=f7e111] [cursor=pointer]:
+              - /url: /gallery
+          - listitem [ref=f7e112]:
+            - link "تواصل معنا" [ref=f7e113] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f7e114]:
+        - heading "تواصل معنا" [level=3] [ref=f7e115]
+        - list [ref=f7e116]:
+          - listitem [ref=f7e117]: صنعاء، اليمن — مبنى النادي الثقافي
+          - listitem [ref=f7e118]: info@almqah.club
+          - listitem [ref=f7e119]: 777 111 000
+        - generic [ref=f7e120]: «القصة نورٌ يجمعنا»
+    - generic [ref=f7e121]: © 2026 نادي القصة «إلمقه» — جميع الحقوق محفوظة
+  - region "Notifications alt+T"

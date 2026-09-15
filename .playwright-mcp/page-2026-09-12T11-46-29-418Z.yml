@@ -1,0 +1,178 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e6]:
+      - button "نادي القصة — الرئيسية" [ref=f2e7]:
+        - generic [ref=f2e8]: ق
+        - generic [ref=f2e9]:
+          - generic [ref=f2e10]: نادي القصة
+          - generic [ref=f2e11]: إلمقه
+      - generic [ref=f2e12]:
+        - link "info@algessa.example" [ref=f2e13] [cursor=pointer]:
+          - /url: mailto:info@algessa.example
+        - link "صنعاء، اليمن" [ref=f2e15] [cursor=pointer]:
+          - /url: "#contact"
+        - link [ref=f2e17] [cursor=pointer]:
+          - /url: "#social"
+        - link [ref=f2e21] [cursor=pointer]:
+          - /url: "#social"
+        - link [ref=f2e25] [cursor=pointer]:
+          - /url: "#social"
+    - navigation [ref=f2e29]:
+      - generic [ref=f2e31]:
+        - button "الرئيسية" [ref=f2e32]
+        - button "عن النادي" [ref=f2e34]
+        - button "الفعاليات" [ref=f2e36]
+        - button "الكتّاب" [ref=f2e38]
+        - button "الإصدارات" [ref=f2e40]
+        - button "الورش" [ref=f2e42]
+        - button "الأخبار" [ref=f2e44]
+        - button "الأرشيف" [ref=f2e46]
+        - button "معرض الصور" [ref=f2e48]
+        - button "تواصل معنا" [ref=f2e50]
+  - main [ref=f2e52]:
+    - generic [ref=f2e1239]:
+      - generic [ref=f2e1240]:
+        - img "أسماء الحميري" [ref=f2e1241]
+        - generic [ref=f2e1243]:
+          - paragraph [ref=f2e1244]: قاصة وكاتبة مقالات
+          - heading "أسماء الحميري" [level=1] [ref=f2e1245]
+          - generic [ref=f2e1246]: صنعاء
+      - generic [ref=f2e1250]:
+        - generic [ref=f2e1251]:
+          - generic [ref=f2e1252]:
+            - generic [ref=f2e1253]:
+              - heading "نبذة" [level=2] [ref=f2e1254]
+              - paragraph [ref=f2e1256]: قاصة يمنية من صنعاء، صدرت لها مجموعتان قصصيتان، وتكتب مقالاً ثقافياً أسبوعياً. اهتمامها الأول بالعلاقة بين الذاكرة الشخصية والمدينة، وبطرق تحول التجربة الحياتية إلى نص سردي. عضو مؤسس في نادي القصة، وتدرب في ورش النادي منذ دورته الأولى.
+            - generic [ref=f2e1257]:
+              - heading "الأعمال الأدبية" [level=2] [ref=f2e1258]
+              - list [ref=f2e1260]:
+                - listitem [ref=f2e1261]:
+                  - generic [ref=f2e1262]: "2025"
+                  - generic [ref=f2e1263]: ظل البحر
+                  - generic [ref=f2e1264]: — مجموعة قصصية
+                - listitem [ref=f2e1265]:
+                  - generic [ref=f2e1266]: "2024"
+                  - generic [ref=f2e1267]: مفاتيح صغيرة
+                  - generic [ref=f2e1268]: — مجموعة قصصية
+          - complementary [ref=f2e1269]:
+            - generic [ref=f2e1270]:
+              - heading "ملخص سريع" [level=3] [ref=f2e1271]
+              - generic [ref=f2e1273]:
+                - term [ref=f2e1274]: المدينة
+                - definition [ref=f2e1275]: صنعاء
+                - term [ref=f2e1276]: النوعية
+                - definition [ref=f2e1277]: قاصة وكاتبة مقالات
+                - term [ref=f2e1278]: عدد الأعمال
+                - definition [ref=f2e1279]: 2 أعمال
+        - generic [ref=f2e1280]:
+          - heading "إصداراته" [level=2] [ref=f2e1281]
+          - generic [ref=f2e1283]:
+            - generic [ref=f2e1284] [cursor=pointer]:
+              - generic [ref=f2e1287]:
+                - paragraph [ref=f2e1288]: نادي القصة «إلمقه»
+                - heading "ظل البحر" [level=3] [ref=f2e1291]
+                - generic [ref=f2e1293]:
+                  - paragraph [ref=f2e1294]: أسماء الحميري
+                  - paragraph [ref=f2e1295]: "2025"
+              - paragraph [ref=f2e1297]: ظل البحر
+              - paragraph [ref=f2e1298]: "2025"
+            - generic [ref=f2e1299] [cursor=pointer]:
+              - generic [ref=f2e1302]:
+                - paragraph [ref=f2e1303]: نادي القصة «إلمقه»
+                - heading "مفاتيح صغيرة" [level=3] [ref=f2e1306]
+                - generic [ref=f2e1308]:
+                  - paragraph [ref=f2e1309]: أسماء الحميري
+                  - paragraph [ref=f2e1310]: "2024"
+              - paragraph [ref=f2e1312]: مفاتيح صغيرة
+              - paragraph [ref=f2e1313]: "2024"
+            - generic [ref=f2e1314] [cursor=pointer]:
+              - generic [ref=f2e1317]:
+                - paragraph [ref=f2e1318]: نادي القصة «إلمقه»
+                - heading "أوراق من سفر" [level=3] [ref=f2e1321]
+                - generic [ref=f2e1323]:
+                  - paragraph [ref=f2e1324]: أسماء الحميري
+                  - paragraph [ref=f2e1325]: "2024"
+              - paragraph [ref=f2e1327]: أوراق من سفر
+              - paragraph [ref=f2e1328]: "2024"
+        - generic [ref=f2e1329]:
+          - heading "فعاليات مرتبطة" [level=2] [ref=f2e1330]
+          - generic [ref=f2e1332]:
+            - article [ref=f2e1333] [cursor=pointer]:
+              - generic [ref=f2e1334]:
+                - 'img "أمسية قصصية: قصص من المدينة" [ref=f2e1335]'
+                - generic [ref=f2e1336]: أمسيات قصصية
+                - generic [ref=f2e1337]: قادمة
+              - generic [ref=f2e1338]:
+                - generic [ref=f2e1339]:
+                  - generic [ref=f2e1340]: الخميس، 18 سبتمبر 2026
+                  - generic [ref=f2e1343]: 7:00 مساءً
+                  - generic [ref=f2e1347]: صنعاء — مقر النادي الثقافي
+                - 'heading "أمسية قصصية: قصص من المدينة" [level=3] [ref=f2e1351]'
+                - paragraph [ref=f2e1352]: أمسية قصصية يقرأ فيها عدد من كتّاب النادي نصوصهم الجديدة، ويليها حوار مفتوح مع الجمهور حول المدينة والذاكرة والحكاية.
+                - generic [ref=f2e1353]: التفاصيل
+            - article [ref=f2e1356] [cursor=pointer]:
+              - generic [ref=f2e1357]:
+                - img "ورشة كتابة القصة القصيرة" [ref=f2e1358]
+                - generic [ref=f2e1359]: ورش كتابة
+                - generic [ref=f2e1360]: قادمة
+              - generic [ref=f2e1361]:
+                - generic [ref=f2e1362]:
+                  - generic [ref=f2e1363]: الأحد، 21 سبتمبر 2026
+                  - generic [ref=f2e1366]: 4:00 عصراً
+                  - generic [ref=f2e1370]: صنعاء — مقر النادي الثقافي
+                - heading "ورشة كتابة القصة القصيرة" [level=3] [ref=f2e1374]
+                - paragraph [ref=f2e1375]: ورشة عملية في كتابة القصة القصيرة، من الفكرة إلى النص النهائي، يقدمها قاصّون من النادي.
+                - generic [ref=f2e1376]: التفاصيل
+        - button "العودة إلى جميع الكتّاب" [ref=f2e1380] [cursor=pointer]
+  - contentinfo [ref=f2e479]:
+    - generic [ref=f2e480]:
+      - generic [ref=f2e481]:
+        - generic [ref=f2e482]:
+          - generic [ref=f2e483]:
+            - generic [ref=f2e484]: ق
+            - generic [ref=f2e485]:
+              - paragraph [ref=f2e486]: نادي القصة
+              - paragraph [ref=f2e487]: إلمقه
+          - paragraph [ref=f2e488]: مساحة ثقافية تجمع كتّاب القصة والرواية والمهتمين بالسرد، وتحتفي بالكلمة والكتاب والفعالية الأدبية.
+        - generic [ref=f2e489]:
+          - heading "روابط الموقع" [level=4] [ref=f2e490]
+          - list [ref=f2e491]:
+            - listitem [ref=f2e492]:
+              - button "الرئيسية" [ref=f2e493] [cursor=pointer]
+            - listitem [ref=f2e494]:
+              - button "عن النادي" [ref=f2e495] [cursor=pointer]
+            - listitem [ref=f2e496]:
+              - button "الفعاليات" [ref=f2e497] [cursor=pointer]
+            - listitem [ref=f2e498]:
+              - button "الكتّاب" [ref=f2e499] [cursor=pointer]
+            - listitem [ref=f2e500]:
+              - button "الإصدارات" [ref=f2e501] [cursor=pointer]
+            - listitem [ref=f2e502]:
+              - button "الورش" [ref=f2e503] [cursor=pointer]
+            - listitem [ref=f2e504]:
+              - button "الأخبار" [ref=f2e505] [cursor=pointer]
+            - listitem [ref=f2e506]:
+              - button "الأرشيف" [ref=f2e507] [cursor=pointer]
+            - listitem [ref=f2e508]:
+              - button "معرض الصور" [ref=f2e509] [cursor=pointer]
+            - listitem [ref=f2e510]:
+              - button "تواصل معنا" [ref=f2e511] [cursor=pointer]
+        - generic [ref=f2e512]:
+          - heading "تواصل معنا" [level=4] [ref=f2e513]
+          - list [ref=f2e514]:
+            - listitem [ref=f2e515]: صنعاء، اليمن — مقر النادي الثقافي
+            - listitem [ref=f2e519]: info@algessa.example
+            - listitem [ref=f2e523]: +967 700 000 000
+        - generic [ref=f2e526]:
+          - heading "تابعنا" [level=4] [ref=f2e527]
+          - generic [ref=f2e528]:
+            - link "الموقع" [ref=f2e529] [cursor=pointer]:
+              - /url: "#social"
+            - link "الصور" [ref=f2e533] [cursor=pointer]:
+              - /url: "#social"
+            - link "المراسلة" [ref=f2e537] [cursor=pointer]:
+              - /url: "#social"
+          - paragraph [ref=f2e541]: نموذج أولي لعرض الواجهة — جميع البيانات تجريبية.
+      - generic [ref=f2e542]:
+        - paragraph [ref=f2e543]: © 2026 نادي القصة «إلمقه». جميع الحقوق محفوظة.
+        - button "العودة إلى الأعلى" [ref=f2e544] [cursor=pointer]

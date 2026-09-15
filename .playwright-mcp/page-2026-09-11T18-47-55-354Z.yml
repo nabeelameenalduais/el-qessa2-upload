@@ -1,0 +1,84 @@
+- generic [ref=f5e3]:
+  - complementary [ref=f5e4]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=f5e6] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f5e7]: ق
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]: نادي القصة «إلمقه»
+        - generic [ref=f5e10]: لوحة إدارة النادي
+    - navigation [ref=f5e11]:
+      - generic [ref=f5e12]:
+        - paragraph [ref=f5e13]: الرئيسية
+        - generic [ref=f5e14]:
+          - link "لوحة التحكم" [ref=f5e15] [cursor=pointer]:
+            - /url: /dashboard
+          - link "نظرة عامة على الموقع" [ref=f5e23] [cursor=pointer]:
+            - /url: /dashboard/overview
+      - generic [ref=f5e28]:
+        - paragraph [ref=f5e29]: محتوى الموقع
+        - generic [ref=f5e30]:
+          - link "فعاليات الموقع" [ref=f5e31] [cursor=pointer]:
+            - /url: /dashboard/events-site
+          - link "الورش" [ref=f5e35] [cursor=pointer]:
+            - /url: /dashboard/workshops
+          - link "الإصدارات" [ref=f5e42] [cursor=pointer]:
+            - /url: /dashboard/publications
+          - link "الأخبار" [ref=f5e46] [cursor=pointer]:
+            - /url: /dashboard/news
+          - link "الكتّاب والأعضاء" [ref=f5e51] [cursor=pointer]:
+            - /url: /dashboard/writers
+          - link "رسائل التواصل 4" [ref=f5e58] [cursor=pointer]:
+            - /url: /dashboard/messages
+            - generic [ref=f5e62]: رسائل التواصل
+            - generic [ref=f5e63]: "4"
+          - link "معرض الصور" [ref=f5e64] [cursor=pointer]:
+            - /url: /dashboard/gallery
+          - link "إعدادات الموقع" [ref=f5e71] [cursor=pointer]:
+            - /url: /dashboard/settings
+      - generic [ref=f5e76]:
+        - paragraph [ref=f5e77]: إدارة الفعاليات
+        - generic [ref=f5e78]:
+          - link "كل الفعاليات" [ref=f5e79] [cursor=pointer]:
+            - /url: /dashboard/events
+          - link "ملاحظات الحضور" [ref=f5e85] [cursor=pointer]:
+            - /url: /dashboard/feedback
+          - link "الإشعارات" [ref=f5e89] [cursor=pointer]:
+            - /url: /dashboard/notifications
+          - link "الملف الشخصي" [ref=f5e94] [cursor=pointer]:
+            - /url: /dashboard/profile
+      - generic [ref=f5e99]:
+        - paragraph [ref=f5e100]: إدارة النظام
+        - generic [ref=f5e101]:
+          - link "المستخدمون" [ref=f5e102] [cursor=pointer]:
+            - /url: /dashboard/admin/users
+          - link "التصنيفات" [ref=f5e116] [cursor=pointer]:
+            - /url: /dashboard/admin/categories
+          - link "الأماكن" [ref=f5e122] [cursor=pointer]:
+            - /url: /dashboard/admin/venues
+          - link "الملفات" [ref=f5e128] [cursor=pointer]:
+            - /url: /dashboard/admin/files
+          - link "التقارير" [ref=f5e134] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+          - link "إعدادات النظام" [ref=f5e138] [cursor=pointer]:
+            - /url: /dashboard/admin/settings
+          - link "الأمان" [ref=f5e143] [cursor=pointer]:
+            - /url: /dashboard/admin/security
+    - generic [ref=f5e147]:
+      - link "العودة إلى الموقع" [ref=f5e148] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=f5e153] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=f5e157]:
+    - banner [ref=f5e158]:
+      - generic [ref=f5e159]:
+        - button "4 رسائل جديدة" [ref=f5e160]:
+          - generic [ref=f5e161]: "4"
+          - generic [ref=f5e162]: رسائل جديدة
+        - generic [ref=f5e163]: وضع العرض التجريبي
+        - generic [ref=f5e165]: إد
+        - generic [ref=f5e167]:
+          - paragraph [ref=f5e168]: إدارة النادي
+          - paragraph [ref=f5e169]: مشرف عام
+    - main [ref=f5e170]:
+      - paragraph [ref=f5e174]: جارٍ تحميل التكاليف...
+  - region "Notifications alt+T"

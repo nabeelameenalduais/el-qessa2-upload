@@ -1,0 +1,93 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - button "LUXE" [ref=f1e8]
+        - textbox "Search products..." [ref=f1e12]
+        - generic [ref=f1e13]:
+          - button "Language" [ref=f1e15]:
+            - generic [ref=f1e19]: EN
+          - button "Currency" [ref=f1e21]:
+            - generic [ref=f1e25]: $
+          - button "Wishlist" [ref=f1e26]
+          - button "Cart" [ref=f1e29]
+          - button "John Doe" [ref=f1e877]
+      - navigation [ref=f1e39]:
+        - button "All" [ref=f1e40]
+        - button "Electronics" [ref=f1e41]
+        - button "Accessories" [ref=f1e42]
+        - button "Fashion" [ref=f1e43]
+        - button "Home" [ref=f1e44]
+  - main [ref=f1e45]:
+    - generic [ref=f1e1667]:
+      - heading "Order Confirmed!" [level=1] [ref=f1e1672]
+      - paragraph [ref=f1e1673]: Thank you for your order
+      - generic [ref=f1e1674]:
+        - paragraph [ref=f1e1675]: Order ID
+        - paragraph [ref=f1e1676]: "#ORD-90285"
+        - generic [ref=f1e1677]:
+          - generic [ref=f1e1678]:
+            - paragraph [ref=f1e1679]: Total
+            - paragraph [ref=f1e1680]: $310.49
+          - generic [ref=f1e1681]:
+            - paragraph [ref=f1e1682]: Items
+            - paragraph [ref=f1e1683]: "1"
+      - generic [ref=f1e1685]:
+        - img "Wireless Noise-Cancelling Headphones" [ref=f1e1686]
+        - generic [ref=f1e1687]:
+          - paragraph [ref=f1e1688]: Wireless Noise-Cancelling Headphones
+          - paragraph [ref=f1e1689]: x1
+        - paragraph [ref=f1e1690]: $299.99
+      - generic [ref=f1e1691]:
+        - button "View My Orders" [ref=f1e1692]
+        - button "Continue Shopping" [ref=f1e1697]
+  - contentinfo [ref=f1e677]:
+    - generic [ref=f1e678]:
+      - generic [ref=f1e679]:
+        - generic [ref=f1e680]:
+          - heading "LUXE" [level=3] [ref=f1e681]
+          - paragraph [ref=f1e682]: Premium shopping experience with curated collections for the modern lifestyle.
+          - generic [ref=f1e683]:
+            - paragraph [ref=f1e684]: Stay in the loop
+            - generic [ref=f1e685]:
+              - textbox "Your email address" [ref=f1e686]
+              - button "Subscribe" [ref=f1e687]
+        - generic [ref=f1e688]:
+          - heading "Shop" [level=4] [ref=f1e689]
+          - list [ref=f1e690]:
+            - listitem [ref=f1e691]:
+              - button "New Arrivals" [ref=f1e692] [cursor=pointer]
+            - listitem [ref=f1e693]:
+              - button "Best Sellers" [ref=f1e694] [cursor=pointer]
+            - listitem [ref=f1e695]:
+              - button "Sale" [ref=f1e696] [cursor=pointer]
+        - generic [ref=f1e697]:
+          - heading "Support" [level=4] [ref=f1e698]
+          - list [ref=f1e699]:
+            - listitem [ref=f1e700]:
+              - button "Contact Us" [ref=f1e701] [cursor=pointer]
+            - listitem [ref=f1e702]:
+              - button "FAQs" [ref=f1e703] [cursor=pointer]
+            - listitem [ref=f1e704]:
+              - button "About Us" [ref=f1e705] [cursor=pointer]
+            - listitem [ref=f1e706]: Shipping Info
+        - generic [ref=f1e707]:
+          - heading "Demo Accounts" [level=4] [ref=f1e708]
+          - list [ref=f1e709]:
+            - listitem [ref=f1e710]: "Admin: admin@store.com / admin123"
+            - listitem [ref=f1e711]: "Customer: user@store.com / user123"
+      - generic [ref=f1e712]:
+        - paragraph [ref=f1e713]: © 2026 LUXE. All rights reserved.
+        - button "Back to top ↑" [ref=f1e714]
+  - generic [ref=f1e715]:
+    - generic [ref=f1e716]:
+      - generic [ref=f1e717]:
+        - heading "Shopping Cart" [level=2] [ref=f1e721]
+        - generic [ref=f1e722]: (0)
+      - button "Close" [ref=f1e723]
+    - generic [ref=f1e1703]:
+      - paragraph [ref=f1e1707]: Your cart is empty
+      - paragraph [ref=f1e1708]: Start shopping now!
+  - status [ref=f1e1709]:
+    - paragraph [ref=f1e1713]: Order placed successfully!
+    - button "Dismiss" [ref=f1e1714]

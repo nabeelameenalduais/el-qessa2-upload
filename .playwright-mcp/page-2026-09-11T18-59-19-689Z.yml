@@ -1,0 +1,116 @@
+- generic [ref=f21e3]:
+  - complementary [ref=f21e4]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=f21e6] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f21e7]: ق
+      - generic [ref=f21e8]:
+        - generic [ref=f21e9]: نادي القصة «إلمقه»
+        - generic [ref=f21e10]: لوحة إدارة النادي
+    - navigation [ref=f21e11]:
+      - generic [ref=f21e12]:
+        - paragraph [ref=f21e13]: الرئيسية
+        - generic [ref=f21e14]:
+          - link "لوحة التحكم" [ref=f21e15] [cursor=pointer]:
+            - /url: /dashboard
+          - link "نظرة عامة على الموقع" [ref=f21e23] [cursor=pointer]:
+            - /url: /dashboard/overview
+      - generic [ref=f21e28]:
+        - paragraph [ref=f21e29]: محتوى الموقع
+        - generic [ref=f21e30]:
+          - link "فعاليات الموقع" [ref=f21e31] [cursor=pointer]:
+            - /url: /dashboard/events-site
+          - link "الورش" [ref=f21e35] [cursor=pointer]:
+            - /url: /dashboard/workshops
+          - link "الإصدارات" [ref=f21e42] [cursor=pointer]:
+            - /url: /dashboard/publications
+          - link "الأخبار" [ref=f21e46] [cursor=pointer]:
+            - /url: /dashboard/news
+          - link "الكتّاب والأعضاء" [ref=f21e51] [cursor=pointer]:
+            - /url: /dashboard/writers
+          - link "رسائل التواصل 4" [ref=f21e58] [cursor=pointer]:
+            - /url: /dashboard/messages
+            - generic [ref=f21e62]: رسائل التواصل
+            - generic [ref=f21e63]: "4"
+          - link "معرض الصور" [ref=f21e64] [cursor=pointer]:
+            - /url: /dashboard/gallery
+          - link "إعدادات الموقع" [ref=f21e71] [cursor=pointer]:
+            - /url: /dashboard/settings
+      - generic [ref=f21e77]:
+        - paragraph [ref=f21e78]: إدارة الفعاليات
+        - generic [ref=f21e79]:
+          - link "كل الفعاليات" [ref=f21e80] [cursor=pointer]:
+            - /url: /dashboard/events
+          - link "ملاحظات الحضور" [ref=f21e85] [cursor=pointer]:
+            - /url: /dashboard/feedback
+          - link "الإشعارات" [ref=f21e89] [cursor=pointer]:
+            - /url: /dashboard/notifications
+          - link "الملف الشخصي" [ref=f21e94] [cursor=pointer]:
+            - /url: /dashboard/profile
+      - generic [ref=f21e99]:
+        - paragraph [ref=f21e100]: إدارة النظام
+        - generic [ref=f21e101]:
+          - link "المستخدمون" [ref=f21e102] [cursor=pointer]:
+            - /url: /dashboard/admin/users
+          - link "التصنيفات" [ref=f21e116] [cursor=pointer]:
+            - /url: /dashboard/admin/categories
+          - link "الأماكن" [ref=f21e122] [cursor=pointer]:
+            - /url: /dashboard/admin/venues
+          - link "الملفات" [ref=f21e128] [cursor=pointer]:
+            - /url: /dashboard/admin/files
+          - link "التقارير" [ref=f21e134] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+          - link "إعدادات النظام" [ref=f21e138] [cursor=pointer]:
+            - /url: /dashboard/admin/settings
+          - link "الأمان" [ref=f21e143] [cursor=pointer]:
+            - /url: /dashboard/admin/security
+    - generic [ref=f21e147]:
+      - link "العودة إلى الموقع" [ref=f21e148] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=f21e153] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=f21e157]:
+    - banner [ref=f21e158]:
+      - generic [ref=f21e159]:
+        - button "4 رسائل جديدة" [ref=f21e160]:
+          - generic [ref=f21e161]: "4"
+          - generic [ref=f21e162]: رسائل جديدة
+        - generic [ref=f21e163]: وضع العرض التجريبي
+        - generic [ref=f21e165]: إد
+        - generic [ref=f21e167]:
+          - paragraph [ref=f21e168]: إدارة النادي
+          - paragraph [ref=f21e169]: مشرف عام
+    - main [ref=f21e170]:
+      - generic [ref=f21e172]:
+        - generic [ref=f21e174]:
+          - heading "الإعدادات" [level=1] [ref=f21e175]
+          - paragraph [ref=f21e176]: بيانات النادي التي تظهر في الموقع العام
+        - generic [ref=f21e177]:
+          - generic [ref=f21e178]:
+            - generic [ref=f21e179]: المعلومات الأساسية
+            - generic [ref=f21e181]:
+              - generic [ref=f21e182]:
+                - text: اسم النادي
+                - textbox "اسم النادي" [ref=f21e183]: نادي القصة «إلمقه»
+              - generic [ref=f21e184]:
+                - text: الوصف المختصر (Tagline)
+                - textbox "الوصف المختصر (Tagline)" [ref=f21e185]: مؤسسة ثقافية أدبية يمنية
+              - generic [ref=f21e186]:
+                - text: شعار النادي
+                - textbox "شعار النادي" [ref=f21e187]: «القصة نورٌ يجمعنا»
+              - generic [ref=f21e188]:
+                - text: عنوان النادي
+                - textbox "عنوان النادي" [ref=f21e189]: صنعاء، اليمن — مبنى النادي الثقافي
+              - generic [ref=f21e190]:
+                - text: البريد الإلكتروني
+                - textbox "البريد الإلكتروني" [ref=f21e191]: info@almqah.club
+              - generic [ref=f21e192]:
+                - text: رقم الهاتف
+                - textbox "رقم الهاتف" [ref=f21e193]: 777 111 000
+              - generic [ref=f21e195]:
+                - text: وصف النادي (في أسفل الموقع)
+                - textbox "وصف النادي (في أسفل الموقع)" [ref=f21e196]: مؤسسة ثقافية أدبية تحتفي بالقصة القصيرة والرواية اليمنية، ترعى الكتّاب وتنشر الإبداع من قلب صنعاء إلى كل قراءة عربية.
+          - generic [ref=f21e197]:
+            - button "حفظ الإعدادات" [ref=f21e198]
+            - button "إعادة تهيئة البيانات التجريبية" [ref=f21e199]
+            - generic [ref=f21e200]: تُحفظ التعديلات وتنعكس فوراً على الموقع
+  - region "Notifications alt+T"

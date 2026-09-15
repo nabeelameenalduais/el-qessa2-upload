@@ -1,0 +1,154 @@
+- generic [ref=f15e3]:
+  - banner [ref=f15e4]:
+    - generic [ref=f15e6]:
+      - link "ق نادي القصة «إلمقه» مؤسسة ثقافية أدبية يمنية" [ref=f15e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f15e8]: ق
+        - generic [ref=f15e9]:
+          - generic [ref=f15e10]: نادي القصة «إلمقه»
+          - generic [ref=f15e11]: مؤسسة ثقافية أدبية يمنية
+      - navigation [ref=f15e12]:
+        - link "الرئيسية" [ref=f15e13] [cursor=pointer]:
+          - /url: /
+        - link "عن النادي" [ref=f15e14] [cursor=pointer]:
+          - /url: /about
+        - link "الفعاليات" [ref=f15e15] [cursor=pointer]:
+          - /url: /events
+        - link "الكتّاب" [ref=f15e16] [cursor=pointer]:
+          - /url: /writers
+        - link "الإصدارات" [ref=f15e17] [cursor=pointer]:
+          - /url: /publications
+        - link "الورش" [ref=f15e18] [cursor=pointer]:
+          - /url: /workshops
+        - link "الأخبار" [ref=f15e19] [cursor=pointer]:
+          - /url: /news
+        - link "الأرشيف" [ref=f15e20] [cursor=pointer]:
+          - /url: /archive
+        - link "معرض الصور" [ref=f15e21] [cursor=pointer]:
+          - /url: /gallery
+        - link "تواصل معنا" [ref=f15e22] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f15e23]:
+    - generic [ref=f15e24]:
+      - link "العودة إلى الكتّاب" [ref=f15e25] [cursor=pointer]:
+        - /url: /writers
+      - generic [ref=f15e28]:
+        - img "أسماء الحميري" [ref=f15e31]
+        - generic [ref=f15e32]:
+          - generic [ref=f15e33]: قاصة وكاتبة مقالات
+          - heading "أسماء الحميري" [level=1] [ref=f15e34]
+          - paragraph [ref=f15e35]: صنعاء
+          - paragraph [ref=f15e39]: تكتب عن المدينة والذاكرة والتفاصيل الصغيرة.
+          - generic [ref=f15e40]: قاصة يمنية من صنعاء، صدرت لها مجموعتان قصصيتان، وتكتب مقالاً ثقافياً أسبوعياً. اهتمامها الأول بالعلاقة بين الذاكرة الشخصية والمدينة، وبطرق تحول التجربة الحياتية إلى نص سردي. عضو مؤسس في نادي القصة، وتدرب في ورش النادي منذ دورته الأولى.
+          - generic [ref=f15e41]:
+            - generic [ref=f15e42]:
+              - heading "من كتبه" [level=2] [ref=f15e43]
+              - generic [ref=f15e46]:
+                - generic [ref=f15e47]:
+                  - generic [ref=f15e48]:
+                    - paragraph [ref=f15e49]: ظل البحر
+                    - paragraph [ref=f15e50]: مجموعة قصصية
+                  - generic [ref=f15e51]: "2025"
+                - generic [ref=f15e52]:
+                  - generic [ref=f15e53]:
+                    - paragraph [ref=f15e54]: مفاتيح صغيرة
+                    - paragraph [ref=f15e55]: مجموعة قصصية
+                  - generic [ref=f15e56]: "2024"
+            - generic [ref=f15e57]:
+              - heading "إصدارات وتأليف" [level=2] [ref=f15e58]
+              - generic [ref=f15e63]:
+                - generic [ref=f15e64]:
+                  - paragraph [ref=f15e65]: أوراق من سفر
+                  - paragraph [ref=f15e66]: مقالات ثقافية
+                - generic [ref=f15e67]: "2024"
+      - generic [ref=f15e68]:
+        - heading "مشاركات في فعاليات النادي" [level=2] [ref=f15e69]
+        - generic [ref=f15e72]:
+          - link [ref=f15e73] [cursor=pointer]:
+            - /url: /events/evt_001
+            - generic [ref=f15e74]:
+              - 'img "أمسية قصصية: قصص من المدينة" [ref=f15e76]'
+              - generic [ref=f15e77]:
+                - 'heading "أمسية قصصية: قصص من المدينة" [level=3] [ref=f15e78]'
+                - paragraph [ref=f15e79]: الخميس، 18 سبتمبر 2026
+          - link [ref=f15e80] [cursor=pointer]:
+            - /url: /events/evt_003
+            - generic [ref=f15e81]:
+              - img "ورشة كتابة القصة القصيرة" [ref=f15e83]
+              - generic [ref=f15e84]:
+                - heading "ورشة كتابة القصة القصيرة" [level=3] [ref=f15e85]
+                - paragraph [ref=f15e86]: الأحد، 21 سبتمبر 2026
+      - generic [ref=f15e87]:
+        - heading "إصدارات في النادي" [level=2] [ref=f15e88]
+        - generic [ref=f15e91]:
+          - link [ref=f15e92] [cursor=pointer]:
+            - /url: /publications/pub_001
+            - generic [ref=f15e95]:
+              - text: "2025"
+              - heading "ظل البحر" [level=3] [ref=f15e96]
+              - paragraph [ref=f15e97]: مجموعة قصصية
+          - link [ref=f15e98] [cursor=pointer]:
+            - /url: /publications/pub_003
+            - generic [ref=f15e101]:
+              - text: "2024"
+              - heading "مفاتيح صغيرة" [level=3] [ref=f15e102]
+              - paragraph [ref=f15e103]: مجموعة قصصية
+          - link [ref=f15e104] [cursor=pointer]:
+            - /url: /publications/pub_007
+            - generic [ref=f15e107]:
+              - text: "2024"
+              - heading "أوراق من سفر" [level=3] [ref=f15e108]
+              - paragraph [ref=f15e109]: مقالات ثقافية
+  - contentinfo [ref=f15e110]:
+    - generic [ref=f15e111]:
+      - generic [ref=f15e112]:
+        - generic [ref=f15e113]:
+          - generic [ref=f15e114]: ق
+          - generic [ref=f15e115]: نادي القصة «إلمقه»
+        - paragraph [ref=f15e116]: مؤسسة ثقافية أدبية تحتفي بالقصة القصيرة والرواية اليمنية، ترعى الكتّاب وتنشر الإبداع من قلب صنعاء إلى كل قراءة عربية.
+        - generic [ref=f15e117]:
+          - link "فيسبوك" [ref=f15e118] [cursor=pointer]:
+            - /url: /gallery
+          - link "انستغرام" [ref=f15e122] [cursor=pointer]:
+            - /url: /gallery
+          - link "معرض الصور" [ref=f15e126] [cursor=pointer]:
+            - /url: /gallery
+      - generic [ref=f15e130]:
+        - heading "أقسام الموقع" [level=3] [ref=f15e131]
+        - list [ref=f15e132]:
+          - listitem [ref=f15e133]:
+            - link "عن النادي" [ref=f15e134] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f15e135]:
+            - link "الفعاليات" [ref=f15e136] [cursor=pointer]:
+              - /url: /events
+          - listitem [ref=f15e137]:
+            - link "الكتّاب" [ref=f15e138] [cursor=pointer]:
+              - /url: /writers
+          - listitem [ref=f15e139]:
+            - link "الإصدارات" [ref=f15e140] [cursor=pointer]:
+              - /url: /publications
+          - listitem [ref=f15e141]:
+            - link "الورش" [ref=f15e142] [cursor=pointer]:
+              - /url: /workshops
+          - listitem [ref=f15e143]:
+            - link "الأخبار" [ref=f15e144] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f15e145]:
+            - link "الأرشيف" [ref=f15e146] [cursor=pointer]:
+              - /url: /archive
+          - listitem [ref=f15e147]:
+            - link "معرض الصور" [ref=f15e148] [cursor=pointer]:
+              - /url: /gallery
+          - listitem [ref=f15e149]:
+            - link "تواصل معنا" [ref=f15e150] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f15e151]:
+        - heading "تواصل معنا" [level=3] [ref=f15e152]
+        - list [ref=f15e153]:
+          - listitem [ref=f15e154]: صنعاء، اليمن — مبنى النادي الثقافي
+          - listitem [ref=f15e155]: info@almqah.club
+          - listitem [ref=f15e156]: 777 111 000
+        - generic [ref=f15e157]: «القصة نورٌ يجمعنا»
+    - generic [ref=f15e158]: © 2026 نادي القصة «إلمقه» — جميع الحقوق محفوظة
+  - region "Notifications alt+T"

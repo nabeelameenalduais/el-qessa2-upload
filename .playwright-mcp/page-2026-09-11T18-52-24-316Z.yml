@@ -1,0 +1,233 @@
+- generic [ref=f12e3]:
+  - complementary [ref=f12e4]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=f12e6] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f12e7]: ق
+      - generic [ref=f12e8]:
+        - generic [ref=f12e9]: نادي القصة «إلمقه»
+        - generic [ref=f12e10]: لوحة إدارة النادي
+    - navigation [ref=f12e11]:
+      - generic [ref=f12e12]:
+        - paragraph [ref=f12e13]: الرئيسية
+        - generic [ref=f12e14]:
+          - link "لوحة التحكم" [ref=f12e15] [cursor=pointer]:
+            - /url: /dashboard
+          - link "نظرة عامة على الموقع" [ref=f12e23] [cursor=pointer]:
+            - /url: /dashboard/overview
+      - generic [ref=f12e28]:
+        - paragraph [ref=f12e29]: محتوى الموقع
+        - generic [ref=f12e30]:
+          - link "فعاليات الموقع" [ref=f12e31] [cursor=pointer]:
+            - /url: /dashboard/events-site
+          - link "الورش" [ref=f12e36] [cursor=pointer]:
+            - /url: /dashboard/workshops
+          - link "الإصدارات" [ref=f12e43] [cursor=pointer]:
+            - /url: /dashboard/publications
+          - link "الأخبار" [ref=f12e47] [cursor=pointer]:
+            - /url: /dashboard/news
+          - link "الكتّاب والأعضاء" [ref=f12e52] [cursor=pointer]:
+            - /url: /dashboard/writers
+          - link "رسائل التواصل 4" [ref=f12e59] [cursor=pointer]:
+            - /url: /dashboard/messages
+            - generic [ref=f12e63]: رسائل التواصل
+            - generic [ref=f12e64]: "4"
+          - link "معرض الصور" [ref=f12e65] [cursor=pointer]:
+            - /url: /dashboard/gallery
+          - link "إعدادات الموقع" [ref=f12e72] [cursor=pointer]:
+            - /url: /dashboard/settings
+      - generic [ref=f12e77]:
+        - paragraph [ref=f12e78]: إدارة الفعاليات
+        - generic [ref=f12e79]:
+          - link "كل الفعاليات" [ref=f12e80] [cursor=pointer]:
+            - /url: /dashboard/events
+          - link "ملاحظات الحضور" [ref=f12e85] [cursor=pointer]:
+            - /url: /dashboard/feedback
+          - link "الإشعارات" [ref=f12e89] [cursor=pointer]:
+            - /url: /dashboard/notifications
+          - link "الملف الشخصي" [ref=f12e94] [cursor=pointer]:
+            - /url: /dashboard/profile
+      - generic [ref=f12e99]:
+        - paragraph [ref=f12e100]: إدارة النظام
+        - generic [ref=f12e101]:
+          - link "المستخدمون" [ref=f12e102] [cursor=pointer]:
+            - /url: /dashboard/admin/users
+          - link "التصنيفات" [ref=f12e116] [cursor=pointer]:
+            - /url: /dashboard/admin/categories
+          - link "الأماكن" [ref=f12e122] [cursor=pointer]:
+            - /url: /dashboard/admin/venues
+          - link "الملفات" [ref=f12e128] [cursor=pointer]:
+            - /url: /dashboard/admin/files
+          - link "التقارير" [ref=f12e134] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+          - link "إعدادات النظام" [ref=f12e138] [cursor=pointer]:
+            - /url: /dashboard/admin/settings
+          - link "الأمان" [ref=f12e143] [cursor=pointer]:
+            - /url: /dashboard/admin/security
+    - generic [ref=f12e147]:
+      - link "العودة إلى الموقع" [ref=f12e148] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=f12e153] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=f12e157]:
+    - banner [ref=f12e158]:
+      - generic [ref=f12e159]:
+        - button "4 رسائل جديدة" [ref=f12e160]:
+          - generic [ref=f12e161]: "4"
+          - generic [ref=f12e162]: رسائل جديدة
+        - generic [ref=f12e163]: وضع العرض التجريبي
+        - generic [ref=f12e165]: إد
+        - generic [ref=f12e167]:
+          - paragraph [ref=f12e168]: إدارة النادي
+          - paragraph [ref=f12e169]: مشرف عام
+    - main [ref=f12e170]:
+      - generic [ref=f12e172]:
+        - generic [ref=f12e173]:
+          - generic [ref=f12e174]:
+            - heading "إدارة الفعاليات" [level=1] [ref=f12e175]
+            - paragraph [ref=f12e176]: 11 فعالية — 7 قادمة
+          - link [ref=f12e177] [cursor=pointer]:
+            - /url: /dashboard/events-site/new
+            - button "فعالية جديدة" [ref=f12e178]
+        - table [ref=f12e181]:
+          - rowgroup [ref=f12e182]:
+            - row [ref=f12e183]:
+              - columnheader "الفعالية" [ref=f12e184]
+              - columnheader "التصنيف" [ref=f12e185]
+              - columnheader "التاريخ" [ref=f12e186]
+              - columnheader "الحالة" [ref=f12e187]
+              - columnheader "الحضور" [ref=f12e188]
+              - columnheader "إجراءات" [ref=f12e189]
+          - rowgroup [ref=f12e190]:
+            - row [ref=f12e191]:
+              - cell [ref=f12e192]:
+                - paragraph [ref=f12e193]: "أمسية قصصية: قصص من المدينة"
+              - cell "أمسيات قصصية" [ref=f12e194]
+              - cell "الخميس، 18 سبتمبر 2026" [ref=f12e195]
+              - cell "مُعلن" [ref=f12e196]
+              - cell "64" [ref=f12e198]
+              - cell [ref=f12e199]:
+                - generic [ref=f12e200]:
+                  - link [ref=f12e201] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_001
+                  - button [ref=f12e205]
+            - row [ref=f12e209]:
+              - cell [ref=f12e210]:
+                - paragraph [ref=f12e211]: "الندوة الأدبية: الرواية اليمنية وأسئلة السرد"
+              - cell "ندوات أدبية" [ref=f12e212]
+              - cell "السبت، 26 سبتمبر 2026" [ref=f12e213]
+              - cell "مُعلن" [ref=f12e214]
+              - cell "48" [ref=f12e216]
+              - cell [ref=f12e217]:
+                - generic [ref=f12e218]:
+                  - link [ref=f12e219] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_002
+                  - button [ref=f12e223]
+            - row [ref=f12e227]:
+              - cell [ref=f12e228]:
+                - paragraph [ref=f12e229]: ورشة كتابة القصة القصيرة
+              - cell "ورش كتابة" [ref=f12e230]
+              - cell "الأحد، 21 سبتمبر 2026" [ref=f12e231]
+              - cell "مُعلن" [ref=f12e232]
+              - cell "92" [ref=f12e234]
+              - cell [ref=f12e235]:
+                - generic [ref=f12e236]:
+                  - link [ref=f12e237] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_003
+                  - button [ref=f12e241]
+            - row [ref=f12e245]:
+              - cell [ref=f12e246]:
+                - paragraph [ref=f12e247]: لقاء مع الكاتب ياسر العنسي
+              - cell "لقاءات مع الكتّاب" [ref=f12e248]
+              - cell "الأربعاء، 30 سبتمبر 2026" [ref=f12e249]
+              - cell "مُعلن" [ref=f12e250]
+              - cell "71" [ref=f12e252]
+              - cell [ref=f12e253]:
+                - generic [ref=f12e254]:
+                  - link [ref=f12e255] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_004
+                  - button [ref=f12e259]
+            - row [ref=f12e263]:
+              - cell [ref=f12e264]:
+                - paragraph [ref=f12e265]: توقيع إصدار «حكايات صنعاء»
+              - cell "توقيع إصدارات" [ref=f12e266]
+              - cell "الثلاثاء، 6 أكتوبر 2026" [ref=f12e267]
+              - cell "مُعلن" [ref=f12e268]
+              - cell "86" [ref=f12e270]
+              - cell [ref=f12e271]:
+                - generic [ref=f12e272]:
+                  - link [ref=f12e273] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_005
+                  - button [ref=f12e277]
+            - row [ref=f12e281]:
+              - cell [ref=f12e282]:
+                - paragraph [ref=f12e283]: قراءات قصصية من الجنوب
+              - cell "قراءات قصصية" [ref=f12e284]
+              - cell "الجمعة، 9 أكتوبر 2026" [ref=f12e285]
+              - cell "مُعلن" [ref=f12e286]
+              - cell "39" [ref=f12e288]
+              - cell [ref=f12e289]:
+                - generic [ref=f12e290]:
+                  - link [ref=f12e291] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_006
+                  - button [ref=f12e295]
+            - row [ref=f12e299]:
+              - cell [ref=f12e300]:
+                - paragraph [ref=f12e301]: "أمسية قصصية: أصوات جديدة"
+              - cell "أمسيات قصصية" [ref=f12e302]
+              - cell "الجمعة، 28 أغسطس 2026" [ref=f12e303]
+              - cell "منتهي" [ref=f12e304]
+              - cell "150" [ref=f12e306]
+              - cell [ref=f12e307]:
+                - generic [ref=f12e308]:
+                  - link [ref=f12e309] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_007
+                  - button [ref=f12e313]
+            - row [ref=f12e317]:
+              - cell [ref=f12e318]:
+                - paragraph [ref=f12e319]: "ندوة أدبية: القصة والبحر"
+              - cell "ندوات أدبية" [ref=f12e320]
+              - cell "السبت، 22 أغسطس 2026" [ref=f12e321]
+              - cell "منتهي" [ref=f12e322]
+              - cell "62" [ref=f12e324]
+              - cell [ref=f12e325]:
+                - generic [ref=f12e326]:
+                  - link [ref=f12e327] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_008
+                  - button [ref=f12e331]
+            - row [ref=f12e335]:
+              - cell [ref=f12e336]:
+                - paragraph [ref=f12e337]: "جلسة نقدية: سرديات المكان"
+              - cell "جلسات نقدية" [ref=f12e338]
+              - cell "الخميس، 13 أغسطس 2026" [ref=f12e339]
+              - cell "منتهي" [ref=f12e340]
+              - cell "44" [ref=f12e342]
+              - cell [ref=f12e343]:
+                - generic [ref=f12e344]:
+                  - link [ref=f12e345] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_009
+                  - button [ref=f12e349]
+            - row [ref=f12e353]:
+              - cell [ref=f12e354]:
+                - paragraph [ref=f12e355]: ورشة «من الفكرة إلى النص»
+              - cell "ورش كتابة" [ref=f12e356]
+              - cell "الأحد، 16 أغسطس 2026" [ref=f12e357]
+              - cell "منتهي" [ref=f12e358]
+              - cell "57" [ref=f12e360]
+              - cell [ref=f12e361]:
+                - generic [ref=f12e362]:
+                  - link [ref=f12e363] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/evt_010
+                  - button [ref=f12e367]
+            - row [ref=f12e371]:
+              - cell [ref=f12e372]:
+                - paragraph [ref=f12e373]: "أمسية خاصة: حكاية السرد اليمني"
+              - cell "أمسيات قصصية" [ref=f12e374]
+              - cell "الجمعة، 16 أكتوبر 2026" [ref=f12e375]
+              - cell "مُعلن" [ref=f12e376]
+              - cell "0" [ref=f12e378]
+              - cell [ref=f12e379]:
+                - generic [ref=f12e380]:
+                  - link [ref=f12e381] [cursor=pointer]:
+                    - /url: /dashboard/events-site/edit/events_011
+                  - button [ref=f12e385]
+  - region "Notifications alt+T"

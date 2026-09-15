@@ -1,0 +1,196 @@
+- generic [ref=f13e3]:
+  - complementary [ref=f13e4]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=f13e6] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f13e7]: ق
+      - generic [ref=f13e8]:
+        - generic [ref=f13e9]: نادي القصة «إلمقه»
+        - generic [ref=f13e10]: لوحة إدارة النادي
+    - navigation [ref=f13e11]:
+      - generic [ref=f13e12]:
+        - paragraph [ref=f13e13]: الرئيسية
+        - generic [ref=f13e14]:
+          - link "لوحة التحكم" [ref=f13e15] [cursor=pointer]:
+            - /url: /dashboard
+          - link "نظرة عامة على الموقع" [ref=f13e23] [cursor=pointer]:
+            - /url: /dashboard/overview
+      - generic [ref=f13e29]:
+        - paragraph [ref=f13e30]: محتوى الموقع
+        - generic [ref=f13e31]:
+          - link "فعاليات الموقع" [ref=f13e32] [cursor=pointer]:
+            - /url: /dashboard/events-site
+          - link "الورش" [ref=f13e36] [cursor=pointer]:
+            - /url: /dashboard/workshops
+          - link "الإصدارات" [ref=f13e43] [cursor=pointer]:
+            - /url: /dashboard/publications
+          - link "الأخبار" [ref=f13e47] [cursor=pointer]:
+            - /url: /dashboard/news
+          - link "الكتّاب والأعضاء" [ref=f13e52] [cursor=pointer]:
+            - /url: /dashboard/writers
+          - link "رسائل التواصل 4" [ref=f13e59] [cursor=pointer]:
+            - /url: /dashboard/messages
+            - generic [ref=f13e63]: رسائل التواصل
+            - generic [ref=f13e64]: "4"
+          - link "معرض الصور" [ref=f13e65] [cursor=pointer]:
+            - /url: /dashboard/gallery
+          - link "إعدادات الموقع" [ref=f13e72] [cursor=pointer]:
+            - /url: /dashboard/settings
+      - generic [ref=f13e77]:
+        - paragraph [ref=f13e78]: إدارة الفعاليات
+        - generic [ref=f13e79]:
+          - link "كل الفعاليات" [ref=f13e80] [cursor=pointer]:
+            - /url: /dashboard/events
+          - link "ملاحظات الحضور" [ref=f13e85] [cursor=pointer]:
+            - /url: /dashboard/feedback
+          - link "الإشعارات" [ref=f13e89] [cursor=pointer]:
+            - /url: /dashboard/notifications
+          - link "الملف الشخصي" [ref=f13e94] [cursor=pointer]:
+            - /url: /dashboard/profile
+      - generic [ref=f13e99]:
+        - paragraph [ref=f13e100]: إدارة النظام
+        - generic [ref=f13e101]:
+          - link "المستخدمون" [ref=f13e102] [cursor=pointer]:
+            - /url: /dashboard/admin/users
+          - link "التصنيفات" [ref=f13e116] [cursor=pointer]:
+            - /url: /dashboard/admin/categories
+          - link "الأماكن" [ref=f13e122] [cursor=pointer]:
+            - /url: /dashboard/admin/venues
+          - link "الملفات" [ref=f13e128] [cursor=pointer]:
+            - /url: /dashboard/admin/files
+          - link "التقارير" [ref=f13e134] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+          - link "إعدادات النظام" [ref=f13e138] [cursor=pointer]:
+            - /url: /dashboard/admin/settings
+          - link "الأمان" [ref=f13e143] [cursor=pointer]:
+            - /url: /dashboard/admin/security
+    - generic [ref=f13e147]:
+      - link "العودة إلى الموقع" [ref=f13e148] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=f13e153] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=f13e157]:
+    - banner [ref=f13e158]:
+      - generic [ref=f13e159]:
+        - button "4 رسائل جديدة" [ref=f13e160]:
+          - generic [ref=f13e161]: "4"
+          - generic [ref=f13e162]: رسائل جديدة
+        - generic [ref=f13e163]: وضع العرض التجريبي
+        - generic [ref=f13e165]: إد
+        - generic [ref=f13e167]:
+          - paragraph [ref=f13e168]: إدارة النادي
+          - paragraph [ref=f13e169]: مشرف عام
+    - main [ref=f13e170]:
+      - generic [ref=f13e172]:
+        - generic [ref=f13e174]:
+          - heading "نظرة عامة" [level=1] [ref=f13e175]
+          - paragraph [ref=f13e176]: ملخص سريع لمحتوى نادي القصة
+        - generic [ref=f13e177]:
+          - generic [ref=f13e184]:
+            - paragraph [ref=f13e185]: فعاليات قادمة
+            - paragraph [ref=f13e186]: "7"
+          - generic [ref=f13e193]:
+            - paragraph [ref=f13e194]: الإصدارات
+            - paragraph [ref=f13e195]: "8"
+          - generic [ref=f13e205]:
+            - paragraph [ref=f13e206]: الكتّاب والأعضاء
+            - paragraph [ref=f13e207]: "6"
+          - generic [ref=f13e215]:
+            - paragraph [ref=f13e216]: رسائل غير مقروءة
+            - paragraph [ref=f13e217]: "4"
+          - generic [ref=f13e227]:
+            - paragraph [ref=f13e228]: صور المعرض
+            - paragraph [ref=f13e229]: "13"
+          - generic [ref=f13e237]:
+            - paragraph [ref=f13e238]: الورش النشطة
+            - paragraph [ref=f13e239]: "3"
+        - generic [ref=f13e240]:
+          - generic [ref=f13e241]:
+            - generic [ref=f13e242]: الوصول السريع
+            - generic [ref=f13e245]:
+              - link "الفعاليات" [ref=f13e246] [cursor=pointer]:
+                - /url: /dashboard/events-site
+              - link "الورش" [ref=f13e251] [cursor=pointer]:
+                - /url: /dashboard/workshops
+              - link "الإصدارات" [ref=f13e259] [cursor=pointer]:
+                - /url: /dashboard/publications
+              - link "الأخبار" [ref=f13e264] [cursor=pointer]:
+                - /url: /dashboard/news
+              - link "الكتّاب" [ref=f13e270] [cursor=pointer]:
+                - /url: /dashboard/writers
+              - link "الرسائل" [ref=f13e278] [cursor=pointer]:
+                - /url: /dashboard/messages
+              - link "المعرض" [ref=f13e284] [cursor=pointer]:
+                - /url: /dashboard/gallery
+              - link "الإعدادات" [ref=f13e292] [cursor=pointer]:
+                - /url: /dashboard/settings
+          - generic [ref=f13e298]:
+            - generic [ref=f13e299]: الفعاليات القادمة
+            - generic [ref=f13e302]:
+              - 'link "أمسية قصصية: قصص من المدينة الخميس، 18 سبتمبر 2026 64 مسجّل أمسيات قصصية" [ref=f13e303] [cursor=pointer]':
+                - /url: /dashboard/events-site/edit/evt_001
+                - generic [ref=f13e304]:
+                  - paragraph [ref=f13e305]: "أمسية قصصية: قصص من المدينة"
+                  - generic [ref=f13e306]:
+                    - generic [ref=f13e307]: الخميس، 18 سبتمبر 2026
+                    - generic [ref=f13e308]: 64 مسجّل
+                - generic [ref=f13e309]: أمسيات قصصية
+              - 'link "الندوة الأدبية: الرواية اليمنية وأسئلة السرد السبت، 26 سبتمبر 2026 48 مسجّل ندوات أدبية" [ref=f13e310] [cursor=pointer]':
+                - /url: /dashboard/events-site/edit/evt_002
+                - generic [ref=f13e311]:
+                  - paragraph [ref=f13e312]: "الندوة الأدبية: الرواية اليمنية وأسئلة السرد"
+                  - generic [ref=f13e313]:
+                    - generic [ref=f13e314]: السبت، 26 سبتمبر 2026
+                    - generic [ref=f13e315]: 48 مسجّل
+                - generic [ref=f13e316]: ندوات أدبية
+              - link "ورشة كتابة القصة القصيرة الأحد، 21 سبتمبر 2026 92 مسجّل ورش كتابة" [ref=f13e317] [cursor=pointer]:
+                - /url: /dashboard/events-site/edit/evt_003
+                - generic [ref=f13e318]:
+                  - paragraph [ref=f13e319]: ورشة كتابة القصة القصيرة
+                  - generic [ref=f13e320]:
+                    - generic [ref=f13e321]: الأحد، 21 سبتمبر 2026
+                    - generic [ref=f13e322]: 92 مسجّل
+                - generic [ref=f13e323]: ورش كتابة
+              - link "لقاء مع الكاتب ياسر العنسي الأربعاء، 30 سبتمبر 2026 71 مسجّل لقاءات مع الكتّاب" [ref=f13e324] [cursor=pointer]:
+                - /url: /dashboard/events-site/edit/evt_004
+                - generic [ref=f13e325]:
+                  - paragraph [ref=f13e326]: لقاء مع الكاتب ياسر العنسي
+                  - generic [ref=f13e327]:
+                    - generic [ref=f13e328]: الأربعاء، 30 سبتمبر 2026
+                    - generic [ref=f13e329]: 71 مسجّل
+                - generic [ref=f13e330]: لقاءات مع الكتّاب
+              - link "توقيع إصدار «حكايات صنعاء» الثلاثاء، 6 أكتوبر 2026 86 مسجّل توقيع إصدارات" [ref=f13e331] [cursor=pointer]:
+                - /url: /dashboard/events-site/edit/evt_005
+                - generic [ref=f13e332]:
+                  - paragraph [ref=f13e333]: توقيع إصدار «حكايات صنعاء»
+                  - generic [ref=f13e334]:
+                    - generic [ref=f13e335]: الثلاثاء، 6 أكتوبر 2026
+                    - generic [ref=f13e336]: 86 مسجّل
+                - generic [ref=f13e337]: توقيع إصدارات
+        - generic [ref=f13e338]:
+          - generic [ref=f13e339]: آخر الرسائل الواردة
+          - generic [ref=f13e342]:
+            - link "خالد القدسي — طلب انتساب أرغب بالانضمام لنادي القصة ١١ سبتمبر ٢٠٢٦" [ref=f13e343] [cursor=pointer]:
+              - /url: /dashboard/messages
+              - generic [ref=f13e344]:
+                - paragraph [ref=f13e347]: خالد القدسي — طلب انتساب
+                - paragraph [ref=f13e348]: أرغب بالانضمام لنادي القصة
+              - generic [ref=f13e349]: ١١ سبتمبر ٢٠٢٦
+            - link "نبيل الحضرمي — اقتراح لقراءة قصصية أود عرض مشاركة في إحدى الأمسيات القراءة القصصية خلال الموسم القادم، ولدي مجموعة نصوص جاهزة. 10 سبتمبر 2026" [ref=f13e350] [cursor=pointer]:
+              - /url: /dashboard/messages
+              - generic [ref=f13e351]:
+                - paragraph [ref=f13e354]: نبيل الحضرمي — اقتراح لقراءة قصصية
+                - paragraph [ref=f13e355]: أود عرض مشاركة في إحدى الأمسيات القراءة القصصية خلال الموسم القادم، ولدي مجموعة نصوص جاهزة.
+              - generic [ref=f13e356]: 10 سبتمبر 2026
+            - link "سارة المقطري — الانضمام للورشة القصصية السلام عليكم، رغبت في التسجيل في ورشة كتابة القصة القصيرة. هل لا يزال التسجيل مفتوحاً؟ 9 سبتمبر 2026" [ref=f13e357] [cursor=pointer]:
+              - /url: /dashboard/messages
+              - generic [ref=f13e358]:
+                - paragraph [ref=f13e361]: سارة المقطري — الانضمام للورشة القصصية
+                - paragraph [ref=f13e362]: السلام عليكم، رغبت في التسجيل في ورشة كتابة القصة القصيرة. هل لا يزال التسجيل مفتوحاً؟
+              - generic [ref=f13e363]: 9 سبتمبر 2026
+            - link "فؤاد السنيدار — إهداء إصدار للمكتبة أرغب في إهداء نسخة من كتابي الجديد إلى مكتبة النادي، وسأتواصل لتنسيق التسليم. 8 سبتمبر 2026" [ref=f13e364] [cursor=pointer]:
+              - /url: /dashboard/messages
+              - generic [ref=f13e365]:
+                - paragraph [ref=f13e368]: فؤاد السنيدار — إهداء إصدار للمكتبة
+                - paragraph [ref=f13e369]: أرغب في إهداء نسخة من كتابي الجديد إلى مكتبة النادي، وسأتواصل لتنسيق التسليم.
+              - generic [ref=f13e370]: 8 سبتمبر 2026
+  - region "Notifications alt+T"

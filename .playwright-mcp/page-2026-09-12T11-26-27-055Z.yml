@@ -1,0 +1,38 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: ق
+    - generic [ref=e7]:
+      - heading "نادي القصة «إلمقه»" [level=1] [ref=e8]
+      - paragraph [ref=e9]: مؤسسة ثقافية أدبية يمنية
+  - generic [ref=e10]:
+    - heading "لوحة إدارة النادي" [level=2] [ref=e11]
+    - paragraph [ref=e12]: سجّل الدخول للوصول إلى لوحة التحكم الكاملة
+    - generic [ref=e13]:
+      - button "دخول كمدير المشرف العام" [ref=e14]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: دخول كمدير
+          - generic [ref=e18]: المشرف العام
+      - button "دخول كمنظم منظم الفعاليات" [ref=e19]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: دخول كمنظم
+          - generic [ref=e23]: منظم الفعاليات
+      - button "دخول كحاضر حاضر ومشارك" [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: دخول كحاضر
+          - generic [ref=e28]: حاضر ومشارك
+    - generic [ref=e29]: أو أدخل بياناتك
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - text: البريد الإلكتروني
+        - textbox "البريد الإلكتروني" [ref=e36]:
+          - /placeholder: admin@eventflow.com
+          - text: admin@eventflow.com
+      - generic [ref=e37]:
+        - text: كلمة المرور
+        - textbox "كلمة المرور" [ref=e38]:
+          - /placeholder: ••••••••
+          - text: admin123
+      - button "الدخول إلى لوحة التحكم" [ref=e39]
+  - paragraph [ref=e40]: نموذج عرض تجريبي كامل — يعمل بمحاكاة محلية للبيانات بدون خادم
+  - link "العودة إلى الموقع العام" [ref=e41] [cursor=pointer]:
+    - /url: /

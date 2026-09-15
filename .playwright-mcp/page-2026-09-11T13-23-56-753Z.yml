@@ -1,0 +1,168 @@
+- generic [ref=f5e3]:
+  - banner [ref=f5e4]:
+    - generic [ref=f5e6]:
+      - link "ق نادي القصة «إلمقه» مؤسسة ثقافية أدبية يمنية" [ref=f5e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f5e8]: ق
+        - generic [ref=f5e9]:
+          - generic [ref=f5e10]: نادي القصة «إلمقه»
+          - generic [ref=f5e11]: مؤسسة ثقافية أدبية يمنية
+      - navigation [ref=f5e12]:
+        - link "الرئيسية" [ref=f5e13] [cursor=pointer]:
+          - /url: /
+        - link "عن النادي" [ref=f5e14] [cursor=pointer]:
+          - /url: /about
+        - link "الفعاليات" [ref=f5e15] [cursor=pointer]:
+          - /url: /events
+        - link "الكتّاب" [ref=f5e16] [cursor=pointer]:
+          - /url: /writers
+        - link "الإصدارات" [ref=f5e17] [cursor=pointer]:
+          - /url: /publications
+        - link "الورش" [ref=f5e18] [cursor=pointer]:
+          - /url: /workshops
+        - link "الأخبار" [ref=f5e19] [cursor=pointer]:
+          - /url: /news
+        - link "الأرشيف" [ref=f5e20] [cursor=pointer]:
+          - /url: /archive
+        - link "معرض الصور" [ref=f5e21] [cursor=pointer]:
+          - /url: /gallery
+        - link "تواصل معنا" [ref=f5e22] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f5e23]:
+    - generic [ref=f5e24]:
+      - generic [ref=f5e25]:
+        - generic [ref=f5e26]: الكتّاب
+        - heading "أقلام النادي" [level=1] [ref=f5e27]
+        - paragraph [ref=f5e29]: كتّاب وقاصّون وروائيون حملوا فكرة النادي، من أصواته المؤسسة إلى مواهبه الجديدة.
+      - generic [ref=f5e30]:
+        - link "أسماء الحميري أسماء الحميري قاصة وكاتبة مقالات تكتب عن المدينة والذاكرة والتفاصيل الصغيرة. صنعاء التعريف بالكاتب" [ref=f5e31] [cursor=pointer]:
+          - /url: /writers/wrt_001
+          - generic [ref=f5e32]:
+            - generic [ref=f5e33]:
+              - img "أسماء الحميري" [ref=f5e34]
+              - generic [ref=f5e36]:
+                - heading "أسماء الحميري" [level=3] [ref=f5e37]
+                - paragraph [ref=f5e38]: قاصة وكاتبة مقالات
+            - generic [ref=f5e39]:
+              - paragraph [ref=f5e40]: تكتب عن المدينة والذاكرة والتفاصيل الصغيرة.
+              - generic [ref=f5e41]:
+                - generic [ref=f5e42]: صنعاء
+                - generic [ref=f5e43]: التعريف بالكاتب
+        - link "ياسر العنسي ياسر العنسي روائي يكتب الرواية من قلب الأسئلة الكبرى. صنعاء التعريف بالكاتب" [ref=f5e44] [cursor=pointer]:
+          - /url: /writers/wrt_002
+          - generic [ref=f5e45]:
+            - generic [ref=f5e46]:
+              - img "ياسر العنسي" [ref=f5e47]
+              - generic [ref=f5e49]:
+                - heading "ياسر العنسي" [level=3] [ref=f5e50]
+                - paragraph [ref=f5e51]: روائي
+            - generic [ref=f5e52]:
+              - paragraph [ref=f5e53]: يكتب الرواية من قلب الأسئلة الكبرى.
+              - generic [ref=f5e54]:
+                - generic [ref=f5e55]: صنعاء
+                - generic [ref=f5e56]: التعريف بالكاتب
+        - link "ريم الوصابي ريم الوصابي كاتبة قصة قصيرة نصوص قصيرة عن الأجنحة المحبوسة. صنعاء التعريف بالكاتب" [ref=f5e57] [cursor=pointer]:
+          - /url: /writers/wrt_003
+          - generic [ref=f5e58]:
+            - generic [ref=f5e59]:
+              - img "ريم الوصابي" [ref=f5e60]
+              - generic [ref=f5e62]:
+                - heading "ريم الوصابي" [level=3] [ref=f5e63]
+                - paragraph [ref=f5e64]: كاتبة قصة قصيرة
+            - generic [ref=f5e65]:
+              - paragraph [ref=f5e66]: نصوص قصيرة عن الأجنحة المحبوسة.
+              - generic [ref=f5e67]:
+                - generic [ref=f5e68]: صنعاء
+                - generic [ref=f5e69]: التعريف بالكاتب
+        - link "صالح الأهدل صالح الأهدل ناقد أدبي يهتم بالبنيات السردية وقراءة النص بعين مدققة. عمان التعريف بالكاتب" [ref=f5e70] [cursor=pointer]:
+          - /url: /writers/wrt_004
+          - generic [ref=f5e71]:
+            - generic [ref=f5e72]:
+              - img "صالح الأهدل" [ref=f5e73]
+              - generic [ref=f5e75]:
+                - heading "صالح الأهدل" [level=3] [ref=f5e76]
+                - paragraph [ref=f5e77]: ناقد أدبي
+            - generic [ref=f5e78]:
+              - paragraph [ref=f5e79]: يهتم بالبنيات السردية وقراءة النص بعين مدققة.
+              - generic [ref=f5e80]:
+                - generic [ref=f5e81]: عمان
+                - generic [ref=f5e82]: التعريف بالكاتب
+        - link "هدى الصبري هدى الصبري شاعرة وقاصة تكتب النثر الشعري الذي يقرّب القصة من الغيم. الحديدة التعريف بالكاتب" [ref=f5e83] [cursor=pointer]:
+          - /url: /writers/wrt_005
+          - generic [ref=f5e84]:
+            - generic [ref=f5e85]:
+              - img "هدى الصبري" [ref=f5e86]
+              - generic [ref=f5e88]:
+                - heading "هدى الصبري" [level=3] [ref=f5e89]
+                - paragraph [ref=f5e90]: شاعرة وقاصة
+            - generic [ref=f5e91]:
+              - paragraph [ref=f5e92]: تكتب النثر الشعري الذي يقرّب القصة من الغيم.
+              - generic [ref=f5e93]:
+                - generic [ref=f5e94]: الحديدة
+                - generic [ref=f5e95]: التعريف بالكاتب
+        - link "محمود الشيباني محمود الشيباني قاص من خريجي ورش النادي، صوت شاب في المشهد. صنعاء التعريف بالكاتب" [ref=f5e96] [cursor=pointer]:
+          - /url: /writers/wrt_006
+          - generic [ref=f5e97]:
+            - generic [ref=f5e98]:
+              - img "محمود الشيباني" [ref=f5e99]
+              - generic [ref=f5e101]:
+                - heading "محمود الشيباني" [level=3] [ref=f5e102]
+                - paragraph [ref=f5e103]: قاص
+            - generic [ref=f5e104]:
+              - paragraph [ref=f5e105]: من خريجي ورش النادي، صوت شاب في المشهد.
+              - generic [ref=f5e106]:
+                - generic [ref=f5e107]: صنعاء
+                - generic [ref=f5e108]: التعريف بالكاتب
+  - contentinfo [ref=f5e109]:
+    - generic [ref=f5e110]:
+      - generic [ref=f5e111]:
+        - generic [ref=f5e112]:
+          - generic [ref=f5e113]: ق
+          - generic [ref=f5e114]: نادي القصة «إلمقه»
+        - paragraph [ref=f5e115]: مؤسسة ثقافية أدبية تحتفي بالقصة القصيرة والرواية اليمنية، ترعى الكتّاب وتنشر الإبداع من قلب صنعاء إلى كل قراءة عربية.
+        - generic [ref=f5e116]:
+          - link "فيسبوك" [ref=f5e117] [cursor=pointer]:
+            - /url: /gallery
+          - link "انستغرام" [ref=f5e121] [cursor=pointer]:
+            - /url: /gallery
+          - link "معرض الصور" [ref=f5e125] [cursor=pointer]:
+            - /url: /gallery
+      - generic [ref=f5e129]:
+        - heading "أقسام الموقع" [level=3] [ref=f5e130]
+        - list [ref=f5e131]:
+          - listitem [ref=f5e132]:
+            - link "عن النادي" [ref=f5e133] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f5e134]:
+            - link "الفعاليات" [ref=f5e135] [cursor=pointer]:
+              - /url: /events
+          - listitem [ref=f5e136]:
+            - link "الكتّاب" [ref=f5e137] [cursor=pointer]:
+              - /url: /writers
+          - listitem [ref=f5e138]:
+            - link "الإصدارات" [ref=f5e139] [cursor=pointer]:
+              - /url: /publications
+          - listitem [ref=f5e140]:
+            - link "الورش" [ref=f5e141] [cursor=pointer]:
+              - /url: /workshops
+          - listitem [ref=f5e142]:
+            - link "الأخبار" [ref=f5e143] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f5e144]:
+            - link "الأرشيف" [ref=f5e145] [cursor=pointer]:
+              - /url: /archive
+          - listitem [ref=f5e146]:
+            - link "معرض الصور" [ref=f5e147] [cursor=pointer]:
+              - /url: /gallery
+          - listitem [ref=f5e148]:
+            - link "تواصل معنا" [ref=f5e149] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f5e150]:
+        - heading "تواصل معنا" [level=3] [ref=f5e151]
+        - list [ref=f5e152]:
+          - listitem [ref=f5e153]: صنعاء، اليمن — مبنى النادي الثقافي
+          - listitem [ref=f5e154]: info@almqah.club
+          - listitem [ref=f5e155]: 777 111 000
+        - generic [ref=f5e156]: «القصة نورٌ يجمعنا»
+    - generic [ref=f5e157]: © 2026 نادي القصة «إلمقه» — جميع الحقوق محفوظة
+  - region "Notifications alt+T"

@@ -1,0 +1,82 @@
+- generic [ref=f28e3]:
+  - complementary [ref=f28e4]:
+    - link "ق منتدى السرد اليمني «إلمقه» لوحة إدارة النادي" [ref=f28e6] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=f28e7]: ق
+      - generic [ref=f28e8]:
+        - generic [ref=f28e9]: منتدى السرد اليمني «إلمقه»
+        - generic [ref=f28e10]: لوحة إدارة النادي
+    - navigation [ref=f28e11]:
+      - link "نظرة عامة" [ref=f28e12] [cursor=pointer]:
+        - /url: /dashboard
+      - link "الفعاليات" [ref=f28e20] [cursor=pointer]:
+        - /url: /dashboard/events
+      - link "الورش" [ref=f28e24] [cursor=pointer]:
+        - /url: /dashboard/workshops
+      - link "الإصدارات" [ref=f28e31] [cursor=pointer]:
+        - /url: /dashboard/publications
+      - link "الأخبار" [ref=f28e35] [cursor=pointer]:
+        - /url: /dashboard/news
+      - link "الكتّاب والأعضاء" [ref=f28e40] [cursor=pointer]:
+        - /url: /dashboard/writers
+      - link "رسائل التواصل 2" [ref=f28e47] [cursor=pointer]:
+        - /url: /dashboard/messages
+        - generic [ref=f28e51]: رسائل التواصل
+        - generic [ref=f28e52]: "2"
+      - link "معرض الصور" [ref=f28e53] [cursor=pointer]:
+        - /url: /dashboard/gallery
+      - link "الإعدادات" [ref=f28e60] [cursor=pointer]:
+        - /url: /dashboard/settings
+    - generic [ref=f28e66]:
+      - link "العودة إلى الموقع" [ref=f28e67] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=f28e72] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=f28e76]:
+    - banner [ref=f28e77]:
+      - textbox "بحث" [ref=f28e82]:
+        - /placeholder: بحث سريع...
+      - generic [ref=f28e83]:
+        - button "2 رسائل جديدة" [ref=f28e84]:
+          - generic [ref=f28e85]: "2"
+          - generic [ref=f28e86]: رسائل جديدة
+        - generic [ref=f28e87]: وضع العرض التجريبي
+        - generic [ref=f28e89]: إد
+        - generic [ref=f28e91]:
+          - paragraph [ref=f28e92]: إدارة النادي
+          - paragraph [ref=f28e93]: مشرف عام
+    - main [ref=f28e94]:
+      - generic [ref=f28e96]:
+        - generic [ref=f28e98]:
+          - heading "الإعدادات" [level=1] [ref=f28e99]
+          - paragraph [ref=f28e100]: بيانات النادي التي تظهر في الموقع العام
+        - generic [ref=f28e101]:
+          - generic [ref=f28e102]:
+            - generic [ref=f28e103]: المعلومات الأساسية
+            - generic [ref=f28e105]:
+              - generic [ref=f28e106]:
+                - text: اسم النادي
+                - textbox "اسم النادي" [ref=f28e107]: منتدى السرد اليمني «إلمقه»
+              - generic [ref=f28e108]:
+                - text: الوصف المختصر (Tagline)
+                - textbox "الوصف المختصر (Tagline)" [ref=f28e109]: مؤسسة ثقافية أدبية يمنية
+              - generic [ref=f28e110]:
+                - text: شعار النادي
+                - textbox "شعار النادي" [ref=f28e111]: «القصة نورٌ يجمعنا»
+              - generic [ref=f28e112]:
+                - text: عنوان النادي
+                - textbox "عنوان النادي" [ref=f28e113]: صنعاء، اليمن — مبنى النادي الثقافي
+              - generic [ref=f28e114]:
+                - text: البريد الإلكتروني
+                - textbox "البريد الإلكتروني" [ref=f28e115]: info@almqah.club
+              - generic [ref=f28e116]:
+                - text: رقم الهاتف
+                - textbox "رقم الهاتف" [ref=f28e117]: 777 111 000
+              - generic [ref=f28e119]:
+                - text: وصف النادي (في أسفل الموقع)
+                - textbox "وصف النادي (في أسفل الموقع)" [ref=f28e120]: مؤسسة ثقافية أدبية تحتفي بالقصة القصيرة والرواية اليمنية، ترعى الكتّاب وتنشر الإبداع من قلب صنعاء إلى كل قراءة عربية.
+          - generic [ref=f28e121]:
+            - button "حفظ الإعدادات" [ref=f28e122]
+            - button "إعادة تهيئة البيانات التجريبية" [ref=f28e123]
+            - generic [ref=f28e124]: تُحفظ التعديلات وتنعكس فوراً على الموقع
+  - region "Notifications alt+T"

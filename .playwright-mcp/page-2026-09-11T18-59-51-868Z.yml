@@ -1,0 +1,96 @@
+- generic [ref=f22e3]:
+  - banner [ref=f22e4]:
+    - generic [ref=f22e6]:
+      - link "ق نادي القصة «إلمقه» مؤسسة ثقافية أدبية يمنية" [ref=f22e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f22e8]: ق
+        - generic [ref=f22e9]:
+          - generic [ref=f22e10]: نادي القصة «إلمقه»
+          - generic [ref=f22e11]: مؤسسة ثقافية أدبية يمنية
+      - navigation [ref=f22e12]:
+        - link "الرئيسية" [ref=f22e13] [cursor=pointer]:
+          - /url: /
+        - link "عن النادي" [ref=f22e14] [cursor=pointer]:
+          - /url: /about
+        - link "الفعاليات" [ref=f22e15] [cursor=pointer]:
+          - /url: /events
+        - link "الكتّاب" [ref=f22e16] [cursor=pointer]:
+          - /url: /writers
+        - link "الإصدارات" [ref=f22e17] [cursor=pointer]:
+          - /url: /publications
+        - link "الورش" [ref=f22e18] [cursor=pointer]:
+          - /url: /workshops
+        - link "الأخبار" [ref=f22e19] [cursor=pointer]:
+          - /url: /news
+        - link "الأرشيف" [ref=f22e20] [cursor=pointer]:
+          - /url: /archive
+        - link "معرض الصور" [ref=f22e21] [cursor=pointer]:
+          - /url: /gallery
+        - link "تواصل معنا" [ref=f22e22] [cursor=pointer]:
+          - /url: /contact
+      - link "لوحة التحكم" [ref=f22e24] [cursor=pointer]:
+        - /url: /admin-login
+  - main [ref=f22e27]:
+    - generic [ref=f22e28]:
+      - heading "لا يوجد تقييم متاح" [level=1] [ref=f22e31]
+      - paragraph [ref=f22e32]: لم يقم المنظم بإنشاء تقييم لهذه الفعالية بعد.
+      - link [ref=f22e33] [cursor=pointer]:
+        - /url: /events/event-1
+        - button "العودة إلى الفعالية" [ref=f22e34]
+  - contentinfo [ref=f22e35]:
+    - generic [ref=f22e36]:
+      - generic [ref=f22e37]:
+        - generic [ref=f22e38]:
+          - generic [ref=f22e39]: ق
+          - generic [ref=f22e40]: نادي القصة «إلمقه»
+        - paragraph [ref=f22e41]: مؤسسة ثقافية أدبية تحتفي بالقصة القصيرة والرواية اليمنية، ترعى الكتّاب وتنشر الإبداع من قلب صنعاء إلى كل قراءة عربية.
+        - generic [ref=f22e42]:
+          - link "فيسبوك" [ref=f22e43] [cursor=pointer]:
+            - /url: /gallery
+          - link "انستغرام" [ref=f22e47] [cursor=pointer]:
+            - /url: /gallery
+          - link "معرض الصور" [ref=f22e51] [cursor=pointer]:
+            - /url: /gallery
+      - generic [ref=f22e55]:
+        - heading "أقسام الموقع" [level=3] [ref=f22e56]
+        - list [ref=f22e57]:
+          - listitem [ref=f22e58]:
+            - link "عن النادي" [ref=f22e59] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f22e60]:
+            - link "الفعاليات" [ref=f22e61] [cursor=pointer]:
+              - /url: /events
+          - listitem [ref=f22e62]:
+            - link "الكتّاب" [ref=f22e63] [cursor=pointer]:
+              - /url: /writers
+          - listitem [ref=f22e64]:
+            - link "الإصدارات" [ref=f22e65] [cursor=pointer]:
+              - /url: /publications
+          - listitem [ref=f22e66]:
+            - link "الورش" [ref=f22e67] [cursor=pointer]:
+              - /url: /workshops
+          - listitem [ref=f22e68]:
+            - link "الأخبار" [ref=f22e69] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f22e70]:
+            - link "الأرشيف" [ref=f22e71] [cursor=pointer]:
+              - /url: /archive
+          - listitem [ref=f22e72]:
+            - link "معرض الصور" [ref=f22e73] [cursor=pointer]:
+              - /url: /gallery
+          - listitem [ref=f22e74]:
+            - link "تواصل معنا" [ref=f22e75] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f22e76]:
+        - heading "تواصل معنا" [level=3] [ref=f22e77]
+        - list [ref=f22e78]:
+          - listitem [ref=f22e79]: صنعاء، اليمن — مبنى النادي الثقافي
+          - listitem [ref=f22e80]: info@almqah.club
+          - listitem [ref=f22e81]: 777 111 000
+        - generic [ref=f22e82]: «القصة نورٌ يجمعنا»
+    - generic [ref=f22e83]:
+      - generic [ref=f22e84]: © 2026 نادي القصة «إلمقه» — جميع الحقوق محفوظة
+      - generic [ref=f22e85]: ·
+      - link "داخل النادي — لوحة المشرف" [ref=f22e86] [cursor=pointer]:
+        - /url: /admin-login
+  - region "Notifications alt+T"

@@ -1,0 +1,121 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "LUXE" [ref=e8]
+        - textbox "Search products..." [ref=e12]
+        - generic [ref=e13]:
+          - button "Language" [ref=e15]:
+            - generic [ref=e19]: EN
+          - button "Currency" [ref=e21]:
+            - generic [ref=e25]: $
+          - button "Wishlist" [ref=e26]
+          - button "Cart" [ref=e29]
+          - button "Login" [ref=e34]
+      - navigation [ref=e39]:
+        - button "All" [ref=e40]
+        - button "Electronics" [ref=e41]
+        - button "Accessories" [ref=e42]
+        - button "Fashion" [ref=e43]
+        - button "Home" [ref=e44]
+  - main [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e53]:
+            - heading "New Season Collection" [level=1] [ref=e54]
+            - paragraph [ref=e55]: Discover curated luxury at unbeatable prices
+            - button "Shop Now" [ref=e56]
+          - button "Previous" [ref=e57]
+          - button "Next" [ref=e60]
+          - generic [ref=e63]:
+            - button [ref=e64]
+            - button [ref=e65]
+            - button [ref=e66]
+        - generic [ref=e69]:
+          - generic [ref=e76]:
+            - paragraph [ref=e77]: Free Shipping
+            - paragraph [ref=e78]: On orders over $50
+          - generic [ref=e82]:
+            - paragraph [ref=e83]: 24/7 Support
+            - paragraph [ref=e84]: Always here to help
+          - generic [ref=e88]:
+            - paragraph [ref=e89]: Secure Payment
+            - paragraph [ref=e90]: 100% protected
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Money-Back
+            - paragraph [ref=e99]: 30-day guarantee
+      - generic [ref=e100]:
+        - heading "Shop by Category" [level=2] [ref=e102]
+        - generic [ref=e103]:
+          - button [ref=e104] [cursor=pointer]:
+            - img "Electronics" [ref=e105]
+            - generic [ref=e107]:
+              - paragraph [ref=e108]: Electronics
+              - paragraph [ref=e109]: Start Shopping
+          - button [ref=e112] [cursor=pointer]:
+            - img "Accessories" [ref=e113]
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: Accessories
+              - paragraph [ref=e117]: Start Shopping
+          - button [ref=e120] [cursor=pointer]:
+            - img "Fashion" [ref=e121]
+            - generic [ref=e123]:
+              - paragraph [ref=e124]: Fashion
+              - paragraph [ref=e125]: Start Shopping
+          - button [ref=e128] [cursor=pointer]:
+            - img "Home" [ref=e129]
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: Home
+              - paragraph [ref=e133]: Start Shopping
+      - generic [ref=e138]:
+        - paragraph [ref=e139]: Mid-Season Sale
+        - heading "Take an extra 10% off best sellers" [level=2] [ref=e140]
+        - button "Shop the Sale" [ref=e141]
+  - contentinfo [ref=e144]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - heading "LUXE" [level=3] [ref=e148]
+          - paragraph [ref=e149]: Premium shopping experience with curated collections for the modern lifestyle.
+          - generic [ref=e150]:
+            - paragraph [ref=e151]: Stay in the loop
+            - generic [ref=e152]:
+              - textbox "Your email address" [ref=e153]
+              - button "Subscribe" [ref=e154]
+        - generic [ref=e155]:
+          - heading "Shop" [level=4] [ref=e156]
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - button "New Arrivals" [ref=e159] [cursor=pointer]
+            - listitem [ref=e160]:
+              - button "Best Sellers" [ref=e161] [cursor=pointer]
+            - listitem [ref=e162]:
+              - button "Sale" [ref=e163] [cursor=pointer]
+        - generic [ref=e164]:
+          - heading "Support" [level=4] [ref=e165]
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - button "Contact Us" [ref=e168] [cursor=pointer]
+            - listitem [ref=e169]:
+              - button "FAQs" [ref=e170] [cursor=pointer]
+            - listitem [ref=e171]:
+              - button "About Us" [ref=e172] [cursor=pointer]
+            - listitem [ref=e173]: Shipping Info
+        - generic [ref=e174]:
+          - heading "Demo Accounts" [level=4] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]: "Admin: admin@store.com / admin123"
+            - listitem [ref=e178]: "Customer: user@store.com / user123"
+      - generic [ref=e179]:
+        - paragraph [ref=e180]: © 2026 LUXE. All rights reserved.
+        - button "Back to top ↑" [ref=e181]
+  - generic [ref=e182]:
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - heading "Shopping Cart" [level=2] [ref=e188]
+        - generic [ref=e189]: (0)
+      - button "Close" [ref=e190]
+    - generic [ref=e195]:
+      - paragraph [ref=e199]: Your cart is empty
+      - paragraph [ref=e200]: Start shopping now!

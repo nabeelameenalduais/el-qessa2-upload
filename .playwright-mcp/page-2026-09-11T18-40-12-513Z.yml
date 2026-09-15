@@ -1,0 +1,210 @@
+- generic [ref=e268]:
+  - complementary [ref=e269]:
+    - link "ق نادي القصة «إلمقه» لوحة إدارة النادي" [ref=e271] [cursor=pointer]:
+      - /url: /dashboard
+      - generic [ref=e272]: ق
+      - generic [ref=e273]:
+        - generic [ref=e274]: نادي القصة «إلمقه»
+        - generic [ref=e275]: لوحة إدارة النادي
+    - navigation [ref=e276]:
+      - generic [ref=e277]:
+        - paragraph [ref=e278]: الرئيسية
+        - generic [ref=e279]:
+          - link "لوحة التحكم" [ref=e280] [cursor=pointer]:
+            - /url: /dashboard
+          - link "نظرة عامة على الموقع" [ref=e288] [cursor=pointer]:
+            - /url: /dashboard/overview
+      - generic [ref=e293]:
+        - paragraph [ref=e294]: محتوى الموقع
+        - generic [ref=e295]:
+          - link "فعاليات الموقع" [ref=e296] [cursor=pointer]:
+            - /url: /dashboard/events-site
+          - link "الورش" [ref=e300] [cursor=pointer]:
+            - /url: /dashboard/workshops
+          - link "الإصدارات" [ref=e307] [cursor=pointer]:
+            - /url: /dashboard/publications
+          - link "الأخبار" [ref=e311] [cursor=pointer]:
+            - /url: /dashboard/news
+          - link "الكتّاب والأعضاء" [ref=e316] [cursor=pointer]:
+            - /url: /dashboard/writers
+          - link "رسائل التواصل 4" [ref=e323] [cursor=pointer]:
+            - /url: /dashboard/messages
+            - generic [ref=e327]: رسائل التواصل
+            - generic [ref=e328]: "4"
+          - link "معرض الصور" [ref=e329] [cursor=pointer]:
+            - /url: /dashboard/gallery
+          - link "إعدادات الموقع" [ref=e336] [cursor=pointer]:
+            - /url: /dashboard/settings
+      - generic [ref=e341]:
+        - paragraph [ref=e342]: إدارة الفعاليات
+        - generic [ref=e343]:
+          - link "كل الفعاليات" [ref=e344] [cursor=pointer]:
+            - /url: /dashboard/events
+          - link "ملاحظات الحضور" [ref=e349] [cursor=pointer]:
+            - /url: /dashboard/feedback
+          - link "الإشعارات" [ref=e353] [cursor=pointer]:
+            - /url: /dashboard/notifications
+          - link "الملف الشخصي" [ref=e358] [cursor=pointer]:
+            - /url: /dashboard/profile
+      - generic [ref=e363]:
+        - paragraph [ref=e364]: إدارة النظام
+        - generic [ref=e365]:
+          - link "المستخدمون" [ref=e366] [cursor=pointer]:
+            - /url: /dashboard/admin/users
+          - link "التصنيفات" [ref=e380] [cursor=pointer]:
+            - /url: /dashboard/admin/categories
+          - link "الأماكن" [ref=e386] [cursor=pointer]:
+            - /url: /dashboard/admin/venues
+          - link "الملفات" [ref=e392] [cursor=pointer]:
+            - /url: /dashboard/admin/files
+          - link "التقارير" [ref=e398] [cursor=pointer]:
+            - /url: /dashboard/admin/reports
+          - link "إعدادات النظام" [ref=e402] [cursor=pointer]:
+            - /url: /dashboard/admin/settings
+          - link "الأمان" [ref=e407] [cursor=pointer]:
+            - /url: /dashboard/admin/security
+    - generic [ref=e411]:
+      - link "العودة إلى الموقع" [ref=e412] [cursor=pointer]:
+        - /url: /
+      - link "تسجيل الخروج" [ref=e417] [cursor=pointer]:
+        - /url: /admin-login
+  - generic [ref=e421]:
+    - banner [ref=e422]:
+      - generic [ref=e423]:
+        - button "4 رسائل جديدة" [ref=e424]:
+          - generic [ref=e425]: "4"
+          - generic [ref=e426]: رسائل جديدة
+        - generic [ref=e427]: وضع العرض التجريبي
+        - generic [ref=e429]: إد
+        - generic [ref=e431]:
+          - paragraph [ref=e432]: إدارة النادي
+          - paragraph [ref=e433]: مشرف عام
+    - main [ref=e434]:
+      - generic [ref=e789]:
+        - generic [ref=e790]:
+          - heading "فعالياتي" [level=1] [ref=e791]
+          - button "إنشاء فعالية" [ref=e792]
+        - generic [ref=e793]:
+          - generic [ref=e794]:
+            - generic [ref=e796]:
+              - generic [ref=e797]:
+                - generic [ref=e798]: مؤتمر التقنية الدولي 2026
+                - generic [ref=e799]: منشورة
+                - generic [ref=e800]: عامة
+              - generic [ref=e801]:
+                - generic [ref=e802]: 15 سبتمبر 2026
+                - generic [ref=e805]: القاعة الرئيسية
+                - generic [ref=e809]: 200 مقعداً
+            - generic [ref=e815]:
+              - button "التسجيلات" [ref=e816]
+              - button "الحضور" [ref=e817]
+              - button "الجدول الزمني" [ref=e818]
+              - button "التكاليف" [ref=e819]
+              - button "التقييم" [ref=e820]
+              - button "الدردشة" [ref=e821]
+              - button "المنظمون" [ref=e822]
+              - button "عرض" [ref=e823]
+              - button "تعديل" [ref=e824]
+              - button "أرشفة" [ref=e825]
+              - button "إلغاء النشر" [ref=e826]
+              - button "تكرار" [ref=e827]
+              - button "حذف" [ref=e828]
+          - generic [ref=e829]:
+            - generic [ref=e831]:
+              - generic [ref=e832]:
+                - generic [ref=e833]: ورشة تطوير الويب
+                - generic [ref=e834]: منشورة
+                - generic [ref=e835]: عامة
+              - generic [ref=e836]:
+                - generic [ref=e837]: 20 سبتمبر 2026
+                - generic [ref=e840]: قاعة غير معروفة
+                - generic [ref=e844]: 50 مقعداً
+            - generic [ref=e850]:
+              - button "التسجيلات" [ref=e851]
+              - button "الحضور" [ref=e852]
+              - button "الجدول الزمني" [ref=e853]
+              - button "التكاليف" [ref=e854]
+              - button "التقييم" [ref=e855]
+              - button "الدردشة" [ref=e856]
+              - button "المنظمون" [ref=e857]
+              - button "عرض" [ref=e858]
+              - button "تعديل" [ref=e859]
+              - button "أرشفة" [ref=e860]
+              - button "إلغاء النشر" [ref=e861]
+              - button "تكرار" [ref=e862]
+              - button "حذف" [ref=e863]
+          - generic [ref=e864]:
+            - generic [ref=e866]:
+              - generic [ref=e867]:
+                - generic [ref=e868]: معرض الفنون الطلابي
+                - generic [ref=e869]: منشورة
+                - generic [ref=e870]: عامة
+              - generic [ref=e871]:
+                - generic [ref=e872]: 1 أكتوبر 2026
+                - generic [ref=e875]: المسرح الكبير
+                - generic [ref=e879]: 100 مقعداً
+            - generic [ref=e885]:
+              - button "التسجيلات" [ref=e886]
+              - button "الحضور" [ref=e887]
+              - button "الجدول الزمني" [ref=e888]
+              - button "التكاليف" [ref=e889]
+              - button "التقييم" [ref=e890]
+              - button "الدردشة" [ref=e891]
+              - button "المنظمون" [ref=e892]
+              - button "عرض" [ref=e893]
+              - button "تعديل" [ref=e894]
+              - button "أرشفة" [ref=e895]
+              - button "إلغاء النشر" [ref=e896]
+              - button "تكرار" [ref=e897]
+              - button "حذف" [ref=e898]
+          - generic [ref=e899]:
+            - generic [ref=e901]:
+              - generic [ref=e902]:
+                - generic [ref=e903]: ندوة الذكاء الاصطناعي وتعلم الآلة 2025
+                - generic [ref=e904]: مؤرشفة
+                - generic [ref=e905]: عامة
+              - generic [ref=e906]:
+                - generic [ref=e907]: 10 ديسمبر 2025
+                - generic [ref=e910]: مركز الابتكار التقني
+                - generic [ref=e914]: 80 مقعداً
+            - generic [ref=e920]:
+              - button "التسجيلات" [ref=e921]
+              - button "الحضور" [ref=e922]
+              - button "الجدول الزمني" [ref=e923]
+              - button "التكاليف" [ref=e924]
+              - button "التقييم" [ref=e925]
+              - button "الدردشة" [ref=e926]
+              - button "المنظمون" [ref=e927]
+              - button "عرض" [ref=e928]
+              - button "تعديل" [ref=e929]
+              - button "إعادة النشر" [ref=e930]
+              - button "تكرار" [ref=e931]
+              - button "حذف" [ref=e932]
+          - generic [ref=e933]:
+            - generic [ref=e935]:
+              - generic [ref=e936]:
+                - generic [ref=e937]: معرض التوظيف 2026
+                - generic [ref=e938]: منشورة
+                - generic [ref=e939]: عامة
+              - generic [ref=e940]:
+                - generic [ref=e941]: 5 نوفمبر 2026
+                - generic [ref=e944]: القاعة الرئيسية
+                - generic [ref=e948]: 300 مقعداً
+            - generic [ref=e954]:
+              - button "التسجيلات" [ref=e955]
+              - button "الحضور" [ref=e956]
+              - button "الجدول الزمني" [ref=e957]
+              - button "التكاليف" [ref=e958]
+              - button "التقييم" [ref=e959]
+              - button "الدردشة" [ref=e960]
+              - button "المنظمون" [ref=e961]
+              - button "عرض" [ref=e962]
+              - button "تعديل" [ref=e963]
+              - button "أرشفة" [ref=e964]
+              - button "إلغاء النشر" [ref=e965]
+              - button "تكرار" [ref=e966]
+              - button "حذف" [ref=e967]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e968]:
+        - generic [ref=e972]: تم نشر "معرض الفنون الطلابي"

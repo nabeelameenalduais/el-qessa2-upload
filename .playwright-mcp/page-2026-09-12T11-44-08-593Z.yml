@@ -1,0 +1,152 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e6]:
+      - button "نادي القصة — الرئيسية" [ref=f2e7]:
+        - generic [ref=f2e8]: ق
+        - generic [ref=f2e9]:
+          - generic [ref=f2e10]: نادي القصة
+          - generic [ref=f2e11]: إلمقه
+      - generic [ref=f2e12]:
+        - link "info@algessa.example" [ref=f2e13] [cursor=pointer]:
+          - /url: mailto:info@algessa.example
+        - link "صنعاء، اليمن" [ref=f2e15] [cursor=pointer]:
+          - /url: "#contact"
+        - link [ref=f2e17] [cursor=pointer]:
+          - /url: "#social"
+        - link [ref=f2e21] [cursor=pointer]:
+          - /url: "#social"
+        - link [ref=f2e25] [cursor=pointer]:
+          - /url: "#social"
+    - navigation [ref=f2e29]:
+      - generic [ref=f2e31]:
+        - button "الرئيسية" [ref=f2e32]
+        - button "عن النادي" [ref=f2e34]
+        - button "الفعاليات" [ref=f2e36]
+        - button "الكتّاب" [ref=f2e38]
+        - button "الإصدارات" [ref=f2e40]
+        - button "الورش" [ref=f2e42]
+        - button "الأخبار" [ref=f2e44]
+        - button "الأرشيف" [ref=f2e46]
+        - button "معرض الصور" [ref=f2e48]
+        - button "تواصل معنا" [ref=f2e50]
+  - main [ref=f2e52]:
+    - generic [ref=f2e547]:
+      - generic [ref=f2e550]:
+        - paragraph [ref=f2e551]: الفعاليات
+        - heading "فعاليات النادي" [level=1] [ref=f2e552]
+        - paragraph [ref=f2e554]: أمسيات قصصية وندوات وورش ولقاءات — فعاليات مفتوحة للجميع.
+      - generic [ref=f2e555]:
+        - generic [ref=f2e556]:
+          - button "الفعاليات القادمة" [ref=f2e557]
+          - button "الفعاليات السابقة" [ref=f2e558]
+        - textbox "ابحث عن فعالية..." [ref=f2e560]
+        - generic [ref=f2e564]:
+          - button "الكل" [active] [ref=f2e565]
+          - button "أمسيات قصصية" [ref=f2e566]
+          - button "ندوات أدبية" [ref=f2e567]
+          - button "جلسات نقدية" [ref=f2e568]
+          - button "ورش كتابة" [ref=f2e569]
+          - button "توقيع إصدارات" [ref=f2e570]
+          - button "لقاءات مع الكتّاب" [ref=f2e571]
+          - button "قراءات قصصية" [ref=f2e572]
+        - generic [ref=f2e573]:
+          - article [ref=f2e823] [cursor=pointer]:
+            - generic [ref=f2e824]:
+              - 'img "أمسية قصصية: أصوات جديدة" [ref=f2e825]'
+              - generic [ref=f2e826]: أمسيات قصصية
+            - generic [ref=f2e827]:
+              - generic [ref=f2e828]:
+                - generic [ref=f2e829]: الجمعة، 28 أغسطس 2026
+                - generic [ref=f2e832]: 7:00 مساءً
+                - generic [ref=f2e836]: صنعاء — مقر النادي الثقافي
+              - 'heading "أمسية قصصية: أصوات جديدة" [level=3] [ref=f2e840]'
+              - paragraph [ref=f2e841]: أمسية احتفائية بالنصوص الأولى لكتّاب خرجوا من ورش النادي، وسط حضور جماهيري كبير.
+              - generic [ref=f2e842]: التفاصيل
+          - article [ref=f2e801] [cursor=pointer]:
+            - generic [ref=f2e802]:
+              - 'img "ندوة أدبية: القصة والبحر" [ref=f2e803]'
+              - generic [ref=f2e804]: ندوات أدبية
+            - generic [ref=f2e805]:
+              - generic [ref=f2e806]:
+                - generic [ref=f2e807]: السبت، 22 أغسطس 2026
+                - generic [ref=f2e810]: 5:00 مساءً
+                - generic [ref=f2e814]: الحديدة — مقر جمعية الآداب
+              - 'heading "ندوة أدبية: القصة والبحر" [level=3] [ref=f2e818]'
+              - paragraph [ref=f2e819]: ندوة حول حضور البحر في القصة والرواية اليمنية، بالتعاون مع جمعية الآداب في الحديدة.
+              - generic [ref=f2e820]: التفاصيل
+          - article [ref=f2e845] [cursor=pointer]:
+            - generic [ref=f2e846]:
+              - 'img "جلسة نقدية: سرديات المكان" [ref=f2e847]'
+              - generic [ref=f2e848]: جلسات نقدية
+            - generic [ref=f2e849]:
+              - generic [ref=f2e850]:
+                - generic [ref=f2e851]: الخميس، 13 أغسطس 2026
+                - generic [ref=f2e854]: 6:00 مساءً
+                - generic [ref=f2e858]: صنعاء — مقر النادي الثقافي
+              - 'heading "جلسة نقدية: سرديات المكان" [level=3] [ref=f2e862]'
+              - paragraph [ref=f2e863]: جلسة نقدية تطبيقية يقرأ فيها الحضور نصوصاً مختارة ويناقشون تقنيات بناء المكان في الكتابة القصصية.
+              - generic [ref=f2e864]: التفاصيل
+          - article [ref=f2e867] [cursor=pointer]:
+            - generic [ref=f2e868]:
+              - img "ورشة «من الفكرة إلى النص»" [ref=f2e869]
+              - generic [ref=f2e870]: ورش كتابة
+            - generic [ref=f2e871]:
+              - generic [ref=f2e872]:
+                - generic [ref=f2e873]: الأحد، 16 أغسطس 2026
+                - generic [ref=f2e876]: 4:00 عصراً
+                - generic [ref=f2e880]: صنعاء — مقر النادي الثقافي
+              - heading "ورشة «من الفكرة إلى النص»" [level=3] [ref=f2e884]
+              - paragraph [ref=f2e885]: ورشة تأسيسية في مراحل كتابة النص القصصي، يقدمها قاصّون من النادي في ثلاث جلسات.
+              - generic [ref=f2e886]: التفاصيل
+  - contentinfo [ref=f2e479]:
+    - generic [ref=f2e480]:
+      - generic [ref=f2e481]:
+        - generic [ref=f2e482]:
+          - generic [ref=f2e483]:
+            - generic [ref=f2e484]: ق
+            - generic [ref=f2e485]:
+              - paragraph [ref=f2e486]: نادي القصة
+              - paragraph [ref=f2e487]: إلمقه
+          - paragraph [ref=f2e488]: مساحة ثقافية تجمع كتّاب القصة والرواية والمهتمين بالسرد، وتحتفي بالكلمة والكتاب والفعالية الأدبية.
+        - generic [ref=f2e489]:
+          - heading "روابط الموقع" [level=4] [ref=f2e490]
+          - list [ref=f2e491]:
+            - listitem [ref=f2e492]:
+              - button "الرئيسية" [ref=f2e493] [cursor=pointer]
+            - listitem [ref=f2e494]:
+              - button "عن النادي" [ref=f2e495] [cursor=pointer]
+            - listitem [ref=f2e496]:
+              - button "الفعاليات" [ref=f2e497] [cursor=pointer]
+            - listitem [ref=f2e498]:
+              - button "الكتّاب" [ref=f2e499] [cursor=pointer]
+            - listitem [ref=f2e500]:
+              - button "الإصدارات" [ref=f2e501] [cursor=pointer]
+            - listitem [ref=f2e502]:
+              - button "الورش" [ref=f2e503] [cursor=pointer]
+            - listitem [ref=f2e504]:
+              - button "الأخبار" [ref=f2e505] [cursor=pointer]
+            - listitem [ref=f2e506]:
+              - button "الأرشيف" [ref=f2e507] [cursor=pointer]
+            - listitem [ref=f2e508]:
+              - button "معرض الصور" [ref=f2e509] [cursor=pointer]
+            - listitem [ref=f2e510]:
+              - button "تواصل معنا" [ref=f2e511] [cursor=pointer]
+        - generic [ref=f2e512]:
+          - heading "تواصل معنا" [level=4] [ref=f2e513]
+          - list [ref=f2e514]:
+            - listitem [ref=f2e515]: صنعاء، اليمن — مقر النادي الثقافي
+            - listitem [ref=f2e519]: info@algessa.example
+            - listitem [ref=f2e523]: +967 700 000 000
+        - generic [ref=f2e526]:
+          - heading "تابعنا" [level=4] [ref=f2e527]
+          - generic [ref=f2e528]:
+            - link "الموقع" [ref=f2e529] [cursor=pointer]:
+              - /url: "#social"
+            - link "الصور" [ref=f2e533] [cursor=pointer]:
+              - /url: "#social"
+            - link "المراسلة" [ref=f2e537] [cursor=pointer]:
+              - /url: "#social"
+          - paragraph [ref=f2e541]: نموذج أولي لعرض الواجهة — جميع البيانات تجريبية.
+      - generic [ref=f2e542]:
+        - paragraph [ref=f2e543]: © 2026 نادي القصة «إلمقه». جميع الحقوق محفوظة.
+        - button "العودة إلى الأعلى" [ref=f2e544] [cursor=pointer]
