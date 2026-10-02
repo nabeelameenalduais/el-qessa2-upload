@@ -1,28 +1,62 @@
 import { useState, useEffect } from 'react';
-import { X, Calendar, MapPin, Clock, CheckCircle2, User } from 'lucide-react';
+import { X, Calendar, MapPin, Clock, CheckCircle2, LogIn, UserPlus, UserRound } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import Btn from './ui/Btn';
 
 function RegistrationForm({ event, onClose }) {
   const [submitted, setSubmitted] = useState(false);
-  const [form, setForm] = useState({ name: '', email: '', phone: '' });
-  const { addRegistration } = useApp();
+  const { currentUser, isAuthenticated, addRegistration } = useApp();
+  const { closeRegistration, go } = useApp();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!form.name.trim()) return;
+    if (!currentUser) return;
     addRegistration({
       eventId: event.id,
       eventTitle: event.title,
       eventDate: event.date,
-      name: form.name.trim(),
-      email: form.email.trim(),
-      phone: form.phone.trim(),
+      userId: currentUser.id,
+      name: currentUser.name,
+      email: currentUser.email,
+      phone: currentUser.phone || '',
       status: 'قيد المراجعة',
       createdAt: Date.now(),
     });
     setSubmitted(true);
   };
+
+  if (!isAuthenticated || !currentUser) {
+    return (
+      <div className="px-6 py-10 text-center">
+        <UserRound size={40} className="mx-auto text-burgundy mb-4" />
+        <h4 className="text-xl font-bold text-ink mb-2">سجّل الدخول أولًا</h4>
+        <p className="text-warm-brown text-sm leading-relaxed mb-6">
+          تحتاج إلى حساب نشط في النادي لتتمكن من تسجيل حضورك في هذه الفعالية.
+        </p>
+        <div className="flex flex-col gap-2.5">
+          <Btn
+            onClick={() => {
+              closeRegistration();
+              go('login');
+            }}
+          >
+            <LogIn size={16} />
+            تسجيل الدخول
+          </Btn>
+          <button
+            onClick={() => {
+              closeRegistration();
+              go('register');
+            }}
+            className="inline-flex items-center justify-center gap-1.5 px-5 py-2.5 text-sm font-semibold border border-burgundy text-burgundy hover:bg-burgundy hover:text-ivory rounded-sm transition-colors cursor-pointer"
+          >
+            <UserPlus size={16} />
+            إنشاء حساب جديد
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (submitted) {
     return (
@@ -35,7 +69,10 @@ function RegistrationForm({ event, onClose }) {
           {event.title}
         </p>
         <p className="text-warm-brown text-sm">
-          سنتواصل معك عبر البريد الإلكتروني لتأكيد الحضور. شكراً لانضمامك.
+          سنتواصل معك عبر بريدك الإلكتروني لتأكيد الحضور. شكراً لانضمامك.
+        </p>
+        <p className="text-xs text-warm-brown/70 mt-3">
+          يمكنك متابعة حالة تسجيلك من صفحة «حسابي».
         </p>
         <Btn className="mt-6" onClick={onClose}>
           إغلاق
@@ -43,6 +80,9 @@ function RegistrationForm({ event, onClose }) {
       </div>
     );
   }
+
+  const fieldClass =
+    'w-full px-4 py-2.5 bg-white border border-ivory-dark rounded-sm text-sm focus:outline-none focus:border-burgundy transition-colors';
 
   return (
     <div className="px-6 py-6">
@@ -62,17 +102,19 @@ function RegistrationForm({ event, onClose }) {
       </div>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label className="flex items-center gap-1.5 text-xs font-semibold text-ink mb-1.5">
-            <User size={13} className="text-gold" /> الاسم الكامل
+          <label className="block text-xs font-semibold text-ink mb-1.5">
+            الاسم الكامل
           </label>
           <input
             type="text"
-            value={form.name}
-            onChange={(e) => setForm({ ...form, name: e.target.value })}
-            placeholder="الاسم الكامل"
-            className="w-full px-4 py-2.5 bg-white border border-ivory-dark rounded-md text-sm focus:outline-none focus:border-burgundy transition-colors"
-            required
+            value={currentUser.name}
+            readOnly
+            tabIndex={-1}
+            className={`${fieldClass} bg-ivory-dark/40 cursor-not-allowed`}
           />
+          <p className="text-[11px] text-warm-brown/70 mt-1">
+            سيُسجَّل الحضور باسم حسابك في النادي.
+          </p>
         </div>
         <div>
           <label className="block text-xs font-semibold text-ink mb-1.5">
@@ -80,10 +122,11 @@ function RegistrationForm({ event, onClose }) {
           </label>
           <input
             type="email"
-            value={form.email}
-            onChange={(e) => setForm({ ...form, email: e.target.value })}
-            placeholder="name@example.com"
-            className="w-full px-4 py-2.5 bg-white border border-ivory-dark rounded-md text-sm focus:outline-none focus:border-burgundy transition-colors"
+            dir="ltr"
+            value={currentUser.email}
+            readOnly
+            tabIndex={-1}
+            className={`${fieldClass} text-start bg-ivory-dark/40 cursor-not-allowed`}
           />
         </div>
         <div>
@@ -92,11 +135,15 @@ function RegistrationForm({ event, onClose }) {
           </label>
           <input
             type="tel"
-            value={form.phone}
-            onChange={(e) => setForm({ ...form, phone: e.target.value })}
+            value={currentUser.phone || ''}
+            readOnly
+            tabIndex={-1}
             placeholder="07xxxxxxxx"
-            className="w-full px-4 py-2.5 bg-white border border-ivory-dark rounded-md text-sm focus:outline-none focus:border-burgundy transition-colors"
+            className={`${fieldClass} bg-ivory-dark/40 cursor-not-allowed`}
           />
+          <p className="text-[11px] text-warm-brown/70 mt-1">
+            يمكنك تحديث رقم هاتفك من صفحة «حسابي».
+          </p>
         </div>
         <div className="pt-1">
           <Btn type="submit" className="w-full">
@@ -104,9 +151,6 @@ function RegistrationForm({ event, onClose }) {
           </Btn>
         </div>
       </form>
-      <p className="text-[11px] text-warm-brown/70 text-center mt-4">
-        هذا النموذج تجريبي لأغراض العرض فقط — لا تتم أي معالجة فعلية للبيانات.
-      </p>
     </div>
   );
 }

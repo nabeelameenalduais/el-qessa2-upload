@@ -7,6 +7,8 @@ import StatusBadge from './ui/StatusBadge';
 import { SiteButton } from './ui/ActionBtns';
 import Modal from './ui/Modal';
 import ConfirmDialog from './ui/ConfirmDialog';
+import ImagePicker from './ui/ImagePicker';
+import DatePicker from './ui/DatePicker';
 import { images } from '../../data/mockData';
 import { useApp } from '../../context/AppContext';
 import { useAdmin } from './context/AdminContext';
@@ -219,11 +221,11 @@ export default function AdminWorkshops() {
               />
             </Field>
             <Field label="الموعد" required error={errors.date}>
-              <input
+              <DatePicker
+                format="arabic"
                 value={form.date}
-                onChange={(e) => set('date', e.target.value)}
-                className="input"
-                placeholder="يبدأ 21 سبتمبر 2026"
+                onChange={(v) => set('date', v)}
+                placeholder="21 سبتمبر 2026"
               />
             </Field>
             <Field label="المدة">
@@ -252,19 +254,7 @@ export default function AdminWorkshops() {
             </Field>
           </div>
           <Field label="الصورة">
-            <input
-              value={form.image}
-              onChange={(e) => set('image', e.target.value)}
-              className="input"
-              placeholder="رابط الصورة"
-            />
-            {form.image && (
-              <img
-                src={form.image}
-                alt="معاينة"
-                className="mt-2 w-full h-32 object-cover rounded-sm border border-ivory-dark"
-              />
-            )}
+            <ImagePicker value={form.image} onChange={(v) => set('image', v)} />
           </Field>
           <Field label="الوصف">
             <textarea

@@ -50,10 +50,11 @@ export default function AdminTopbar() {
     effectiveCircle,
     setViewCircle,
     openAccountSelect,
+    locked,
     circles,
     scopedList,
   } = useAdmin();
-  const { go, content, setAuditActor } = useApp();
+  const { go, content, setAuditActor, currentUser } = useApp();
   const [notifOpen, setNotifOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
 
@@ -65,11 +66,14 @@ export default function AdminTopbar() {
   const workshopsStats = computeWorkshops(viewWorkshops);
   const newsStats = computeNews(viewNews);
   const operator =
-    content.users.find((u) => u.role === 'أدمن' && u.active) ||
-    content.users.find((u) => u.role === 'أدمن');
+    currentUser?.active === false
+      ? undefined
+      : currentUser ||
+        content.users.find((u) => u.role === 'أدمن' && u.active) ||
+        content.users.find((u) => u.role === 'أدمن');
 
   useEffect(() => {
-    setAuditActor(isAdmin ? operator?.name || 'إدارة النادي' : `دائرة ${circleName(fullCircle)}`);
+    setAuditActor(isAdmin ? operator?.name || 'إدارة النادي' : operator?.name || `دائرة ${circleName(fullCircle)}`);
   }, [operator, setAuditActor, isAdmin, fullCircle]);
   const openWorkshops = workshopsStats.byStatus
     .filter((s) => s.name === 'التسجيل مفتوح' || s.name === 'قريباً')
@@ -109,17 +113,26 @@ export default function AdminTopbar() {
           <Menu size={22} />
         </button>
 
-        <div className="flex-1 min-w-0">
-          <h1 className="text-base lg:text-xl font-bold text-ink leading-tight truncate">
-            {activeSection?.title}
-          </h1>
-          {!showSearch && (
-            <p className="text-[11px] text-warm-brown mt-0.5 hidden sm:block">
-              {isAdmin
-                ? (effectiveCircle ? `عرض دائرة ${circleName(effectiveCircle)} · لوحة الإدارة` : 'نادي القصة «إلمقه» · لوحة إدارة المحتوى')
-                : `دائرة ${circleName(fullCircle)} · لوحة إدارة المحتوى`}
-            </p>
+        <div className="flex items-center gap-3 flex-1 min-w-0">
+          {!isAdmin && fullCircle && (
+            <img
+              src="/assets/logo.png"
+              alt=""
+              className="w-10 h-10 lg:w-12 lg:h-12 object-contain flex-shrink-0"
+            />
           )}
+          <div className="min-w-0">
+            <h1 className="text-base lg:text-xl font-bold text-ink leading-tight truncate">
+              {activeSection?.title}
+            </h1>
+            {!showSearch && (
+              <p className="text-[11px] text-warm-brown mt-0.5 hidden sm:block">
+                {isAdmin
+                  ? (effectiveCircle ? `عرض دائرة ${circleName(effectiveCircle)} · لوحة الإدارة` : 'نادي القصة «إلمقه» · لوحة إدارة المحتوى')
+                  : `دائرة ${circleName(fullCircle)} · لوحة إدارة المحتوى`}
+              </p>
+            )}
+          </div>
         </div>
 
         {showSearch && (
@@ -218,12 +231,20 @@ export default function AdminTopbar() {
               className="flex items-center gap-2.5 p-1.5 hover:bg-ivory-dark rounded-md transition-colors cursor-pointer"
               aria-label="حساب الدخول"
             >
-              <span
-                className="w-9 h-9 text-ivory flex items-center justify-center text-base font-bold rounded-sm"
-                style={{ backgroundColor: fullCircle ? circleColor(fullCircle) : undefined }}
-              >
-                ق
-              </span>
+              {isAdmin ? (
+                <span
+                  className="w-9 h-9 text-ivory flex items-center justify-center text-base font-bold rounded-sm"
+                  style={{ backgroundColor: fullCircle ? circleColor(fullCircle) : undefined }}
+                >
+                  ق
+                </span>
+              ) : (
+                <img
+                  src="/assets/logo.png"
+                  alt=""
+                  className="w-9 h-9 object-contain rounded-sm flex-shrink-0"
+                />
+              )}
               <span className="hidden md:block text-start leading-tight">
                 <span className="block text-xs font-bold text-ink">
                   {isAdmin ? 'الإدارة الرئيسية' : `دائرة ${circleName(fullCircle)}`}
@@ -238,12 +259,20 @@ export default function AdminTopbar() {
               <div className="absolute end-0 top-full mt-2 w-60 bg-white border border-ivory-dark shadow-xl rounded-sm overflow-hidden animate-slide-in-down">
                 <div className="px-4 py-3 border-b border-ivory-dark bg-ivory/50">
                   <div className="flex items-center gap-2.5">
-                    <span
-                      className="w-7 h-7 text-ivory flex items-center justify-center text-sm font-bold rounded-sm flex-shrink-0"
-                      style={{ backgroundColor: fullCircle ? circleColor(fullCircle) : undefined }}
-                    >
-                      ق
-                    </span>
+                    {isAdmin ? (
+                      <span
+                        className="w-7 h-7 text-ivory flex items-center justify-center text-sm font-bold rounded-sm flex-shrink-0"
+                        style={{ backgroundColor: fullCircle ? circleColor(fullCircle) : undefined }}
+                      >
+                        ق
+                      </span>
+                    ) : (
+                      <img
+                        src="/assets/logo.png"
+                        alt=""
+                        className="w-7 h-7 object-contain rounded-sm flex-shrink-0"
+                      />
+                    )}
                     <div className="min-w-0">
                       <p className="text-xs font-bold text-ink truncate">
                         {isAdmin ? 'الإدارة الرئيسية' : `دائرة ${circleName(fullCircle)}`}
@@ -254,16 +283,18 @@ export default function AdminTopbar() {
                     </div>
                   </div>
                 </div>
-                <button
-                  onClick={() => {
-                    setProfileOpen(false);
-                    openAccountSelect();
-                  }}
-                  className="w-full flex items-center gap-2.5 px-4 py-3 text-xs text-ink hover:bg-ivory-dark/30 transition-colors cursor-pointer"
-                >
-                  <UsersRound size={14} className="text-gold" />
-                  تبديل الحساب
-                </button>
+                {!locked && (
+                  <button
+                    onClick={() => {
+                      setProfileOpen(false);
+                      openAccountSelect();
+                    }}
+                    className="w-full flex items-center gap-2.5 px-4 py-3 text-xs text-ink hover:bg-ivory-dark/30 transition-colors cursor-pointer"
+                  >
+                    <UsersRound size={14} className="text-gold" />
+                    تبديل الحساب
+                  </button>
+                )}
                 <button
                   onClick={() => {
                     setProfileOpen(false);

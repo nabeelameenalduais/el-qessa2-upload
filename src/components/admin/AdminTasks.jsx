@@ -8,6 +8,7 @@ import Modal from './ui/Modal';
 import ConfirmDialog from './ui/ConfirmDialog';
 import EmptyState from './ui/EmptyState';
 import CircleBadge from './ui/CircleBadge';
+import DatePicker from './ui/DatePicker';
 import { useApp } from '../../context/AppContext';
 import { useAdmin } from './context/AdminContext';
 import { formatShortDate } from './utils/dateUtils';
@@ -319,11 +320,12 @@ export default function AdminTasks() {
           <div className="grid sm:grid-cols-2 gap-4">
             <label className="block">
               <span className="block text-xs font-semibold text-ink mb-1.5">الموعد</span>
-              <input
-                type="date"
+              <DatePicker
+                format="iso"
                 value={form.due}
-                onChange={(e) => set('due', e.target.value)}
-                className="input"
+                onChange={(v) => set('due', v)}
+                placeholder="اختر التاريخ"
+                allowClear
               />
             </label>
             <label className="block">

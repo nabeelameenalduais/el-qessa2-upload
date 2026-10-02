@@ -7,19 +7,21 @@ import { adminSections } from './sections';
 import { circleName, circleColor } from './circles';
 
 export default function AdminSidebar({ collapsed }) {
-  const { section, setSection, account, isAdmin, openAccountSelect } = useAdmin();
-  const { go } = useApp();
+  const { section, setSection, account, isAdmin, openAccountSelect, locked } = useAdmin();
+  const { go, logout, addToast } = useApp();
   const visibleSections = adminSections.filter(
-    (s) => isAdmin || s.key !== 'settings'
+    (s) => isAdmin || !['users', 'reports', 'settings'].includes(s.key)
   );
   const circleKey = account?.circleKey || '';
 
   return (
     <div className="flex flex-col h-full bg-ink">
       <div className="flex items-center gap-3 px-5 h-20 border-b border-ivory/10 flex-shrink-0">
-        <span className="w-10 h-10 bg-burgundy text-ivory flex items-center justify-center text-xl font-bold rounded-sm flex-shrink-0">
-          ق
-        </span>
+        <img
+          src="/assets/logo.png"
+          alt="شعار نادي القصة «إلمقه»"
+          className="w-9 h-9 object-contain flex-shrink-0"
+        />
         {!collapsed && (
           <div className="leading-none">
             <p className="text-ivory font-bold text-base">نادي القصة</p>
@@ -51,7 +53,7 @@ export default function AdminSidebar({ collapsed }) {
       </nav>
 
       <div className="p-3 border-t border-ivory/10 flex-shrink-0 space-y-1">
-        {!collapsed && account && (
+        {!collapsed && account && !locked && (
           <button
             onClick={openAccountSelect}
             className="w-full flex items-center gap-3 px-3 py-2.5 rounded-sm bg-ivory/5 hover:bg-ivory/10 transition-colors cursor-pointer text-start"
@@ -85,6 +87,20 @@ export default function AdminSidebar({ collapsed }) {
         >
           <LogOut size={18} className="flex-shrink-0" />
           {!collapsed && <span className="flex-1 text-start">العودة إلى الموقع</span>}
+        </button>
+        <button
+          onClick={() => {
+            logout();
+            go('home');
+            addToast('تم تسجيل الخروج بنجاح');
+          }}
+          title={collapsed ? 'تسجيل الخروج' : undefined}
+          className={`w-full flex items-center gap-3 px-3 py-2.5 text-[13px] font-medium text-burgundy hover:bg-ivory/5 rounded-sm transition-colors cursor-pointer ${
+            collapsed ? 'justify-center' : ''
+          }`}
+        >
+          <LogOut size={18} className="flex-shrink-0" />
+          {!collapsed && <span className="flex-1 text-start">تسجيل الخروج</span>}
         </button>
       </div>
     </div>

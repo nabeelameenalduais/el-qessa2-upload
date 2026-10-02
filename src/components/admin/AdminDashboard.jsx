@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { X } from 'lucide-react';
 import { AdminProvider, useAdmin } from './context/AdminContext';
+import { useApp } from '../../context/AppContext';
 import AdminSidebar from './AdminSidebar';
 import AdminTopbar from './AdminTopbar';
 import AdminOverview from './AdminOverview';
@@ -21,14 +22,14 @@ import AdminTasks from './AdminTasks';
 import AccountSelect from './AccountSelect';
 
 function AdminShell() {
-  const { section, sidebarOpen, setSidebarOpen, settings, account, accountSelectOpen } =
+  const { section, sidebarOpen, setSidebarOpen, settings, account, accountSelectOpen, locked } =
     useAdmin();
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [section]);
 
-  if (!account || accountSelectOpen) {
+  if (!account || (accountSelectOpen && !locked)) {
     return <AccountSelect />;
   }
 
@@ -106,8 +107,11 @@ function AdminShell() {
 }
 
 export default function AdminDashboard() {
+  const { currentUser } = useApp();
+  const isOrganizer =
+    currentUser?.role === 'حاضر' && Boolean(currentUser.circleId);
   return (
-    <AdminProvider>
+    <AdminProvider lockCircle={isOrganizer ? currentUser.circleId : ''}>
       <AdminShell />
     </AdminProvider>
   );

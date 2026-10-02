@@ -4,6 +4,8 @@ import PageHead from './ui/PageHead';
 import Select from './ui/Select';
 import Modal from './ui/Modal';
 import ConfirmDialog from './ui/ConfirmDialog';
+import ImagePicker from './ui/ImagePicker';
+import DatePicker from './ui/DatePicker';
 import { images } from '../../data/mockData';
 import { useApp } from '../../context/AppContext';
 import { useAdmin } from './context/AdminContext';
@@ -173,20 +175,8 @@ export default function AdminGallery() {
         title={editId ? 'تعديل الصورة' : 'إضافة صورة'}
       >
         <div className="px-6 py-5 space-y-4">
-          <Field label="الرابط" required error={errors.src}>
-            <input
-              value={form.src}
-              onChange={(e) => set('src', e.target.value)}
-              className="input"
-              placeholder="رابط الصورة"
-            />
-            {form.src && (
-              <img
-                src={form.src}
-                alt="معاينة"
-                className="mt-2 w-full h-32 object-cover rounded-sm border border-ivory-dark"
-              />
-            )}
+          <Field label="الصورة" required error={errors.src}>
+            <ImagePicker value={form.src} onChange={(v) => set('src', v)} />
           </Field>
           <Field label="التعليق" required error={errors.caption}>
             <input
@@ -200,10 +190,10 @@ export default function AdminGallery() {
             <Select value={form.category} onChange={(v) => set('category', v)} options={categories} />
           </Field>
           <Field label="السنة" required error={errors.year}>
-            <input
+            <DatePicker
+              format="year"
               value={form.year}
-              onChange={(e) => set('year', e.target.value)}
-              className="input"
+              onChange={(v) => set('year', v)}
               placeholder="2026"
             />
           </Field>

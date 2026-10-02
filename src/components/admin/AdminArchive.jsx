@@ -5,6 +5,7 @@ import DataTable from './ui/DataTable';
 import { SiteButton } from './ui/ActionBtns';
 import Modal from './ui/Modal';
 import ConfirmDialog from './ui/ConfirmDialog';
+import DatePicker from './ui/DatePicker';
 import { useApp } from '../../context/AppContext';
 import { useAdmin } from './context/AdminContext';
 
@@ -178,10 +179,10 @@ export default function AdminArchive() {
         <div className="px-6 py-5 space-y-4">
           <div className="grid sm:grid-cols-2 gap-4">
             <Field label="السنة" required error={errors.year}>
-              <input
+              <DatePicker
+                format="year"
                 value={form.year}
-                onChange={(e) => set('year', e.target.value)}
-                className="input"
+                onChange={(v) => set('year', v)}
                 placeholder="2026"
               />
             </Field>

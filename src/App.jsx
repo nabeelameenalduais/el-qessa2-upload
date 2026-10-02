@@ -17,6 +17,9 @@ import GalleryPage from './components/GalleryPage';
 import ContactPage from './components/ContactPage';
 import MyPage from './components/MyPage';
 import NotFoundPage from './components/NotFoundPage';
+import LoginPage from './components/LoginPage';
+import RegisterPage from './components/RegisterPage';
+import AdminGate from './components/AdminGate';
 import AdminDashboard from './components/admin/AdminDashboard';
 import Toast from './components/Toast';
 import Lightbox from './components/Lightbox';
@@ -57,18 +60,26 @@ function AppContent() {
         return <ContactPage />;
       case 'my-account':
         return <MyPage />;
+      case 'login':
+        return <LoginPage />;
+      case 'register':
+        return <RegisterPage />;
       case 'admin':
-        return <AdminDashboard />;
+        return (
+          <AdminGate>
+            <AdminDashboard />
+          </AdminGate>
+        );
       default:
         return <NotFoundPage />;
     }
   };
 
-  const isAdmin = currentPage === 'admin';
+  const isStandalone = currentPage === 'admin' || currentPage === 'login' || currentPage === 'register';
 
   return (
     <div className="min-h-screen bg-surface font-sans flex flex-col">
-      {isAdmin ? (
+      {isStandalone ? (
         <main className="flex-1">{renderPage()}</main>
       ) : (
         <>

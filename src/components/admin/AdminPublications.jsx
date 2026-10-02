@@ -6,6 +6,7 @@ import DataTable from './ui/DataTable';
 import { ViewButton } from './ui/ActionBtns';
 import Modal from './ui/Modal';
 import ConfirmDialog from './ui/ConfirmDialog';
+import DatePicker from './ui/DatePicker';
 import { useApp } from '../../context/AppContext';
 import { useAdmin } from './context/AdminContext';
 import { publicationTypes } from '../../data/mockData';
@@ -224,10 +225,10 @@ export default function AdminPublications() {
               />
             </Field>
             <Field label="السنة" required error={errors.year}>
-              <input
+              <DatePicker
+                format="year"
                 value={form.year}
-                onChange={(e) => set('year', e.target.value)}
-                className="input"
+                onChange={(v) => set('year', v)}
                 placeholder="2026"
               />
             </Field>

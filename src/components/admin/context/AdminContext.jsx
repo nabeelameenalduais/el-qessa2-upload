@@ -144,18 +144,37 @@ function adminReducer(state, action) {
   }
 }
 
-export function AdminProvider({ children }) {
+export function AdminProvider({ children, lockCircle = '' }) {
+  const lockedAcc = useMemo(() => {
+    if (!lockCircle) return null;
+    return (
+      ORGANIZER_ACCOUNTS.find(
+        (a) => a.type === 'circle' && a.circleKey === lockCircle
+      ) || {
+        id: `acc_${lockCircle}`,
+        type: 'circle',
+        circleKey: lockCircle,
+        label: `دائرة ${lockCircle}`,
+        sub: 'بيانات دائمة خاصة بهذه الدائرة',
+      }
+    );
+  }, [lockCircle]);
+
   const [state, dispatch] = useReducer(adminReducer, {
     section: initialSection,
     sidebarOpen: false,
     topSearch: '',
     notifRead: false,
     settings: loadSettings(),
-    account: loadAccount(),
-    viewCircle: loadViewCircle(),
+    account: lockedAcc || loadAccount(),
+    viewCircle: lockCircle ? '' : loadViewCircle(),
     circles: loadCircles(),
     accountSelectOpen: false,
   });
+
+  useEffect(() => {
+    if (lockedAcc) dispatch({ type: 'SET_ACCOUNT', account: lockedAcc });
+  }, [lockedAcc]);
 
   useEffect(() => {
     try {
@@ -166,6 +185,7 @@ export function AdminProvider({ children }) {
   }, [state.settings]);
 
   useEffect(() => {
+    if (lockedAcc) return;
     try {
       if (state.account) {
         localStorage.setItem(ACCOUNT_KEY, JSON.stringify(state.account));
@@ -175,15 +195,16 @@ export function AdminProvider({ children }) {
     } catch {
       /* ignore */
     }
-  }, [state.account]);
+  }, [state.account, lockedAcc]);
 
   useEffect(() => {
+    if (lockedAcc) return;
     try {
       localStorage.setItem(VIEW_CIRCLE_KEY, state.viewCircle);
     } catch {
       /* ignore */
     }
-  }, [state.viewCircle]);
+  }, [state.viewCircle, lockedAcc]);
 
   useEffect(() => {
     setCircleRegistry(state.circles);
@@ -198,13 +219,18 @@ export function AdminProvider({ children }) {
     const isAdmin = state.account?.type === 'admin';
     const fullCircle = state.account?.circleKey || '';
     const effectiveCircle = isAdmin ? state.viewCircle : fullCircle;
+    const adminOnlySections = ['users', 'reports', 'settings'];
     return {
       ...state,
+      locked: Boolean(lockedAcc),
       isAdmin,
       fullCircle,
       effectiveCircle,
       scopedList: (items) => scoped(items || [], effectiveCircle),
-      setSection: (section) => dispatch({ type: 'SET_SECTION', section }),
+      setSection: (section) => {
+        if (!isAdmin && adminOnlySections.includes(section)) section = initialSection;
+        dispatch({ type: 'SET_SECTION', section });
+      },
       setSidebarOpen: (open) => dispatch({ type: 'SET_SIDEBAR_OPEN', open }),
       toggleSidebarOpen: () => dispatch({ type: 'TOGGLE_SIDEBAR_OPEN' }),
       setTopSearch: (value) => dispatch({ type: 'SET_SEARCH', value }),
@@ -221,17 +247,22 @@ export function AdminProvider({ children }) {
       setAccount: (account) => dispatch({ type: 'SET_ACCOUNT', account }),
       setViewCircle: (viewCircle) => dispatch({ type: 'SET_VIEW_CIRCLE', viewCircle }),
       switchAccount: (id) => {
+        if (lockedAcc) return;
         const acc = ORGANIZER_ACCOUNTS.find((a) => a.id === id) || null;
         dispatch({ type: 'SET_ACCOUNT', account: acc });
       },
-      logoutAccount: () => dispatch({ type: 'SET_ACCOUNT', account: null }),
-      openAccountSelect: () => dispatch({ type: 'SET_ACCOUNT_SELECT', open: true }),
+      logoutAccount: () => {
+        if (!lockedAcc) dispatch({ type: 'SET_ACCOUNT', account: null });
+      },
+      openAccountSelect: () => {
+        if (!lockedAcc) dispatch({ type: 'SET_ACCOUNT_SELECT', open: true });
+      },
       closeAccountSelect: () => dispatch({ type: 'SET_ACCOUNT_SELECT', open: false }),
       addCircle: (circle) => dispatch({ type: 'ADD_CIRCLE', circle }),
       updateCircle: (key, patch) => dispatch({ type: 'UPDATE_CIRCLE', key, patch }),
       deleteCircle: (key) => dispatch({ type: 'DELETE_CIRCLE', key }),
     };
-  }, [state]);
+  }, [state, lockedAcc]);
 
   return <AdminContext.Provider value={value}>{children}</AdminContext.Provider>;
 }

@@ -16,6 +16,7 @@ import Modal from './ui/Modal';
 import ConfirmDialog from './ui/ConfirmDialog';
 import EmptyState from './ui/EmptyState';
 import StatusBadge from './ui/StatusBadge';
+import DatePicker from './ui/DatePicker';
 import { useApp } from '../../context/AppContext';
 import { useAdmin } from './context/AdminContext';
 import { computeCosts } from './utils/deriveStats';
@@ -380,20 +381,22 @@ export default function CostManagement() {
             />
             <label className="block">
               <span className="block text-xs font-semibold text-ink mb-1.5">من تاريخ</span>
-              <input
-                type="date"
+              <DatePicker
+                format="iso"
                 value={fromDate}
-                onChange={(e) => setFromDate(e.target.value)}
-                className="input"
+                onChange={setFromDate}
+                placeholder="اختر التاريخ"
+                allowClear
               />
             </label>
             <label className="block">
               <span className="block text-xs font-semibold text-ink mb-1.5">إلى تاريخ</span>
-              <input
-                type="date"
+              <DatePicker
+                format="iso"
                 value={toDate}
-                onChange={(e) => setToDate(e.target.value)}
-                className="input"
+                onChange={setToDate}
+                placeholder="اختر التاريخ"
+                allowClear
               />
             </label>
           </div>
@@ -484,11 +487,11 @@ export default function CostManagement() {
               <span className="block text-xs font-semibold text-ink mb-1.5">
                 التاريخ <span className="text-burgundy">*</span>
               </span>
-              <input
-                type="date"
+              <DatePicker
+                format="iso"
                 value={form.date}
-                onChange={(e) => set('date', e.target.value)}
-                className="input"
+                onChange={(v) => set('date', v)}
+                placeholder="اختر التاريخ"
               />
               {errors.date && (
                 <span className="block text-[11px] text-red-600 mt-1">{errors.date}</span>

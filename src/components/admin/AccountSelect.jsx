@@ -28,8 +28,8 @@ export default function AccountSelect() {
         <div className="editorial-divider mt-3" />
         <p className="mt-4 text-sm text-warm-brown leading-relaxed max-w-2xl">
           اختر الحساب الذي ستدير به اللوحة. حساب الدائرة يقتصر على بيانات دائرته، والحساب
-          الرئيسي يطّلع على كل الدوائر. هذه شاشة تبديل تجريبية، لا يوجد نظام مصادقة فعلي
-          في هذا المشروع.
+          الرئيسي يطّلع على كل الدوائر. منسّق كل دائرة يدخل دائرته تلقائيًا بعد تسجيل
+          دخوله، ولا يمكنه تبديل الحساب أو الاطلاع على دوائر أخرى.
         </p>
 
         <section className="mt-8">
@@ -58,18 +58,23 @@ export default function AccountSelect() {
               <button
                 key={circle.key}
                 onClick={() => switchAccount(`acc_${circle.key}`)}
-                className="flex items-center gap-3 bg-white border border-ivory-dark px-4 py-4 rounded-sm text-start hover:border-warm-brown hover:bg-ivory-dark/25 transition-colors cursor-pointer"
+                className="flex flex-col items-center gap-3 bg-white border border-ivory-dark px-4 py-6 rounded-sm text-center hover:border-warm-brown hover:bg-ivory-dark/25 transition-colors cursor-pointer"
               >
-                <span
-                  className="w-4 h-4 rounded-[2px] flex-shrink-0"
-                  style={{ backgroundColor: circleColor(circle.key) }}
-                  aria-hidden="true"
+                <img
+                  src="/assets/logo.png"
+                  alt=""
+                  className="w-14 h-14 object-contain flex-shrink-0"
                 />
                 <span className="min-w-0">
-                  <span className="block font-semibold text-sm text-ink">
+                  <span className="flex items-center justify-center gap-2 font-semibold text-sm text-ink">
+                    <span
+                      className="w-3 h-3 rounded-[2px] flex-shrink-0"
+                      style={{ backgroundColor: circleColor(circle.key) }}
+                      aria-hidden="true"
+                    />
                     دائرة {circle.name}
                   </span>
-                  <span className="block text-[11px] text-warm-brown mt-0.5">
+                  <span className="block text-[11px] text-warm-brown mt-1.5">
                     {ORGANIZER_ACCOUNTS.find((a) => a.id === `acc_${circle.key}`)?.sub}
                   </span>
                 </span>

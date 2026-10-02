@@ -6,6 +6,7 @@ import DataTable from './ui/DataTable';
 import { ViewButton } from './ui/ActionBtns';
 import Modal from './ui/Modal';
 import ConfirmDialog from './ui/ConfirmDialog';
+import ImagePicker from './ui/ImagePicker';
 import { writerPortraits } from '../../data/mockData';
 import { useApp } from '../../context/AppContext';
 import { useAdmin } from './context/AdminContext';
@@ -276,19 +277,11 @@ export default function AdminWriters() {
             />
           </Field>
           <Field label="الصورة">
-            <input
+            <ImagePicker
               value={form.portrait}
-              onChange={(e) => set('portrait', e.target.value)}
-              className="input"
-              placeholder="رابط الصورة"
+              onChange={(v) => set('portrait', v)}
+              previewClass="w-28 h-28"
             />
-            {form.portrait && (
-              <img
-                src={form.portrait}
-                alt="معاينة"
-                className="mt-2 w-24 h-24 object-cover rounded-sm border border-ivory-dark"
-              />
-            )}
           </Field>
           <Field label="الأعمال" hint="سطر لكل عمل، بفصل بين العنوان والنوع والسنة بعلامة |">
             <textarea

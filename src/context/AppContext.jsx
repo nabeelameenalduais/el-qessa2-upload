@@ -22,6 +22,7 @@ let recordId = 0;
 
 const REGISTRATION_KEY = 'elqissa_registrations';
 const AUDIT_KEY = 'elqissa_auditLog';
+const SESSION_KEY = 'elqissa_session';
 const SECTION_LABELS = {
   events: 'الفعاليات',
   writers: 'الكتّاب',
@@ -110,6 +111,29 @@ function loadContent() {
         item.id ? item : { ...item, id: `arc_${item.year || i}_${Date.now()}` }
       );
     }
+    if (section === 'users') {
+      const byEmail = new Map();
+      for (const item of items) byEmail.set(item.email, item);
+      for (const seed of seedUsers) {
+        const existing = byEmail.get(seed.email);
+        if (existing) {
+          byEmail.set(seed.email, {
+            ...existing,
+            password: typeof existing.password === 'string'
+              ? existing.password
+              : seed.password,
+            phone: existing.phone || seed.phone || '',
+            circleId: existing.circleId || seed.circleId || '',
+          });
+        } else if (seed.circleId) {
+          byEmail.set(seed.email, {
+            ...seed,
+            createdAt: seed.createdAt || Date.now(),
+          });
+        }
+      }
+      items = [...byEmail.values()];
+    }
     content[section] = items;
   }
 
@@ -131,6 +155,19 @@ function loadAudit() {
   return loadJson(AUDIT_KEY) || [];
 }
 
+function loadSession() {
+  try {
+    const raw = localStorage.getItem(SESSION_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (parsed && parsed.email && typeof parsed.email === 'string') return parsed;
+    }
+  } catch {
+    /* corrupt or unavailable */
+  }
+  return null;
+}
+
 function pushAudit(state, action, section, detail, circleKey = null) {
   const entry = {
     id: `aud_${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`,
@@ -148,6 +185,8 @@ function generateId(prefix) {
   return `${prefix}_${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`;
 }
 
+const savedSession = loadSession();
+
 export const initialState = {
   currentPage: 'home',
   detailId: null,
@@ -163,6 +202,10 @@ export const initialState = {
   auditLog: loadAudit(),
   auditActor: 'الإدارة',
   content: loadContent(),
+  currentUser: null,
+  isAuthenticated: false,
+  pendingSession: savedSession,
+  rememberMe: true,
 };
 
 export function appReducer(state, action) {
@@ -348,6 +391,76 @@ export function appReducer(state, action) {
       return { ...state, auditActor: action.actor };
     case 'CLEAR_AUDIT':
       return { ...state, auditLog: [] };
+    case 'LOGIN': {
+      const user = action.user;
+      const { password: _pw, ...safe } = user;
+      return {
+        ...state,
+        currentUser: safe,
+        isAuthenticated: true,
+        pendingSession: null,
+      };
+    }
+    case 'REGISTER': {
+      const newUser = action.user;
+      const { password: _pw, ...safe } = newUser;
+      return {
+        ...state,
+        content: {
+          ...state.content,
+          users: [{ ...newUser, createdAt: Date.now() }, ...state.content.users],
+        },
+        currentUser: safe,
+        isAuthenticated: true,
+        pendingSession: null,
+        auditLog: pushAudit(state, 'تسجيل مستخدم جديد', 'users', newUser.name || ''),
+      };
+    }
+    case 'LOGOUT':
+      return {
+        ...state,
+        currentUser: null,
+        isAuthenticated: false,
+        pendingSession: null,
+      };
+    case 'SET_REMEMBER_ME':
+      return { ...state, rememberMe: !!action.value };
+    case 'UPDATE_PROFILE': {
+      const patch = action.patch;
+      const updated = state.currentUser
+        ? { ...state.currentUser, ...patch }
+        : null;
+      return {
+        ...state,
+        currentUser: updated,
+        content: updated
+          ? {
+              ...state.content,
+              users: state.content.users.map((u) =>
+                u.id === updated.id ? { ...u, ...patch } : u
+              ),
+            }
+          : state.content,
+      };
+    }
+    case 'RESOLVE_SESSION': {
+      const user = action.user;
+      if (!user || !user.active) {
+        return {
+          ...state,
+          currentUser: null,
+          isAuthenticated: false,
+          pendingSession: null,
+        };
+      }
+      const { password: _pw, ...safe } = user;
+      return {
+        ...state,
+        currentUser: safe,
+        isAuthenticated: true,
+        pendingSession: null,
+      };
+    }
     default:
       return state;
   }
@@ -381,6 +494,40 @@ export function AppProvider({ children }) {
       /* storage unavailable */
     }
   }, [state.auditLog]);
+
+  useEffect(() => {
+    if (state.pendingSession && !state.isAuthenticated) {
+      const match = state.content.users.find(
+        (u) => u.email === state.pendingSession.email && u.active
+      );
+      dispatch({ type: 'RESOLVE_SESSION', user: match || null });
+    }
+  }, [state.pendingSession, state.isAuthenticated, state.content.users]);
+
+  useEffect(() => {
+    if (!state.isAuthenticated || !state.currentUser) return;
+    const match = state.content.users.find((u) => u.id === state.currentUser.id);
+    if (!match || !match.active) {
+      dispatch({ type: 'LOGOUT' });
+    } else if (match.role !== state.currentUser.role) {
+      dispatch({ type: 'LOGIN', user: match });
+    }
+  }, [state.content.users, state.isAuthenticated, state.currentUser]);
+
+  useEffect(() => {
+    try {
+      if (state.currentUser && state.rememberMe) {
+        localStorage.setItem(
+          SESSION_KEY,
+          JSON.stringify({ email: state.currentUser.email })
+        );
+      } else {
+        localStorage.removeItem(SESSION_KEY);
+      }
+    } catch {
+      /* storage unavailable */
+    }
+  }, [state.currentUser, state.rememberMe]);
 
   const value = useMemo(
     () => ({
@@ -421,6 +568,45 @@ export function AppProvider({ children }) {
         dispatch({ type: 'CASCADE_DELETE', section, id }),
       setAuditActor: (actor) => dispatch({ type: 'SET_AUDIT_ACTOR', actor }),
       clearAuditLog: () => dispatch({ type: 'CLEAR_AUDIT' }),
+      login: (email, password) => {
+        const key = String(email).trim().toLowerCase();
+        const user = state.content.users.find(
+          (u) => u.email === key && u.password === password && u.active
+        );
+        if (!user) return { error: 'البريد الإلكتروني أو كلمة المرور غير صحيحة' };
+        if (user.role === 'زائر') {
+          return { error: 'حساب الزائر لا يدعم تسجيل الدخول، سجّل عضويتك أولًا' };
+        }
+        dispatch({ type: 'LOGIN', user });
+        return { ok: true };
+      },
+      register: (formData) => {
+        const name = formData.name.trim();
+        const email = String(formData.email).trim().toLowerCase();
+        const phone = (formData.phone || '').trim();
+        const password = formData.password;
+        const exists = state.content.users.some((u) => u.email === email);
+        if (exists) return { error: 'يوجد مستخدم بهذا البريد الإلكتروني بالفعل' };
+        const newUser = {
+          id: `usr_${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`,
+          name,
+          email,
+          phone,
+          password,
+          role: 'حاضر',
+          active: true,
+          createdAt: Date.now(),
+        };
+        dispatch({ type: 'REGISTER', user: newUser });
+        return { ok: true };
+      },
+      logout: () => {
+        dispatch({ type: 'LOGOUT' });
+      },
+      setRememberMe: (value) => dispatch({ type: 'SET_REMEMBER_ME', value }),
+      updateProfile: (patch) => {
+        dispatch({ type: 'UPDATE_PROFILE', patch });
+      },
     }),
     [state]
   );

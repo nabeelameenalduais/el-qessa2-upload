@@ -7,6 +7,8 @@ import StatusBadge from './ui/StatusBadge';
 import { ViewButton } from './ui/ActionBtns';
 import Modal from './ui/Modal';
 import ConfirmDialog from './ui/ConfirmDialog';
+import ImagePicker from './ui/ImagePicker';
+import DatePicker from './ui/DatePicker';
 import { images } from '../../data/mockData';
 import { parseArabicDate } from './utils/dateUtils';
 import { useApp } from '../../context/AppContext';
@@ -258,10 +260,10 @@ export default function AdminEvents() {
               />
             </Field>
             <Field label="التاريخ" required error={errors.date}>
-              <input
+              <DatePicker
+                format="arabic"
                 value={form.date}
-                onChange={(e) => set('date', e.target.value)}
-                className="input"
+                onChange={(v) => set('date', v)}
                 placeholder="18 سبتمبر 2026"
               />
             </Field>
@@ -299,19 +301,7 @@ export default function AdminEvents() {
             )}
           </div>
           <Field label="الصورة">
-            <input
-              value={form.image}
-              onChange={(e) => set('image', e.target.value)}
-              className="input"
-              placeholder="رابط الصورة"
-            />
-            {form.image && (
-              <img
-                src={form.image}
-                alt="معاينة"
-                className="mt-2 w-full h-32 object-cover rounded-sm border border-ivory-dark"
-              />
-            )}
+            <ImagePicker value={form.image} onChange={(v) => set('image', v)} />
           </Field>
           <Field label="المقتطف">
             <textarea
